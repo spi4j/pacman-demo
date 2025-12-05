@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>fr.demo_dsfr_client_rest</groupId>
+		<artifactId>demo-dsfr-client-rest</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>demo-dsfr-client-rest-server</artifactId>
+	<packaging>pom</packaging>
+
+	<properties>
+		<!-- Pas besoin de version node/npm pour l'installation locale -->
+		<frontend.dir>${project.basedir}/demo-dsfr-client-rest</frontend.dir>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.1.0</version> <!-- version à adapter selon tes besoins -->
+
+				<executions>
+					<!-- npm install -->
+					<execution>
+						<id>npm-install</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>npm</executable>
+							<workingDirectory>${frontend.dir}</workingDirectory>
+							<arguments>
+								<argument>install</argument>
+							</arguments>
+						</configuration>
+					</execution>
+
+					<!-- npm run build -->
+					<execution>
+						<id>npm-build</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>npm</executable>
+							<workingDirectory>${frontend.dir}</workingDirectory>
+							<arguments>
+								<argument>run</argument>
+								<argument>build</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					<!-- npm pack -->
+					<execution>
+						<id>npm-pack</id>
+						<phase>package</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>npm</executable>
+							<workingDirectory>${frontend.dir}</workingDirectory>
+							<arguments>
+								<argument>pack</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<!-- Copier le .tgz (ou tout ce que tu veux) vers target/ -->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.2.0</version>
+				<executions>
+					<execution>
+						<id>copy-pack-to-target</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${frontend.dir}</directory>
+									<includes>
+										<include>*.tgz</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-dist-resources</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>${frontend.dir}/dist</directory>
+									<targetPath>dist</targetPath>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

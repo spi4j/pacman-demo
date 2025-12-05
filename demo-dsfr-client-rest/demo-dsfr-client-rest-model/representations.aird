@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:manifest="http://www.obeonetwork.org/dsl/manifest/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_RVwsMMR9EfCpSpWUwhnVqQ" selectedViews="_elcZkMR9EfCpSpWUwhnVqQ _emC2gMR9EfCpSpWUwhnVqQ _emDdkMR9EfCpSpWUwhnVqQ _emI9IMR9EfCpSpWUwhnVqQ _emdGMMR9EfCpSpWUwhnVqQ _emgJgMR9EfCpSpWUwhnVqQ _emqhkMR9EfCpSpWUwhnVqQ" version="105.0.0">
+    <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="libraries/demo-dsfr-rest-model-1.0.1/representations.aird#_2tULQLl2EfCXjffJImK66Q"/>
+    <semanticResources>platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment</semanticResources>
+    <semanticResources>libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity</semanticResources>
+    <semanticResources>libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.requirement</semanticResources>
+    <semanticResources>libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa</semanticResources>
+    <eAnnotations xmi:type="description:DAnnotationEntry" uid="_RWcosMR9EfCpSpWUwhnVqQ" source="FIRST_SESSION_OPENNING_PERFORMED"/>
+    <ownedViews xmi:type="viewpoint:DView" uid="_elcZkMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emC2gMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emDdkMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.environment.properties/description/environment-properties.odesign#//@ownedViewpoints[name='Environment%20Views']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emI9IMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emdGMMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.graal.design/description/requirements.odesign#//@ownedViewpoints[name='Requirements%20(Graal%20consolidated%20view)']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emgJgMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_emqhkMR9EfCpSpWUwhnVqQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']"/>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <manifest:MImportExportData uid="_epaTkMR9EfCpSpWUwhnVqQ">
+    <importedManifests xmi:type="manifest:MManifest" xmi:id="_vI2XwMa9EfCSnIIEpr70WQ" projectId="demo-dsfr-rest-model" exportDate="2025-11-21T08:51:14.000+0100" importDate="2025-11-21T10:37:46.299+0100" versionMajor="1" versionPatch="1" comment=""/>
+  </manifest:MImportExportData>
+</xmi:XMI>

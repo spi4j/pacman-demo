@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:manifest="http://www.obeonetwork.org/dsl/manifest/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oent="http://www.obeonetwork.org/dsl/entity/3.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:requirement="http://www.obeonetwork.org/dsl/requirement/1.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_2tULQLl2EfCXjffJImK66Q" selectedViews="_3E9PMLl2EfCXjffJImK66Q _3FWQwLl2EfCXjffJImK66Q _3FbJQLl2EfCXjffJImK66Q _3XyEkLl2EfCXjffJImK66Q _3YAuELl2EfCXjffJImK66Q _3b_PILl2EfCXjffJImK66Q _3cPGwLl2EfCXjffJImK66Q" version="105.0.0">
+    <semanticResources>platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment</semanticResources>
+    <semanticResources>demo-dsfr-rest.entity</semanticResources>
+    <semanticResources>demo-dsfr-rest.requirement</semanticResources>
+    <semanticResources>demo-dsfr-rest.soa</semanticResources>
+    <eAnnotations xmi:type="description:DAnnotationEntry" uid="_3COrULl2EfCXjffJImK66Q" source="FIRST_SESSION_OPENNING_PERFORMED"/>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3E9PMLl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3GSE4Ll2EfCXjffJImK66Q" name="demo-dsfr-rest - Entities Namespaces Hierarchy" repPath="#_3GA_ILl2EfCXjffJImK66Q" changeId="1762260550329">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']"/>
+        <target xmi:type="oent:Root" href="demo-dsfr-rest.entity#_vEs3kMa9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qvYK4Ll8EfCXjffJImK66Q" name="demo-dsfr - Entities diagram" repPath="#_qvW8wLl8EfCXjffJImK66Q" changeId="1762264270207">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']"/>
+        <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.entity#_vEs3kca9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3FWQwLl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3Wz0OLl2EfCXjffJImK66Q" name="demo-dsfr-rest - Entities PhysicalNames" repPath="#_3WqqQLl2EfCXjffJImK66Q">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']"/>
+        <target xmi:type="oent:Root" href="demo-dsfr-rest.entity#_vEs3kMa9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3FbJQLl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.environment.properties/description/environment-properties.odesign#//@ownedViewpoints[name='Environment%20Views']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3XyEkLl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3aOUkLl2EfCXjffJImK66Q" name="demo-dsfr-rest - Requirements Table" repPath="#_3YvG0Ll2EfCXjffJImK66Q">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']"/>
+        <target xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3YAuELl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.graal.design/description/requirements.odesign#//@ownedViewpoints[name='Requirements%20(Graal%20consolidated%20view)']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3b_PILl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3e8cibl2EfCXjffJImK66Q" name="demo-dsfr-rest - DTO PhysicalNames" repPath="#_3e8cgLl2EfCXjffJImK66Q">
+        <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']"/>
+        <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_3cPGwLl2EfCXjffJImK66Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3c_7wLl2EfCXjffJImK66Q" name="demo-dsfr-rest - SOA Diagram" repPath="#_3c-toLl2EfCXjffJImK66Q" changeId="1762262318434">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']"/>
+        <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_3d4FgLl2EfCXjffJImK66Q" name="demo-dsfr-rest - DTO Namespaces Hierarchy" repPath="#_3d23YLl2EfCXjffJImK66Q" changeId="1762261307662">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']"/>
+        <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_bNHsALl-EfCXjffJImK66Q" name="demo-dsfr - DTO diagram" repPath="#_bNHE8Ll-EfCXjffJImK66Q" changeId="1762264299724">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']"/>
+        <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.soa#_vEteosa9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_r2ni8LmAEfCXjffJImK66Q" name="demo-dsfr Component Contract" repPath="#_r2m74LmAEfCXjffJImK66Q" changeId="1762267657399">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']"/>
+        <target xmi:type="soa:Component" href="demo-dsfr-rest.soa#_vEtepsa9EfCSnIIEpr70WQ"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_3GA_ILl2EfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3GqfYLl2EfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEyXIMa9EfCSnIIEpr70WQ" type="Sirius" element="_3GA_ILl2EfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEyXIca9EfCSnIIEpr70WQ" type="2002" element="_n4uG0Ll8EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXIsa9EfCSnIIEpr70WQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXI8a9EfCSnIIEpr70WQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEyXJMa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEyXJca9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXJsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXJ8a9EfCSnIIEpr70WQ" x="324" y="132"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEyXKMa9EfCSnIIEpr70WQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3HWb4Ll2EfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3HWb4bl2EfCXjffJImK66Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_n4uG0Ll8EfCXjffJImK66Q" name="demo-dsfr">
+      <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.entity#_vEs3kca9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:Namespace" href="demo-dsfr-rest.entity#_vEs3kca9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_n5HvcLl8EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']/@defaultLayer/@containerMappings[name='ND_Namespace']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']/@defaultLayer/@containerMappings[name='ND_Namespace']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3GKJELl2EfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']/@additionalLayers[name='Dependencies']"/>
+    <target xmi:type="oent:Root" href="demo-dsfr-rest.entity#_vEs3kMa9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <table:DTable uid="_3WqqQLl2EfCXjffJImK66Q" headerColumnWidth="80">
+    <target xmi:type="oent:Root" href="demo-dsfr-rest.entity#_vEs3kMa9EfCSnIIEpr70WQ"/>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Wx_ALl2EfCXjffJImK66Q" label="Name" width="120" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_PhysicalName']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3WzNIbl2EfCXjffJImK66Q" label="Size" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_Size']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Wz0MLl2EfCXjffJImK66Q" label="Check" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_Check']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Wz0Mrl2EfCXjffJImK66Q" label="Unique" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_Unique']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Wz0NLl2EfCXjffJImK66Q" label="Default" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_Default']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Wz0Nrl2EfCXjffJImK66Q" label="Target Schema" width="60" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']/@ownedColumnMappings[name='EPN_TargetSchema']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='Entity%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_Entities_PhysicalNames']"/>
+  </table:DTable>
+  <table:DTable uid="_3YvG0Ll2EfCXjffJImK66Q" headerColumnWidth="80">
+    <target xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+    <lines xmi:type="table:DLine" uid="_3YxjELl2EfCXjffJImK66Q" label="demo-dsfr-rest-model">
+      <target xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+      <originMapping xmi:type="description_2:LineMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedLineMappings[name='REQ_CategoriesContainer']"/>
+      <cells xmi:type="table:DCell" uid="_3Y9wULl2EfCXjffJImK66Q" label="" column="_3Y430rl2EfCXjffJImK66Q">
+        <target xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="requirement:Repository" href="demo-dsfr-rest.requirement#_vEteoMa9EfCSnIIEpr70WQ"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y430Ll2EfCXjffJImK66Q" label="ID" width="80" featureName="id">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_ID']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y430rl2EfCXjffJImK66Q" label="Name" cells="_3Y9wULl2EfCXjffJImK66Q" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Name']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y431Ll2EfCXjffJImK66Q" label="Type" width="80" featureName="type">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Type']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y5e4Ll2EfCXjffJImK66Q" label="Subtype" width="80" featureName="subtype">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Subtype']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y5e4rl2EfCXjffJImK66Q" label="Status" width="80" featureName="status">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Status']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y5e5Ll2EfCXjffJImK66Q" label="Statement" width="120" featureName="statement">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Statement']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3Y5e5rl2EfCXjffJImK66Q" label="Version" width="80" featureName="version">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']/@ownedColumnMappings[name='REQ_Version']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.dsl.requirement.design/description/requirement.odesign#//@ownedViewpoints[name='Requirements']/@ownedRepresentations[name='Requirements%20Table']"/>
+  </table:DTable>
+  <diagram:DSemanticDiagram uid="_3c-toLl2EfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3dAi0Ll2EfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEyXLMa9EfCSnIIEpr70WQ" type="Sirius" element="_3c-toLl2EfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEyXLca9EfCSnIIEpr70WQ" type="2002" element="_qQ2fALmAEfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXLsa9EfCSnIIEpr70WQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXL8a9EfCSnIIEpr70WQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEyXMMa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEyXMca9EfCSnIIEpr70WQ"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyXMsa9EfCSnIIEpr70WQ" type="3012" element="_sNDF8LmAEfCXjffJImK66Q">
+            <children xmi:type="notation:Node" xmi:id="_vEyXM8a9EfCSnIIEpr70WQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXNMa9EfCSnIIEpr70WQ" x="21" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXNca9EfCSnIIEpr70WQ" type="3005" element="_sNGwULmAEfCXjffJImK66Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXNsa9EfCSnIIEpr70WQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXN8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXOMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXOca9EfCSnIIEpr70WQ" x="-12" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyXOsa9EfCSnIIEpr70WQ" type="3012" element="_w1OK8rmAEfCXjffJImK66Q">
+            <children xmi:type="notation:Node" xmi:id="_vEyXO8a9EfCSnIIEpr70WQ" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXPMa9EfCSnIIEpr70WQ" x="21" y="1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXPca9EfCSnIIEpr70WQ" type="3005" element="_w1OyALmAEfCXjffJImK66Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXPsa9EfCSnIIEpr70WQ" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXP8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXQMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXQca9EfCSnIIEpr70WQ" x="-12" y="24" width="20" height="20"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXQsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXQ8a9EfCSnIIEpr70WQ" x="450" y="162"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEyXRMa9EfCSnIIEpr70WQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3dBw8Ll2EfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3dCYALl2EfCXjffJImK66Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_qQ2fALmAEfCXjffJImK66Q" name="demo-dsfr">
+      <target xmi:type="soa:Component" href="demo-dsfr-rest.soa#_vEtepsa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="soa:Component" href="demo-dsfr-rest.soa#_vEtepsa9EfCSnIIEpr70WQ"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_sNDF8LmAEfCXjffJImK66Q" name="Users" width="2" height="2">
+        <target xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtep8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtep8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_sNGwULmAEfCXjffJImK66Q" showIcon="false" labelColor="0,43,60" workspacePath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/Service.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']/@borderedNodeMappings[name='SOAD_Service_Provided']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']/@borderedNodeMappings[name='SOAD_Service_Provided']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_w1OK8rmAEfCXjffJImK66Q" name="Requests" width="2" height="2">
+        <target xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtetMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtetMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_w1OyALmAEfCXjffJImK66Q" showIcon="false" labelColor="0,43,60" workspacePath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/Service.gif">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']/@borderedNodeMappings[name='SOAD_Service_Provided']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']/@borderedNodeMappings[name='SOAD_Service_Provided']"/>
+      </ownedBorderedNodes>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qQ2fAbmAEfCXjffJImK66Q" labelSize="10" showIcon="false" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="Liquid" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer/@containerMappings[name='SOAD_Component']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3c-tobl2EfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='SOA%20Diagram']/@defaultLayer"/>
+    <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_3d23YLl2EfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3d4skLl2EfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEyXRsa9EfCSnIIEpr70WQ" type="Sirius" element="_3d23YLl2EfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEyXR8a9EfCSnIIEpr70WQ" type="2002" element="_W3TiULl-EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXSMa9EfCSnIIEpr70WQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXSca9EfCSnIIEpr70WQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEyXSsa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEyXS8a9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXTMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXTca9EfCSnIIEpr70WQ" x="468" y="144" width="189" height="105"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEyXTsa9EfCSnIIEpr70WQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_3d8-ALl2EfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_3d8-Abl2EfCXjffJImK66Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_W3TiULl-EfCXjffJImK66Q" name="demo-dsfr">
+      <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.soa#_vEteosa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:Namespace" href="demo-dsfr-rest.soa#_vEteosa9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_W3TiUbl-EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']/@defaultLayer/@containerMappings[name='ND_Namespace']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']/@defaultLayer/@containerMappings[name='ND_Namespace']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_3d3ecLl2EfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Namespaces%20Hierarchy']/@additionalLayers[name='Dependencies']"/>
+    <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <table:DTable uid="_3e8cgLl2EfCXjffJImK66Q" headerColumnWidth="80">
+    <target xmi:type="soa:System" href="demo-dsfr-rest.soa#_vEteoca9EfCSnIIEpr70WQ"/>
+    <columns xmi:type="table:DFeatureColumn" uid="_3e8cgbl2EfCXjffJImK66Q" label="Size" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']/@ownedColumnMappings[name='DPN_Size']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3e8cg7l2EfCXjffJImK66Q" label="Check" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']/@ownedColumnMappings[name='DPN_Check']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3e8chbl2EfCXjffJImK66Q" label="Unique" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']/@ownedColumnMappings[name='DPN_Unique']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_3e8ch7l2EfCXjffJImK66Q" label="Default" width="80" featureName="name">
+      <originMapping xmi:type="description_2:FeatureColumnMapping" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']/@ownedColumnMappings[name='DPN_Default']"/>
+    </columns>
+    <description xmi:type="description_2:EditionTableDescription" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']/@ownedRepresentations[name='EV_DTO_PhysicalNames']"/>
+  </table:DTable>
+  <diagram:DSemanticDiagram uid="_qvW8wLl8EfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qvYx8Ll8EfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEyXUca9EfCSnIIEpr70WQ" type="Sirius" element="_qvW8wLl8EfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEyXUsa9EfCSnIIEpr70WQ" type="2003" element="_rDq_4Ll8EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXU8a9EfCSnIIEpr70WQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXVMa9EfCSnIIEpr70WQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vEyXVca9EfCSnIIEpr70WQ" type="3010" element="_wKAnkLl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXVsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXV8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXWMa9EfCSnIIEpr70WQ" type="3010" element="_wbkRoLl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXWca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXWsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXW8a9EfCSnIIEpr70WQ" type="3010" element="_wrargLl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXXMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXXca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXXsa9EfCSnIIEpr70WQ" type="3010" element="_w85dELl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXX8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXYMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXYca9EfCSnIIEpr70WQ" type="3010" element="_48-SALl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXYsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXY8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXZMa9EfCSnIIEpr70WQ" type="3010" element="_7bHvcLl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXZca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXZsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXZ8a9EfCSnIIEpr70WQ" type="3010" element="_9HTkcLl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXaMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXaca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXasa9EfCSnIIEpr70WQ" type="3010" element="__WXdALl8EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXa8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXbMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXbca9EfCSnIIEpr70WQ" type="3010" element="_K64CALl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXbsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXb8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXcMa9EfCSnIIEpr70WQ" type="3010" element="_VPlMAbl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXcca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXcsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXc8a9EfCSnIIEpr70WQ" type="3010" element="_g4cFgrl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXdMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXdca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXdsa9EfCSnIIEpr70WQ" type="3010" element="_myPKcbl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXd8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXeMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEyXeca9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEyXesa9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXe8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXfMa9EfCSnIIEpr70WQ" x="132" y="102" width="207" height="255"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vEyXfca9EfCSnIIEpr70WQ" type="2003" element="_r_0CkLl9EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXfsa9EfCSnIIEpr70WQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXf8a9EfCSnIIEpr70WQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vEyXgMa9EfCSnIIEpr70WQ" type="3010" element="_t9ZwoLl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXgca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXgsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXg8a9EfCSnIIEpr70WQ" type="3010" element="_30WnoLl9EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXhMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXhca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXhsa9EfCSnIIEpr70WQ" type="3010" element="_CwygALl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXh8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXiMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXica9EfCSnIIEpr70WQ" type="3010" element="_LEL5kLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXisa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXi8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEyXjMa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEyXjca9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEyXjsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXj8a9EfCSnIIEpr70WQ" x="624" y="102" width="261" height="255"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEyXkMa9EfCSnIIEpr70WQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_vEyXkca9EfCSnIIEpr70WQ" type="4001" element="_Oelj4Ll-EfCXjffJImK66Q" source="_vEyXUsa9EfCSnIIEpr70WQ" target="_vEyXfca9EfCSnIIEpr70WQ">
+          <children xmi:type="notation:Node" xmi:id="_vEyXksa9EfCSnIIEpr70WQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXk8a9EfCSnIIEpr70WQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyXlMa9EfCSnIIEpr70WQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXlca9EfCSnIIEpr70WQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEyXlsa9EfCSnIIEpr70WQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEyXl8a9EfCSnIIEpr70WQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vEyXmMa9EfCSnIIEpr70WQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vEyXmca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vEyXmsa9EfCSnIIEpr70WQ" points="[0, 0, -287, 0]$[287, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEyXm8a9EfCSnIIEpr70WQ" id="(1.0,0.4268774703557312)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEyXnMa9EfCSnIIEpr70WQ" id="(0.0,0.4268774703557312)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qvanILl8EfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_qvanIbl8EfCXjffJImK66Q"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_rDq_4Ll8EfCXjffJImK66Q" name="UserDemo" outgoingEdges="_Oelj4Ll-EfCXjffJImK66Q">
+      <target xmi:type="oent:Entity" href="demo-dsfr-rest.entity#_vEs3ksa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oent:Entity" href="demo-dsfr-rest.entity#_vEs3ksa9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_rDs1ELl8EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="215,237,255" foregroundColor="215,237,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_wKAnkLl8EfCXjffJImK66Q" name="firstName : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3k8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3k8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_wKDq4Ll8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_wbkRoLl8EfCXjffJImK66Q" name="lastName : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_wbk4sLl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_wrargLl8EfCXjffJImK66Q" name="phone : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_wrbSkLl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_w85dELl8EfCXjffJImK66Q" name="mail : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lsa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lsa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_w86EILl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_48-SALl8EfCXjffJImK66Q" name="city : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3l8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3l8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_48-5ELl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_7bHvcLl8EfCXjffJImK66Q" name="zipCode : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_7bIWgLl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_9HTkcLl8EfCXjffJImK66Q" name="login : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_9HTkcbl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__WXdALl8EfCXjffJImK66Q" name="address : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3msa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3msa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="__WYEELl8EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_K64CALl9EfCXjffJImK66Q" name="civility : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3m8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3m8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_K64CAbl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_VPlMAbl9EfCXjffJImK66Q" name="dateOfBirth : Date[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_VPlzELl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_g4cFgrl9EfCXjffJImK66Q" name="password : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_g4cskLl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_myPKcbl9EfCXjffJImK66Q" name="businessActivity : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nsa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nsa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_myPxgLl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_r_0CkLl9EfCXjffJImK66Q" name="requestDemo" incomingEdges="_Oelj4Ll-EfCXjffJImK66Q">
+      <target xmi:type="oent:Entity" href="demo-dsfr-rest.entity#_vEs3oMa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oent:Entity" href="demo-dsfr-rest.entity#_vEs3oMa9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_r_0Ckbl9EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="215,237,255" foregroundColor="215,237,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_t9ZwoLl9EfCXjffJImK66Q" name="type : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3oca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3oca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_t9Zwobl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_30WnoLl9EfCXjffJImK66Q" name="reason : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3osa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3osa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_30Wnobl9EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_CwygALl-EfCXjffJImK66Q" name="identifier : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3o8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3o8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_CwygAbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LEL5kLl-EfCXjffJImK66Q" name="status : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3pMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3pMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LEL5kbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@containerMappings[name='ED_Entity']/@subNodeMappings[name='ED_Attribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Oelj4Ll-EfCXjffJImK66Q" name="hasRequests [0..*]" sourceNode="_rDq_4Ll8EfCXjffJImK66Q" targetNode="_r_0CkLl9EfCXjffJImK66Q">
+      <target xmi:type="oenv:Reference" href="demo-dsfr-rest.entity#_vEs3n8a9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:Reference" href="demo-dsfr-rest.entity#_vEs3n8a9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Oeut0Ll-EfCXjffJImK66Q" strokeColor="0,43,60">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@edgeMappings[name='ED_Reference_Type_Type']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Oev78Ll-EfCXjffJImK66Q" showIcon="false" labelColor="0,43,60"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer/@edgeMappings[name='ED_Reference_Type_Type']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_qvXj0Ll8EfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']/@additionalLayers[name='External%20Entities']"/>
+    <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.entity#_vEs3kca9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_bNHE8Ll-EfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_bNPAwLl-EfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEyXnsa9EfCSnIIEpr70WQ" type="Sirius" element="_bNHE8Ll-EfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEyXn8a9EfCSnIIEpr70WQ" type="2003" element="_bNPAw7l-EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEyXoMa9EfCSnIIEpr70WQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vEyXoca9EfCSnIIEpr70WQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vEyXosa9EfCSnIIEpr70WQ" type="3010" element="_bNm0Mrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXo8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXpMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXpca9EfCSnIIEpr70WQ" type="3010" element="_bNnbQLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXpsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXp8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXqMa9EfCSnIIEpr70WQ" type="3010" element="_bNnbQrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXqca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXqsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXq8a9EfCSnIIEpr70WQ" type="3010" element="_bNnbRLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXrMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXrca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXrsa9EfCSnIIEpr70WQ" type="3010" element="_bNnbRrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXr8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXsMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXsca9EfCSnIIEpr70WQ" type="3010" element="_bNnbSLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXssa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXs8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXtMa9EfCSnIIEpr70WQ" type="3010" element="_bNoCULl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXtca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXtsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXt8a9EfCSnIIEpr70WQ" type="3010" element="_bNoCUrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXuMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXuca9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXusa9EfCSnIIEpr70WQ" type="3010" element="_bNoCVLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXu8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXvMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXvca9EfCSnIIEpr70WQ" type="3010" element="_bNoCVrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXvsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXv8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEyXwMa9EfCSnIIEpr70WQ" type="3010" element="_bNoCWLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEyXwca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEyXwsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-MMa9EfCSnIIEpr70WQ" type="3010" element="_bNopYLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEy-Mca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-Msa9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-M8a9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-NMa9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-Nca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-Nsa9EfCSnIIEpr70WQ" x="252" y="168"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vEy-N8a9EfCSnIIEpr70WQ" type="2003" element="_bNmNJLl-EfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEy-OMa9EfCSnIIEpr70WQ" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_vEy-Oca9EfCSnIIEpr70WQ" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vEy-Osa9EfCSnIIEpr70WQ" type="3010" element="_bNopYrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEy-O8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-PMa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-Pca9EfCSnIIEpr70WQ" type="3010" element="_bNopZLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEy-Psa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-P8a9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-QMa9EfCSnIIEpr70WQ" type="3010" element="_bNopZrl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEy-Qca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-Qsa9EfCSnIIEpr70WQ"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-Q8a9EfCSnIIEpr70WQ" type="3010" element="_bNopaLl-EfCXjffJImK66Q">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vEy-RMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-Rca9EfCSnIIEpr70WQ"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-Rsa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-R8a9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-SMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" italic="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-Sca9EfCSnIIEpr70WQ" x="684" y="144"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEy-Ssa9EfCSnIIEpr70WQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_vEy-S8a9EfCSnIIEpr70WQ" type="4001" element="_bNp3gLl-EfCXjffJImK66Q" source="_vEyXn8a9EfCSnIIEpr70WQ" target="_vEy-N8a9EfCSnIIEpr70WQ">
+          <children xmi:type="notation:Node" xmi:id="_vEy-TMa9EfCSnIIEpr70WQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-Tca9EfCSnIIEpr70WQ" x="-14" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEy-Tsa9EfCSnIIEpr70WQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-T8a9EfCSnIIEpr70WQ" x="2" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_vEy-UMa9EfCSnIIEpr70WQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-Uca9EfCSnIIEpr70WQ" x="8" y="-4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_vEy-Usa9EfCSnIIEpr70WQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_vEy-U8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vEy-VMa9EfCSnIIEpr70WQ" points="[92, 17, -322, -63]$[414, 80, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEy-Vca9EfCSnIIEpr70WQ" id="(0.5027027027027027,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vEy-Vsa9EfCSnIIEpr70WQ" id="(0.5033557046979866,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_bNlmELl-EfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_bNmNILl-EfCXjffJImK66Q">
+        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="_vEy-V8a9EfCSnIIEpr70WQ" borderSizeComputationExpression="1" labelSize="10" labelExpression="service:self.getEnvironmentLabel()" backgroundStyle="GradientTopToBottom">
+          <borderColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='StructuredType_border']"/>
+          <labelFormat>italic</labelFormat>
+          <labelColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='StructuredType_color']"/>
+          <backgroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='StructuredType_background']"/>
+          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='StructuredType_foreground']"/>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_bNPAw7l-EfCXjffJImK66Q" name="UserDemo > UserDemo" outgoingEdges="_bNp3gLl-EfCXjffJImK66Q">
+      <target xmi:type="oenv:DTO" href="demo-dsfr-rest.soa#_vEteo8a9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:DTO" href="demo-dsfr-rest.soa#_vEteo8a9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bNmNIrl-EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" description="_vEy-V8a9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>italic</labelFormat>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNm0Mrl-EfCXjffJImK66Q" name="firstName : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3k8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3k8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNm0M7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNnbQLl-EfCXjffJImK66Q" name="lastName : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNnbQbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNnbQrl-EfCXjffJImK66Q" name="phone : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNnbQ7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNnbRLl-EfCXjffJImK66Q" name="mail : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lsa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3lsa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNnbRbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNnbRrl-EfCXjffJImK66Q" name="city : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3l8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3l8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNnbR7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNnbSLl-EfCXjffJImK66Q" name="zipCode : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNnbSbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNoCULl-EfCXjffJImK66Q" name="login : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3mca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNoCUbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNoCUrl-EfCXjffJImK66Q" name="address : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3msa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3msa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNoCU7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNoCVLl-EfCXjffJImK66Q" name="civility : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3m8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3m8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNoCVbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNoCVrl-EfCXjffJImK66Q" name="dateOfBirth : Date[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNoCV7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNoCWLl-EfCXjffJImK66Q" name="password : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNoCWbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNopYLl-EfCXjffJImK66Q" name="businessActivity : String[0..1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nsa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3nsa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNopYbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_bNmNJLl-EfCXjffJImK66Q" name="requestDemo > requestDemo" incomingEdges="_bNp3gLl-EfCXjffJImK66Q">
+      <target xmi:type="oenv:DTO" href="demo-dsfr-rest.soa#_vEtepca9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:DTO" href="demo-dsfr-rest.soa#_vEtepca9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_bNm0MLl-EfCXjffJImK66Q" labelSize="10" labelColor="0,43,60" description="_vEy-V8a9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>italic</labelFormat>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNopYrl-EfCXjffJImK66Q" name="type : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3oca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3oca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNopY7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNopZLl-EfCXjffJImK66Q" name="reason : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3osa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3osa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNopZbl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNopZrl-EfCXjffJImK66Q" name="identifier : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3o8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3o8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNopZ7l-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_bNopaLl-EfCXjffJImK66Q" name="status : String[1]">
+        <target xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3pMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="oenv:Attribute" href="demo-dsfr-rest.entity#_vEs3pMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_bNpQcLl-EfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+          <labelFormat>italic</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@containerMappings[name='DD_DTO']/@subNodeMappings[name='ED_AssociatedAttribute']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_bNp3gLl-EfCXjffJImK66Q" name="hasRequests [0..*]" sourceNode="_bNPAw7l-EfCXjffJImK66Q" targetNode="_bNmNJLl-EfCXjffJImK66Q">
+      <target xmi:type="oenv:Reference" href="demo-dsfr-rest.soa#_vEtepMa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="oenv:Reference" href="demo-dsfr-rest.soa#_vEtepMa9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_bNqekLl-EfCXjffJImK66Q" strokeColor="0,43,60">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@edgeMappings[name='ED_Reference_Type_Type']/@conditionnalStyles.1/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_bNqekbl-EfCXjffJImK66Q" showIcon="false" labelColor="0,43,60"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer/@edgeMappings[name='ED_Reference_Type_Type']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_bNHE8bl-EfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='DTO%20Diagram']/@additionalLayers[name='External%20DTOs']"/>
+    <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.soa#_vEteosa9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_r2m74LmAEfCXjffJImK66Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_r2uQoLmAEfCXjffJImK66Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vEy-Wca9EfCSnIIEpr70WQ" type="Sirius" element="_r2m74LmAEfCXjffJImK66Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_vEy-Wsa9EfCSnIIEpr70WQ" type="2002" element="_sM24sLmAEfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEy-W8a9EfCSnIIEpr70WQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vEy-XMa9EfCSnIIEpr70WQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_vEy-Xca9EfCSnIIEpr70WQ" type="3009" element="_uYIdcLmAEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-Xsa9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-X8a9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-YMa9EfCSnIIEpr70WQ" type="3010" element="_tGjEULmBEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-Yca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-Ysa9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-Y8a9EfCSnIIEpr70WQ" type="3010" element="_tcpQILmBEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-ZMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-Zca9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-Zsa9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-Z8a9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-aMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-aca9EfCSnIIEpr70WQ" x="19" y="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-asa9EfCSnIIEpr70WQ" type="3009" element="_utIdELmAEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-a8a9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-bMa9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-bca9EfCSnIIEpr70WQ" type="3010" element="_6jaSErmBEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-bsa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-b8a9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-cMa9EfCSnIIEpr70WQ" type="3010" element="_8a1twLmBEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-cca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-csa9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-c8a9EfCSnIIEpr70WQ" type="3010" element="_FlNyoLmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-dMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-dca9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-dsa9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-d8a9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-eMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-eca9EfCSnIIEpr70WQ" x="19" y="132"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-esa9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-e8a9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-fMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-fca9EfCSnIIEpr70WQ" x="96" y="84" width="291" height="249"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_vEy-fsa9EfCSnIIEpr70WQ" type="2002" element="_w1KgkLmAEfCXjffJImK66Q">
+          <children xmi:type="notation:Node" xmi:id="_vEy-f8a9EfCSnIIEpr70WQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_vEy-gMa9EfCSnIIEpr70WQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_vEy-gca9EfCSnIIEpr70WQ" type="3009" element="_x7M7k7mAEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-gsa9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-g8a9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-hMa9EfCSnIIEpr70WQ" type="3010" element="_M7yXkLmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-hca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-hsa9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-h8a9EfCSnIIEpr70WQ" type="3010" element="_PySDkrmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-iMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-ica9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-isa9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-i8a9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-jMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-jca9EfCSnIIEpr70WQ" x="13" y="42"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-jsa9EfCSnIIEpr70WQ" type="3009" element="_yMrGELmAEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-j8a9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-kMa9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-kca9EfCSnIIEpr70WQ" type="3010" element="_TMp4srmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-ksa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-k8a9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-lMa9EfCSnIIEpr70WQ" type="3010" element="_TdWnILmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-lca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-lsa9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-l8a9EfCSnIIEpr70WQ" type="3010" element="_TsmkErmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-mMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-mca9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-msa9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-m8a9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-nMa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-nca9EfCSnIIEpr70WQ" x="11" y="126"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-nsa9EfCSnIIEpr70WQ" type="3009" element="_L2NFArmBEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-n8a9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-oMa9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-oca9EfCSnIIEpr70WQ" type="3010" element="_7U7ZILmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-osa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-o8a9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-pMa9EfCSnIIEpr70WQ" type="3010" element="_70SOoLmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-pca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-psa9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-p8a9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-qMa9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-qca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-qsa9EfCSnIIEpr70WQ" x="247" y="42" width="261" height="87"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_vEy-q8a9EfCSnIIEpr70WQ" type="3009" element="_Nt_tELmBEfCXjffJImK66Q">
+              <children xmi:type="notation:Node" xmi:id="_vEy-rMa9EfCSnIIEpr70WQ" type="5004"/>
+              <children xmi:type="notation:Node" xmi:id="_vEy-rca9EfCSnIIEpr70WQ" type="7003">
+                <children xmi:type="notation:Node" xmi:id="_vEy-rsa9EfCSnIIEpr70WQ" type="3010" element="_mBnzkrmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-r8a9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-sMa9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-sca9EfCSnIIEpr70WQ" type="3010" element="_wmwmQLmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-ssa9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-s8a9EfCSnIIEpr70WQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_vEy-tMa9EfCSnIIEpr70WQ" type="3010" element="_z_p0sLmCEfCXjffJImK66Q">
+                  <styles xmi:type="notation:FontStyle" xmi:id="_vEy-tca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8" italic="true"/>
+                  <layoutConstraint xmi:type="notation:Location" xmi:id="_vEy-tsa9EfCSnIIEpr70WQ"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-t8a9EfCSnIIEpr70WQ"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-uMa9EfCSnIIEpr70WQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-uca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-usa9EfCSnIIEpr70WQ" x="12" y="222"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_vEy-u8a9EfCSnIIEpr70WQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_vEy-vMa9EfCSnIIEpr70WQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_vEy-vca9EfCSnIIEpr70WQ" fontColor="3943168" fontName="Segoe UI" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vEy-vsa9EfCSnIIEpr70WQ" x="414" y="84" width="615" height="327"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vEy-v8a9EfCSnIIEpr70WQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_r2uQo7mAEfCXjffJImK66Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_r2uQpLmAEfCXjffJImK66Q">
+        <computedStyleDescriptions xmi:type="style:FlatContainerStyleDescription" xmi:id="_vEy-wMa9EfCSnIIEpr70WQ" borderSizeComputationExpression="1" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif">
+          <borderColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='ISDBorder']"/>
+          <labelFormat>bold</labelFormat>
+          <labelColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='ISDLabelAndEdge']"/>
+          <backgroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='SoaFillDark']"/>
+          <foregroundColor xmi:type="description:UserFixedColor" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@userColorsPalettes[name='Palette']/@entries[name='SoaFillDark']"/>
+        </computedStyleDescriptions>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_sM24sLmAEfCXjffJImK66Q" name="Users">
+      <target xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtep8a9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtep8a9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_sM24sbmAEfCXjffJImK66Q" labelSize="12" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/Service.gif" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_uYIdcLmAEfCXjffJImK66Q" name="setUser">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEteqca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEteqca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZL23grmBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_tGjEULmBEfCXjffJImK66Q" name="userIn : UserDemo[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteqsa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteqsa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_tGjrYLmBEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_tcpQILmBEfCXjffJImK66Q" name="userOut : UserDemo[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEterMa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEterMa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_tcp3MLmBEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_utIdELmAEfCXjffJImK66Q" name="getUser">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtersa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtersa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ZwB7kbmBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_6jaSErmBEfCXjffJImK66Q" name="userOut : UserDemo[0..1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtesca9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtesca9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_6ja5ILmBEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_8a1twLmBEfCXjffJImK66Q" name="id : Long[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEter8a9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEter8a9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_8a1twbmBEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_FlNyoLmCEfCXjffJImK66Q" name="fault1 : String[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtes8a9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtes8a9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_FlNyobmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_w1KgkLmAEfCXjffJImK66Q" name="Requests">
+      <target xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtetMa9EfCSnIIEpr70WQ"/>
+      <semanticElements xmi:type="soa:Service" href="demo-dsfr-rest.soa#_vEtetMa9EfCSnIIEpr70WQ"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_w1KgkbmAEfCXjffJImK66Q" labelSize="12" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/Service.gif" labelColor="0,43,60" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundStyle="GradientTopToBottom" backgroundColor="238,248,255" foregroundColor="238,248,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_x7M7k7mAEfCXjffJImK66Q" name="setRequest">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtetsa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtetsa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_aHv4ArmBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_M7yXkLmCEfCXjffJImK66Q" name="requestIn : requestDemo[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtet8a9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtet8a9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_M7yXkbmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_PySDkrmCEfCXjffJImK66Q" name="requestOut : requestDemo[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteuca9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteuca9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_PySqoLmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_yMrGELmAEfCXjffJImK66Q" name="getRequest">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEteu8a9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEteu8a9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_agUJB7mBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_TMp4srmCEfCXjffJImK66Q" name="id : Long[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtevMa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtevMa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_TMqfwLmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_TdWnILmCEfCXjffJImK66Q" name="requestOut : requestDemo[0..1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtevsa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtevsa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_TdWnIbmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_TsmkErmCEfCXjffJImK66Q" name="fault1 : String[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtewMa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtewMa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_TsnLILmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_L2NFArmBEfCXjffJImK66Q" name="getRequests">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtewca9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtewca9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_a4v3I7mBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_7U7ZILmCEfCXjffJImK66Q" name="requestsOut : requestDemo[0..*]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtewsa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtewsa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_7U7ZIbmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_70SOoLmCEfCXjffJImK66Q" name="fault1 : String[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtew8a9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtew8a9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_70SOobmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Nt_tELmBEfCXjffJImK66Q" name="getUserRequests">
+        <target xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtexMa9EfCSnIIEpr70WQ"/>
+        <semanticElements xmi:type="soa:Operation" href="demo-dsfr-rest.soa#_vEtexMa9EfCSnIIEpr70WQ"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_biGWILmBEfCXjffJImK66Q" labelSize="10" iconPath="/org.obeonetwork.dsl.soa.edit/icons/full/obj16/OperationRest.gif" labelColor="0,43,60" description="_vEy-wMa9EfCSnIIEpr70WQ" borderSize="1" borderSizeComputationExpression="1" borderColor="136,136,136" backgroundColor="202,231,255" foregroundColor="202,231,255">
+          <labelFormat>bold</labelFormat>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']"/>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_mBnzkrmCEfCXjffJImK66Q" name="userId : Long[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtexca9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtexca9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_mBoaoLmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_In_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_wmwmQLmCEfCXjffJImK66Q" name="fault1 : String[1]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteyMa9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEteyMa9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_wmwmQbmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Fault_Param']"/>
+        </ownedElements>
+        <ownedElements xmi:type="diagram:DNodeListElement" uid="_z_p0sLmCEfCXjffJImK66Q" name="requestsOut : requestDemo[0..*]">
+          <target xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtex8a9EfCSnIIEpr70WQ"/>
+          <semanticElements xmi:type="soa:Parameter" href="demo-dsfr-rest.soa#_vEtex8a9EfCSnIIEpr70WQ"/>
+          <ownedStyle xmi:type="diagram:Square" uid="_z_p0sbmCEfCXjffJImK66Q" labelColor="0,43,60" labelAlignment="LEFT">
+            <labelFormat>italic</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer/@containerMappings[name='Cc_ServiceInterface_CM']/@subContainerMappings[name='Cc_Operation_CM']/@subNodeMappings[name='Cc_Out_Param']"/>
+        </ownedElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_r2m74bmAEfCXjffJImK66Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']/@defaultLayer"/>
+    <target xmi:type="soa:Component" href="demo-dsfr-rest.soa#_vEtepsa9EfCSnIIEpr70WQ"/>
+  </diagram:DSemanticDiagram>
+  <manifest:MImportExportData uid="_9Im2cMO4EfCSfPeN-ETnxg">
+    <exportedManifests xmi:type="manifest:MManifest" xmi:id="_vEy-wsa9EfCSnIIEpr70WQ" projectId="demo-dsfr-rest-model" exportDate="2025-11-17T14:25:59.025+0100" versionMajor="1" comment=""/>
+  </manifest:MImportExportData>
+</xmi:XMI>

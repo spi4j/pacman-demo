@@ -1,0 +1,33 @@
+{
+  "name": "demo-dsfr-client-rest",
+  "version": "1.0.0",
+  "description": "Librairie TypeScript fournissant des services REST et des models métier",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "pack": "npm pack"
+  },
+  "peerDependencies": {
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "axios": "^1.7.0",
+    "rimraf": "^5.0.0"
+  },
+  "keywords": [                    
+    "typescript",
+    "react",
+    "services",
+    "models",
+    "library"
+  ],
+  "license": "MIT"
+}

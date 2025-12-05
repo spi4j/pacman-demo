@@ -1,0 +1,53 @@
+<style>
+      body {
+          font-family: 'Segoe UI Emoji', 'Arial', sans-serif;
+      }
+  </style>
+  <h1>Bienvenue dans votre nouveau projet de librairie client demo-dsfr-client-rest</h1>
+  <hr />
+  <p>Ce fichier vous permet de rapidement prendre en main le démarrage de l'application :</p>
+    <h2>📁 Projets inclus</h2>
+    <p>Quatre projets sont créés :</p>
+    <ul>
+    <li><strong>demo-dsfr-client-rest</strong> : le projet qui encapsule les trois autres projets, son seul rôle est de contenir le fichier pom.xml parent.</li>
+    <li><strong>demo-dsfr-client-rest-model</strong> : le projet de modélisation. Aucune classe Java ne doit être présente dans ce projet. Il n'est, par ailleurs, pas embarqué lors du déploiement de l'application.</li>
+    <li><strong>demo-dsfr-client-rest-server</strong> : le projet contenant les classes client d'appel pour les services de type rest.</li>
+    </ul>
+    <hr/>
+      <h2>📂 Emplacement des fichiers de configuration et classe de démarrage</h2>
+    <ul>
+    <li style="margin-bottom: 10px;"><b>Configuration des options pour la génération</b> : <code>demo-dsfr-client-rest-model/pacman-properties/project.properties</code>
+           Utiliser ce fichier de configuration pour modifier les différentes options utilisées pour la génération de code. Ce fichier a 
+           initialement été créé suite aux principaux choix dans le formulaire de création mais toute modification sera automatiquement prise 
+           en compte lors de la prochaine génération. Ce fichier de configuration interne pour la génération est commun pour l'ensemble 
+           des différents types de projet, certaines propriétés ne sont donc pas prises en considération suivant le type de projet"
+    </li>
+    <li style="margin-bottom: 10px;"><b>Configuration du nommage des classes et interfaces pour la génération</b> : <code>demo-dsfr-client-rest-model/pacman-properties/nommage.properties</code>
+          Utiliser ce fichier de configuration pour modifier les différentes options de nommage utilisées pour la génération de code. Si 
+          par exemple vous désirez que tous la paramètres des méthodes soient préfixés par <code>'p_'</code>, il suffit de modifier la propriété
+          suivante dans le fichier de configuration <code>parameterMethodClassicIn=[CamelCase.LowerFirst/]</code> 
+          en <code>parameterMethodClassicIn=p_[CamelCase.LowerFirst/]</code>. 
+          Toute modification sera automatiquement prise en compte lors de la prochaine génération.
+    </li>
+    <li style="margin-bottom: 10px;"><b>Configuration principale</b> : <code>demo-dsfr-client-rest-server/src/main/resources/application.properties</code>
+          Le fichier de configuration de SpringBoot, avec l'uri de base pour les appels, les timeouts de connexion, etc...
+    </li>
+    </ul>
+    <hr/>
+    <h2>📁 Principaux packages générés</h2>
+    <ul>
+      <li>demo-dsfr-client-rest-server
+         <ul>
+           <li><code>fr.demo_dsfr_client_rest.app</code> : classes de haut niveau pour le fonctionnement des clients rest.</li>
+         </ul>
+      </li>
+    </ul>
+    <hr/>
+    <h2>🚀 Pour commencer rapidement</h2>
+    <ol>
+      <li>Si besoin, appliquer la métadonnée @AUTH_TOKEN au niveau de l'opération d'authentification (récupération du jeton)</li>
+      <li>Générer le code client à partir du fichier de modélisation</li>
+      <li>Si besoin, compléter la classe <code>Demo_dsfr_client_restTokenTestsHelper</code> avec les données d'authentification.</li>
+      <li>Effectuer les tests pour vérifier le bon fonctionnement des différents appels.</li>
+      <li>Procéder au déploiement et à l'intégration de la librairie dans le projet cible.</li>
+    </ol>
