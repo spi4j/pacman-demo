@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+      <groupId>fr.demo_dsfr_rest</groupId>
+      <artifactId>demo-dsfr-rest</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>demo-dsfr-rest-server</artifactId>
+  <packaging>jar</packaging>
+  
+  <dependencies>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-data-jpa</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-web</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-security</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-oauth2-client</artifactId>
+      </dependency>
+      <dependency>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-test</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-actuator</artifactId>
+      </dependency>
+      <!-- swagger-ui -->
+      <dependency>
+          <groupId>org.springdoc</groupId>
+          <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>org.hibernate.validator</groupId>
+          <artifactId>hibernate-validator</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>jakarta.el</groupId>
+          <artifactId>jakarta.el-api</artifactId>
+      </dependency>
+      <!-- circuit breaker -->
+      <dependency>
+          <groupId>io.github.resilience4j</groupId>
+          <artifactId>resilience4j-spring-boot2</artifactId>
+      </dependency>
+      <!-- coffre fort -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-vault-config</artifactId>
+      </dependency>
+      <!-- projet métier (domaine). -->
+      <dependency>
+         <groupId>fr.demo_dsfr_rest</groupId>
+         <artifactId>demo-dsfr-rest-domain</artifactId>
+         <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter</artifactId>
+      </dependency>
+      <!-- Base H2 embarquée pour les tests. -->
+      <dependency>
+         <groupId>com.h2database</groupId>
+          <artifactId>h2</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>net.datafaker</groupId>
+        <artifactId>datafaker</artifactId>
+      </dependency>
+  	<!-- (à voir si demande génération war et non jar..)
+  	<dependency>
+  	   <groupId>org.springframework.boot</groupId>
+  	   <artifactId>spring-boot-starter-tomcat</artifactId>
+  	   <scope>provided</scope>
+  	</dependency>
+  	-->
+  	
+  	<!--
+  	// Start of user code 0e591676949d1032471f2681537da651
+  	   -->
+  	   <!--
+  	// End of user code
+  	-->
+  </dependencies>
+  
+  <build>
+    <plugins>
+       <!-- Génération du jar executable. -->
+       <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <executions>
+            <execution>
+              <goals>
+                <goal>repackage</goal>
+              </goals>
+            </execution>
+          </executions>
+          <configuration>
+             <mainClass>fr.demo_dsfr_rest.Demo_dsfr_restBootstrap</mainClass>
+          </configuration>
+       </plugin>
+       
+       <!-- 
+       // Start of user code 63dc9087c660611bdf3fcb1a1257247a
+       -->
+       <!--
+       // End of user code
+       -->
+    </plugins>
+  </build>
+  
+  <!--
+  // Start of user code 03806f268e34cf63ef9440ae24cf4580
+  -->
+  <!--
+  // End of user code
+  -->
+  
+  <!-- Même si ce n’est pas strictement nécessaire pour Maven, certains outils
+  (comme Eclipse avec m2e) veulent le voir dans chaque module. -->
+  <properties>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
