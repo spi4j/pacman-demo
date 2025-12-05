@@ -1,0 +1,95 @@
+/* Ne pas appliquer de padding global sur tout le site */
+#root {
+  margin: 2em;
+  padding: 0;
+}
+
+/* Conteneur principal pour les pages avec formulaire */
+.form-page {
+  margin-top: 2rem;  /* espace entre Header et contenu */
+  margin-bottom: 2rem;
+}
+
+/* Cible plusieurs variantes possibles de la structure DSFR */
+.modal-auto-size .fr-modal__content,
+.modal-auto-size .fr-modal__body,
+.modal-auto-size .fr-modal {
+  width: auto !important;
+  max-width: 90vw !important;
+  display: inline-block !important;     /* shrink-to-fit */
+}
+
+/* Ajuste l'alignement du legend quand les champs sont en grille ou dans un wrapper */
+.fr-fieldset.fr-fieldset__legend-adjusted legend.fr-fieldset__legend {
+    padding-left: 0;        /* Supprime le padding par défaut */
+    margin-bottom: 1rem;    /* Garde un espacement correct sous le legend */
+    display: block;         /* S'assure que le legend occupe toute la largeur */
+}
+
+/* Maintien du centrage de la boîte modale */
+.modal-auto-size .fr-modal__container,
+.modal-auto-size .fr-modal__container > div {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/*Contenu interne centré dans le conteneur DSFR */
+.fr-container.form-page {
+  max-width: 80rem; /* largeur max du contenu (environ 1280px) */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Forcer le layout auto et largeur 100% */
+.table-edition {
+  width: 100% !important;
+  table-layout: auto !important; /* override DSFR si nécessaire */
+}
+
+/* Rendre la dernière colonne aussi petite que possible et éviter le wrapping */
+.table-edition th:last-child,
+.table-edition td:last-child {
+  width: 1% !important;
+  white-space: nowrap !important;
+}
+
+/* S'assurer que le contenu garde sa taille intrinsèque */
+.table-edition td:last-child > * {
+  display: inline-block;
+}
+
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

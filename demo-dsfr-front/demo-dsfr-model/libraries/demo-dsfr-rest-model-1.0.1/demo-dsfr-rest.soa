@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ASCII"?>
+<soa:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/3.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmi:id="_8hDOQcn6EfCBednkP-lEaQ" technicalid="_3aSmALl2EfCXjffJImK66Q" createdOn="2025-11-04T13:07:42.432+0100" modifiedOn="2025-11-04T14:17:49.167+0100">
+  <ownedNamespaces xmi:id="_8hDOQsn6EfCBednkP-lEaQ" technicalid="_W3Ff4Ll-EfCXjffJImK66Q" createdOn="2025-11-04T14:01:19.967+0100" modifiedOn="2025-11-04T14:01:19.986+0100" name="demo-dsfr">
+    <types xsi:type="oenv:DTO" xmi:id="_8hDOQ8n6EfCBednkP-lEaQ" technicalid="_W3RtILl-EfCXjffJImK66Q" description="Utilisateur de l'application." createdOn="2025-11-04T14:01:19.986+0100" modifiedOn="2025-11-21T08:39:18.258+0100" name="UserDemo">
+      <associatedTypes xsi:type="oent:Entity" href="demo-dsfr-rest.entity#_8hCnMcn6EfCBednkP-lEaQ"/>
+      <ownedReferences xmi:id="_8hDORMn6EfCBednkP-lEaQ" technicalid="_W3SUMLl-EfCXjffJImK66Q" description="La d&#xe9;marche pour l'utilisateur." createdOn="2025-11-04T14:01:19.987+0100" modifiedOn="2025-11-21T08:44:04.073+0100" name="hasRequests" multiplicity="0..*" referencedType="_8hDORcn6EfCBednkP-lEaQ"/>
+    </types>
+    <types xsi:type="oenv:DTO" xmi:id="_8hDORcn6EfCBednkP-lEaQ" technicalid="_W3RtIrl-EfCXjffJImK66Q" description="Demande pour un utilisateur." createdOn="2025-11-04T14:01:19.986+0100" modifiedOn="2025-11-21T08:39:28.288+0100" name="requestDemo">
+      <associatedTypes xsi:type="oent:Entity" href="demo-dsfr-rest.entity#_8hCnP8n6EfCBednkP-lEaQ"/>
+    </types>
+  </ownedNamespaces>
+  <ownedComponents xmi:id="_8hDORsn6EfCBednkP-lEaQ" technicalid="_qQw_cLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:17:49.168+0100" modifiedOn="2025-11-04T14:18:33.240+0100" name="demo-dsfr" apiVersion="0.0.1">
+    <ownedServices xmi:id="_8hDOR8n6EfCBednkP-lEaQ" technicalid="_sM2RoLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:02.170+0100" modifiedOn="2025-11-04T14:24:06.443+0100" name="Users" URI="/users">
+      <ownedInterface xmi:id="_8hDOSMn6EfCBednkP-lEaQ" technicalid="_uYHPULmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:16.774+0100" modifiedOn="2025-11-04T14:18:18.976+0100" name="Users">
+        <ownedOperations xmi:id="_8hDOScn6EfCBednkP-lEaQ" technicalid="_uYH2YLmAEfCXjffJImK66Q" description="Cr&#xe9;ation d'un nouvel utilisateur." createdOn="2025-11-04T14:18:16.775+0100" modifiedOn="2025-11-21T08:44:47.707+0100" name="setUser" public="true" verb="POST" exposition="REST">
+          <input xmi:id="_8hDOSsn6EfCBednkP-lEaQ" technicalid="_tGh2MLmBEfCXjffJImK66Q" description="L'utilisateur &#xe0; cr&#xe9;er." createdOn="2025-11-04T14:25:17.716+0100" modifiedOn="2025-11-21T08:46:31.209+0100" type="_8hDOQ8n6EfCBednkP-lEaQ" name="userIn">
+            <restData xmi:id="_8hDOS8n6EfCBednkP-lEaQ" technicalid="_tGrAILmBEfCXjffJImK66Q"/>
+          </input>
+          <output xmi:id="_8hDOTMn6EfCBednkP-lEaQ" technicalid="_tcopELmBEfCXjffJImK66Q" description="L'utilisateur avec son identifiant." createdOn="2025-11-04T14:25:20.033+0100" modifiedOn="2025-11-21T08:46:41.735+0100" type="_8hDOQ8n6EfCBednkP-lEaQ" name="userOut" statusCode="201" statusMessage="Created">
+            <mediaType xmi:id="_8hDOTcn6EfCBednkP-lEaQ" technicalid="_h1lQ8LmCEfCXjffJImK66Q" createdOn="2025-11-04T14:31:15.496+0100" modifiedOn="2025-11-04T14:31:15.496+0100" identifier="application/json"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_8hDOTsn6EfCBednkP-lEaQ" technicalid="_utH2ALmAEfCXjffJImK66Q" description="Retourne un utilisateur en fonction de son identifiant." createdOn="2025-11-04T14:18:18.976+0100" modifiedOn="2025-11-21T08:45:04.667+0100" name="getUser" public="true" URI="/{id}" exposition="REST">
+          <input xmi:id="_8hDOT8n6EfCBednkP-lEaQ" technicalid="_8a1GsLmBEfCXjffJImK66Q" description="L'identifiant unique pour l'utilisateur." createdOn="2025-11-04T14:27:00.507+0100" modifiedOn="2025-11-21T08:46:53.515+0100" name="id">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_9dnH8bGqEd2SRpTkL4GntA"/>
+            <restData xmi:id="_8hDOUMn6EfCBednkP-lEaQ" technicalid="_8a70YLmBEfCXjffJImK66Q" passingMode="PATH" restId="id"/>
+          </input>
+          <output xmi:id="_8hDOUcn6EfCBednkP-lEaQ" technicalid="_6jaSELmBEfCXjffJImK66Q" description="L'utilisateur retourn&#xe9; en fonction de son identifiant." createdOn="2025-11-04T14:26:47.985+0100" modifiedOn="2025-11-21T08:47:08.980+0100" type="_8hDOQ8n6EfCBednkP-lEaQ" name="userOut" multiplicity="0..1" statusCode="200" statusMessage="OK">
+            <mediaType xmi:id="_8hDOUsn6EfCBednkP-lEaQ" technicalid="_i2kz4LmCEfCXjffJImK66Q" createdOn="2025-11-04T14:31:22.399+0100" modifiedOn="2025-11-04T14:31:22.399+0100" identifier="application/json"/>
+          </output>
+          <fault xmi:id="_8hDOU8n6EfCBednkP-lEaQ" technicalid="_FlNLkLmCEfCXjffJImK66Q" description="Utilisateur non trouv&#xe9;." createdOn="2025-11-04T14:28:01.993+0100" modifiedOn="2025-11-21T08:47:19.638+0100" name="fault1" statusCode="404" statusMessage="Utilisateur non trouv&#xe9; dans la base de donn&#xe9;es">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </fault>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <ownedServices xmi:id="_8hDOVMn6EfCBednkP-lEaQ" technicalid="_w1J5gLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:33.240+0100" modifiedOn="2025-11-04T14:24:08.006+0100" name="Requests" URI="/requests">
+      <ownedInterface xmi:id="_8hDOVcn6EfCBednkP-lEaQ" technicalid="_x7MUgLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:40.585+0100" modifiedOn="2025-11-04T14:21:47.104+0100" name="Requests">
+        <ownedOperations xmi:id="_8hDOVsn6EfCBednkP-lEaQ" technicalid="_x7M7kbmAEfCXjffJImK66Q" description="Cr&#xe9;ation d'une nouvelle demande." createdOn="2025-11-04T14:18:40.585+0100" modifiedOn="2025-11-21T08:45:20.530+0100" name="setRequest" public="true" verb="POST" exposition="REST">
+          <input xmi:id="_8hDOV8n6EfCBednkP-lEaQ" technicalid="_M7xwgLmCEfCXjffJImK66Q" description="La requ&#xea;te &#xe0; cr&#xe9;er." createdOn="2025-11-04T14:28:51.337+0100" modifiedOn="2025-11-21T08:47:29.360+0100" type="_8hDORcn6EfCBednkP-lEaQ" name="requestIn">
+            <restData xmi:id="_8hDOWMn6EfCBednkP-lEaQ" technicalid="_M74eMLmCEfCXjffJImK66Q"/>
+          </input>
+          <output xmi:id="_8hDOWcn6EfCBednkP-lEaQ" technicalid="_PySDkLmCEfCXjffJImK66Q" description="La requ&#xea;te cr&#xe9;&#xe9;e avec son identifiant." createdOn="2025-11-04T14:29:10.473+0100" modifiedOn="2025-11-21T08:47:47.460+0100" type="_8hDORcn6EfCBednkP-lEaQ" name="requestOut" statusCode="201" statusMessage="Created">
+            <mediaType xmi:id="_8hDOWsn6EfCBednkP-lEaQ" technicalid="_g4Pe8LmCEfCXjffJImK66Q" createdOn="2025-11-04T14:31:09.197+0100" modifiedOn="2025-11-04T14:31:09.197+0100" identifier="application/json"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_8hDOW8n6EfCBednkP-lEaQ" technicalid="_yMqfALmAEfCXjffJImK66Q" description="Retoure une demande en fontion de son identifiant." createdOn="2025-11-04T14:18:42.417+0100" modifiedOn="2025-11-21T08:46:02.711+0100" name="getRequest" public="true" URI="/{id}" exposition="REST">
+          <input xmi:id="_8hDOXMn6EfCBednkP-lEaQ" technicalid="_TMp4sLmCEfCXjffJImK66Q" description="L'identifiant unique pour la demande." createdOn="2025-11-04T14:29:33.371+0100" modifiedOn="2025-11-21T08:48:31.534+0100" name="id">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_9dnH8bGqEd2SRpTkL4GntA"/>
+            <restData xmi:id="_8hDOXcn6EfCBednkP-lEaQ" technicalid="_TMwmYLmCEfCXjffJImK66Q" passingMode="PATH" restId="id"/>
+          </input>
+          <output xmi:id="_8hDOXsn6EfCBednkP-lEaQ" technicalid="_TdWAELmCEfCXjffJImK66Q" description="La demande retourn&#xe9;e en fonction de son identifiant." createdOn="2025-11-04T14:29:35.121+0100" modifiedOn="2025-11-21T08:48:26.276+0100" type="_8hDORcn6EfCBednkP-lEaQ" name="requestOut" multiplicity="0..1" statusCode="200" statusMessage="OK">
+            <mediaType xmi:id="_8hDOX8n6EfCBednkP-lEaQ" technicalid="_fSQ_oLmCEfCXjffJImK66Q" createdOn="2025-11-04T14:30:57.238+0100" modifiedOn="2025-11-04T14:31:00.955+0100" identifier="application/json"/>
+          </output>
+          <fault xmi:id="_8hDOYMn6EfCBednkP-lEaQ" technicalid="_TsmkELmCEfCXjffJImK66Q" description="Demande non trouv&#xe9;e." createdOn="2025-11-04T14:29:36.721+0100" modifiedOn="2025-11-21T08:48:39.656+0100" name="fault1" statusCode="404" statusMessage="La d&#xe9;marche n'a pas &#xe9;t&#xe9; trouv&#xe9;e dans la base de donn&#xe9;es">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </fault>
+        </ownedOperations>
+        <ownedOperations xmi:id="_8hDOYcn6EfCBednkP-lEaQ" technicalid="_L2NFALmBEfCXjffJImK66Q" description="Retourne la liste des demandes (tous utilisateurs confondus)." createdOn="2025-11-04T14:21:34.544+0100" modifiedOn="2025-11-21T08:45:40.211+0100" name="getRequests" public="true" exposition="REST">
+          <output xmi:id="_8hDOYsn6EfCBednkP-lEaQ" technicalid="_7U6yELmCEfCXjffJImK66Q" description="La liste de toutes les demandes pour l'ensemble des utilistateurs." createdOn="2025-11-04T14:34:02.673+0100" modifiedOn="2025-11-21T08:49:59.058+0100" type="_8hDORcn6EfCBednkP-lEaQ" name="requestsOut" multiplicity="0..*" statusCode="200" statusMessage="OK"/>
+          <fault xmi:id="_8hDOY8n6EfCBednkP-lEaQ" technicalid="_70RnkLmCEfCXjffJImK66Q" description="Aucune demande trouv&#xe9;e." createdOn="2025-11-04T14:34:05.961+0100" modifiedOn="2025-11-21T08:49:38.520+0100" name="fault1" statusCode="404" statusMessage="Not Found">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </fault>
+        </ownedOperations>
+        <ownedOperations xmi:id="_8hDOZMn6EfCBednkP-lEaQ" technicalid="_Nt_GALmBEfCXjffJImK66Q" description="Retourne l'ensemble des demandes pour un utilisateur." createdOn="2025-11-04T14:21:47.104+0100" modifiedOn="2025-11-21T08:46:17.500+0100" name="getUserRequests" public="true" URI="/user/{id}" exposition="REST">
+          <input xmi:id="_8hDOZcn6EfCBednkP-lEaQ" technicalid="_mBnzkLmCEfCXjffJImK66Q" description="L'identifiant de l'utilisateur." createdOn="2025-11-04T14:31:39.721+0100" modifiedOn="2025-11-21T08:48:54.427+0100" name="userId">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_9dnH8bGqEd2SRpTkL4GntA"/>
+            <restData xmi:id="_8hDOZsn6EfCBednkP-lEaQ" technicalid="_mBuhQLmCEfCXjffJImK66Q" passingMode="PATH" restId="id"/>
+          </input>
+          <output xmi:id="_8hDOZ8n6EfCBednkP-lEaQ" technicalid="_z_pNoLmCEfCXjffJImK66Q" description="La liste des demandes pour l'utilisateur." createdOn="2025-11-04T14:33:13.466+0100" modifiedOn="2025-11-21T08:49:09.107+0100" type="_8hDORcn6EfCBednkP-lEaQ" name="requestsOut" multiplicity="0..*" statusCode="200" statusMessage="OK"/>
+          <fault xmi:id="_8hDOaMn6EfCBednkP-lEaQ" technicalid="_wmv_MLmCEfCXjffJImK66Q" description="Aucune demande trouv&#xe9;e pour l'utilisateur." createdOn="2025-11-04T14:32:50.723+0100" modifiedOn="2025-11-21T08:49:22.738+0100" name="fault1" statusCode="404" statusMessage="Not Found">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+            <mediaType xmi:id="_8hDOacn6EfCBednkP-lEaQ" technicalid="_yYKScLmCEfCXjffJImK66Q" createdOn="2025-11-04T14:33:06.308+0100" modifiedOn="2025-11-04T14:33:06.308+0100" identifier="application/json"/>
+          </fault>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <license xmi:id="_8hDOasn6EfCBednkP-lEaQ" technicalid="_qQ0CwLmAEfCXjffJImK66Q" name="Apache 2.0" URL="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+    <information xmi:id="_8hDOa8n6EfCBednkP-lEaQ" technicalid="_qQy0oLmAEfCXjffJImK66Q"/>
+    <contact xmi:id="_8hDObMn6EfCBednkP-lEaQ" technicalid="_qQ1Q4LmAEfCXjffJImK66Q"/>
+  </ownedComponents>
+</soa:System>

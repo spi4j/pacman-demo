@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ASCII"?>
+<oent:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oent="http://www.obeonetwork.org/dsl/entity/3.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmi:id="_8hCAIMn6EfCBednkP-lEaQ" technicalid="_3D3qELl2EfCXjffJImK66Q" createdOn="2025-11-04T13:07:40.081+0100" modifiedOn="2025-11-04T13:48:55.205+0100">
+  <ownedNamespaces xmi:id="_8hCnMMn6EfCBednkP-lEaQ" technicalid="_n4fdULl8EfCXjffJImK66Q" createdOn="2025-11-04T13:48:55.205+0100" modifiedOn="2025-11-04T13:56:32.312+0100" name="demo-dsfr">
+    <types xsi:type="oent:Entity" xmi:id="_8hCnMcn6EfCBednkP-lEaQ" technicalid="_rDnVgLl8EfCXjffJImK66Q" createdOn="2025-11-04T13:49:16.505+0100" modifiedOn="2025-11-04T14:51:04.655+0100" name="UserDemo">
+      <ownedAttributes xmi:id="_8hCnMsn6EfCBednkP-lEaQ" technicalid="_wJ89MLl8EfCXjffJImK66Q" description="Le pr&#xe9;nom pour l'utilisateur." createdOn="2025-11-04T13:49:50.723+0100" modifiedOn="2025-11-21T08:40:20.670+0100" name="firstName" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnM8n6EfCBednkP-lEaQ" technicalid="_wbjqkLl8EfCXjffJImK66Q" description="Le nom de l'utilisateur." createdOn="2025-11-04T13:49:52.569+0100" modifiedOn="2025-11-21T08:40:30.525+0100" name="lastName" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnNMn6EfCBednkP-lEaQ" technicalid="_wraEcLl8EfCXjffJImK66Q" description="Le t&#xe9;l&#xe9;phone pour l'utilisateur." createdOn="2025-11-04T13:49:54.231+0100" modifiedOn="2025-11-21T08:40:39.829+0100" name="phone">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnNcn6EfCBednkP-lEaQ" technicalid="_w842ALl8EfCXjffJImK66Q" description="Le mail pour l'utilisateur." createdOn="2025-11-04T13:49:56.064+0100" modifiedOn="2025-11-21T08:40:46.649+0100" name="mail">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnNsn6EfCBednkP-lEaQ" technicalid="_489q8Ll8EfCXjffJImK66Q" description="La ville pour l'utilisateur." createdOn="2025-11-04T13:50:49.759+0100" modifiedOn="2025-11-21T08:41:00.241+0100" name="city">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnN8n6EfCBednkP-lEaQ" technicalid="_7bHIYLl8EfCXjffJImK66Q" description="Le code postal pour l'utilisateur." createdOn="2025-11-04T13:51:06.342+0100" modifiedOn="2025-11-21T08:41:23.346+0100" name="zipCode">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnOMn6EfCBednkP-lEaQ" technicalid="_9HS9YLl8EfCXjffJImK66Q" description="L'identifiant pour l'utilistateur." createdOn="2025-11-04T13:51:17.686+0100" modifiedOn="2025-11-21T08:41:36.303+0100" name="login" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnOcn6EfCBednkP-lEaQ" technicalid="__WW18Ll8EfCXjffJImK66Q" description="L'adresse de l'utilistateur." createdOn="2025-11-04T13:51:32.687+0100" modifiedOn="2025-11-21T08:41:51.463+0100" name="address">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnOsn6EfCBednkP-lEaQ" technicalid="_K63a8Ll9EfCXjffJImK66Q" description="La civilit&#xe9; de l'utilisateur." createdOn="2025-11-04T13:52:50.335+0100" modifiedOn="2025-11-21T08:42:07.660+0100" name="civility" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnO8n6EfCBednkP-lEaQ" technicalid="_VPkk8Ll9EfCXjffJImK66Q" description="La date de naissance pour l'utilisateur." createdOn="2025-11-04T13:53:59.616+0100" modifiedOn="2025-11-21T08:42:18.665+0100" name="dateOfBirth">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-E6wKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnPMn6EfCBednkP-lEaQ" technicalid="_g4cFgLl9EfCXjffJImK66Q" description="Le mot de passe pour l'utilisateur." createdOn="2025-11-04T13:55:17.720+0100" modifiedOn="2025-11-21T08:42:30.304+0100" name="password" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnPcn6EfCBednkP-lEaQ" technicalid="_myOjYLl9EfCXjffJImK66Q" description="La profession pour l'utilisateur." createdOn="2025-11-04T13:55:57.335+0100" modifiedOn="2025-11-21T08:42:44.888+0100" name="businessActivity">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedReferences xmi:id="_8hCnPsn6EfCBednkP-lEaQ" technicalid="_OefdQLl-EfCXjffJImK66Q" createdOn="2025-11-04T14:00:23.700+0100" modifiedOn="2025-11-04T14:00:32.962+0100" name="hasRequests" multiplicity="0..*" referencedType="_8hCnP8n6EfCBednkP-lEaQ"/>
+    </types>
+    <types xsi:type="oent:Entity" xmi:id="_8hCnP8n6EfCBednkP-lEaQ" technicalid="_r_zbgLl9EfCXjffJImK66Q" createdOn="2025-11-04T13:56:32.312+0100" modifiedOn="2025-11-04T14:51:10.195+0100" name="requestDemo">
+      <ownedAttributes xmi:id="_8hCnQMn6EfCBednkP-lEaQ" technicalid="_t9YigLl9EfCXjffJImK66Q" description="Le type de d&#xe9;marche." createdOn="2025-11-04T13:56:45.480+0100" modifiedOn="2025-11-21T08:43:11.204+0100" name="type" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnQcn6EfCBednkP-lEaQ" technicalid="_30WAkLl9EfCXjffJImK66Q" description="La raison de la d&#xe9;marche." createdOn="2025-11-04T13:57:51.641+0100" modifiedOn="2025-11-21T08:43:20.131+0100" name="reason" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnQsn6EfCBednkP-lEaQ" technicalid="_Cwx48Ll-EfCXjffJImK66Q" description="Le num&#xe9;ro de dossier pour la d&#xe9;marche." createdOn="2025-11-04T13:59:05.087+0100" modifiedOn="2025-11-21T08:43:35.226+0100" name="identifier" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+      <ownedAttributes xmi:id="_8hCnQ8n6EfCBednkP-lEaQ" technicalid="_LEKrcLl-EfCXjffJImK66Q" description="Le statut de la d&#xe9;marche." createdOn="2025-11-04T14:00:00.808+0100" modifiedOn="2025-11-21T08:43:52.037+0100" name="status" multiplicity="1">
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedAttributes>
+    </types>
+  </ownedNamespaces>
+</oent:Root>
