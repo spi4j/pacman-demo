@@ -47,6 +47,7 @@ export interface UserDemo {
   /** La profession pour l'utilisateur.. */
   businessActivity?: string;
   
+  
   /** Demande pour un utilisateur. */
   hasRequests : RequestDemo[] ;
 }

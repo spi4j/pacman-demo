@@ -18,14 +18,15 @@ export default function SearchResultsPanel () {
   const [data_searchTable, setData_searchTable] = useState<any[]>([]);
   
   // ----------------------------------------------
-  // Chargement des tables avec des données de test.
+  // Chargement des données (appels des services).
   // ----------------------------------------------
   useEffect(() => {
-    setData_searchTable(getFakeTableData_searchTable());
-    
     // Start of user code 437b0889bfbb91081f33fc51e544c470
+    setData_searchTable(getFakeTableData_searchTable());
     // End of user code
+    
   }, []);
+  
   
   // Start of user code 0e2e6027a18616c127deaf3f30495c06
   // End of user code

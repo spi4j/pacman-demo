@@ -13,6 +13,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Locale;
+import java.util.stream.IntStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -79,6 +80,7 @@ public class Demo_dsfr_restDbPopulateImpl {
 	// Start of user code ccd1066343c95877b75b79d47c36bebe
 	/** Nombre de lignes à créer dans la base de données. */
 	private final int nbEntities = 10;
+	private final int nbRelations = 5;
 	// End of user code
 
 	@Value("${spring.populate.faker.enabled:true}")
@@ -100,17 +102,19 @@ public class Demo_dsfr_restDbPopulateImpl {
 
 		// Start of user code cf79eb27d3d3d239876f4f42e3789192
 
-		userDemo.setFirstName(faker.name().firstName());
-		userDemo.setLastName(faker.name().lastName());
+		String fn = faker.name().firstName();
+		String ln = faker.name().lastName();
+		userDemo.setFirstName(fn);
+		userDemo.setLastName(ln);
 		userDemo.setPhone(faker.phoneNumber().phoneNumber());
-		userDemo.setMail(faker.internet().emailAddress());
+		userDemo.setMail(faker.internet().emailAddress(fn + "." + ln));
 		userDemo.setCity(faker.address().city());
 		userDemo.setZipCode(faker.address().zipCode());
-		userDemo.setLogin(faker.internet().username());
+		userDemo.setLogin(faker.credentials().username());
 		userDemo.setAddress(faker.address().streetAddress());
 		userDemo.setCivility(faker.name().prefix());
 		userDemo.setDateOfBirth(randomLocalDate(80));
-		userDemo.setPassword(faker.internet().password());
+		userDemo.setPassword(faker.credentials().password());
 		userDemo.setBusinessActivity(faker.company().industry());
 
 		// End of user code
@@ -126,10 +130,14 @@ public class Demo_dsfr_restDbPopulateImpl {
 
 		// Start of user code 2b3517d11bcb1172ba92edf896aa109a
 
-		requestDemo.setType(faker.options().option("CREATION", "MODIFICATION", "SUPPRESSION", "VALIDATION"));
-		requestDemo.setReason(faker.lorem().sentence(5));
-		requestDemo.setIdentifier(faker.internet().uuid());
-		requestDemo.setStatus(faker.options().option("PENDING", "APPROVED", "REJECTED", "CANCELLED"));
+		requestDemo.setType(
+				faker.options().option("Demande de passeport", "Demande de carte d'identité", "Demande de carte grise",
+						"Demande de permis de conduire", "Demande de carte électorale", "Demande de timbres fiscaux"));
+		requestDemo.setReason(faker.options().option("Renouvellement", "Première demande",
+				"Renouvellement suite à perte", "Renouvellement suite à vol", "Changement d'adresse"));
+		requestDemo.setIdentifier(faker.code().asin());
+		requestDemo.setStatus(
+				faker.options().option("En cours de traitement", "Acceptée", "Traitée", "Rejetée", "Annulée"));
 		requestDemo.setUserDemo_hasRequests(userDemo);
 
 		// End of user code
@@ -149,18 +157,20 @@ public class Demo_dsfr_restDbPopulateImpl {
 		if (!populateEnabled)
 			return;
 
-		for (int i = 0; i < nbEntities; i++) {
-
+		IntStream.range(0, nbEntities).forEach(i -> {
 			// Start of user code f1399e649e5189a1b6ddbc2110423d17
 			UserDemoEntityImpl userDemo = userDemoRepository.save(userDemoPopulateWithFakeData(null));
 			// End of user code
 
 			// Start of user code eff84bdefaf9cdc14ddeb8376157f2a4
-			RequestDemoEntityImpl requestDemo = requestDemoRepository.save(requestDemoPopulateWithFakeData(userDemo));
+			IntStream.range(0, nbRelations).forEach(i2 -> {
+				RequestDemoEntityImpl requestDemo = requestDemoRepository
+						.save(requestDemoPopulateWithFakeData(userDemo));
+			});
 			// End of user code
 
 			// Start of user code e679aa86ca55b033b965ba72500dbe92
 			// End of user code
-		}
+		});
 	}
 }

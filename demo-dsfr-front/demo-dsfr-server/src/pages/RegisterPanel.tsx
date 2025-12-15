@@ -87,24 +87,33 @@ export default function RegisterPanel () {
   // Fonction appelée lors de la soumission du formulaire.
   // -----------------------------------------------------
   const onSubmit = async (data: FormValues) => {
-    console.log("Formulaire soumis :", data);
-    const isValid = await validateAndExecuteForm(data);
-    
-    if (!isValid) {
-      setGlobalMessage({ 
-         text: "Les données de sont pas valides, veuillez vérifier.", 
-         severity: "error",
-      });
-      //reset(); 
-      return;
+    try {
+      console.log("Formulaire soumis :", data);
+      const isValid = await validateAndExecuteForm(data);
+      
+      if (!isValid) {
+        setGlobalMessage({ 
+           text: "Les données de sont pas valides, veuillez vérifier.", 
+           severity: "error",
+        });
+        //reset(); 
+        return;
+       }
+       
+       
+       
+       setGlobalMessage({ 
+          text: "Les données ont bien été enregistrées, vous pouvez désormais vous connecter à votre espace personnel.", 
+          severity: "success",
+       });
+       
+    } catch (error) {
+        console.error(error);
+        setGlobalMessage({
+          text: "Une erreur est survenue lors de l’enregistrement.",
+          severity: "error",
+        });
      }
-     
-     
-     
-     setGlobalMessage({ 
-        text: "Les données ont bien été enregistrées, vous pouvez désormais vous connecter à votre espace personnel.", 
-        severity: "success",
-     });
   };
   
   // ----------------------------------------------
@@ -141,6 +150,8 @@ export default function RegisterPanel () {
      );
   }
   
+   
+        
   // Start of user code 2db3a48fc78d36b67cb4f1068ffcac92
   // End of user code
   

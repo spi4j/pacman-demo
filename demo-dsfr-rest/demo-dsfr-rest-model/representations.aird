@@ -12,7 +12,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Namespaces%20Hierarchy']"/>
         <target xmi:type="oent:Root" href="demo-dsfr-rest.entity#_3D5fQLl2EfCXjffJImK66Q"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qvYK4Ll8EfCXjffJImK66Q" name="demo-dsfr - Entities diagram" repPath="#_qvW8wLl8EfCXjffJImK66Q" changeId="1762264270207">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qvYK4Ll8EfCXjffJImK66Q" name="demo-dsfr - Entities diagram" repPath="#_qvW8wLl8EfCXjffJImK66Q" changeId="1765173787245">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.entity.design/description/entity.odesign#//@ownedViewpoints[name='Entity%20Views']/@ownedRepresentations[name='Entities%20Diagram']"/>
         <target xmi:type="oenv:Namespace" href="demo-dsfr-rest.entity#_n4fdUbl8EfCXjffJImK66Q"/>
       </ownedRepresentationDescriptors>

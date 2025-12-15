@@ -9,6 +9,9 @@ import { Button } from "@codegouvfr/react-dsfr/Button";
 import { Upload } from "@codegouvfr/react-dsfr/Upload";
 import { ToggleSwitch } from "@codegouvfr/react-dsfr/ToggleSwitch";
 import { Input } from "@codegouvfr/react-dsfr/Input";
+import { apiClient } from "../api/apiClient";
+import { requests } from "demo-dsfr-client-rest";
+import { RequestDemo } from "demo-dsfr-client-rest";
 
 // Start of user code 995723c4afdf2e019a92beded2745f35
 // End of user code
@@ -69,7 +72,7 @@ export default function RequestForm () {
   async function validateAndExecuteForm(data: FormValues): Promise<boolean> {
     console.log("Validation exécutée :", data);
     // Start of user code c0c3b9169b152f6602b8d199390d4d7d
-    return data.IdentifiantInput === "12345" && data.passwordInput === "azerty";
+    return true;
     // End of user code
   }
   
@@ -77,25 +80,35 @@ export default function RequestForm () {
   // Fonction appelée lors de la soumission du formulaire.
   // -----------------------------------------------------
   const onSubmit = async (data: FormValues) => {
-    console.log("Formulaire soumis :", data);
-    const isValid = await validateAndExecuteForm(data);
-    
-    if (!isValid) {
-      setGlobalMessage({ 
-         text: "Le formulaire n'est pas valide, veuillez vérifier l'ensemble de la saisie.", 
-         severity: "error",
-      });
-      //reset(); 
-      return;
+    try {
+      console.log("Formulaire soumis :", data);
+      const isValid = await validateAndExecuteForm(data);
+      
+      if (!isValid) {
+        setGlobalMessage({ 
+           text: "Le formulaire n'est pas valide, veuillez vérifier l'ensemble de la saisie.", 
+           severity: "error",
+        });
+        //reset(); 
+        return;
+       }
+       
+              const payload = buildRequestFormPayload(data);
+       await setRequest(payload);
+       
+       setGlobalMessage({ 
+          text: "La demande a bien été envoyé.", 
+          severity: "success",
+       });
+       navigate("/");
+       
+    } catch (error) {
+        console.error(error);
+        setGlobalMessage({
+          text: "Une erreur est survenue lors de l’enregistrement.",
+          severity: "error",
+        });
      }
-     
-     
-     
-     setGlobalMessage({ 
-        text: "La demande a bien été envoyé.", 
-        severity: "success",
-     });
-     navigate("/#");
   };
   
   // ----------------------------------------------
@@ -132,6 +145,32 @@ export default function RequestForm () {
      );
   }
   
+  // ---------------------------------------------
+  // Peuplement des données pour le(s) service(s).
+  // ---------------------------------------------
+  function buildRequestFormPayload(data : FormValues) 
+  {
+    return {
+      reason : data.purposePassRequestSelect,
+      reason : data.purposeCniRequestSelect,
+      // Start of user code 10b7ef2154c9c5efc789dd8d75b7df7e
+      
+      reason:
+      data.requestSelect === "PA"
+        ? PASSPORT_REASON_LABELS[data.purposePassRequestSelect]
+        : data.requestSelect === "CN"
+        ? CNI_REASON_LABELS[data.purposeCniRequestSelect]
+        : null,
+      type: REQUEST_TYPE_LABELS[data.requestSelect] ?? data.requestSelect,
+      identifier: "B4508QFJAA",
+      status: "Déposée",
+      userDemo_id: user?.id,
+      
+      // End of user code
+    };
+  }
+   
+        
   // Start of user code 2db3a48fc78d36b67cb4f1068ffcac92
   
   // On surveille la valeur du premier Select
@@ -139,7 +178,40 @@ export default function RequestForm () {
 
   // End of user code
   
+  /**
+   * Création d'une nouvelle demande..
+   */
+  async function setRequest(requestIn) {
+    const result = await requests
+      .setRequest(requestIn);
+    return result;
+  }
+  
+  
   // Start of user code 0a2fc978427341faec5d316c3c3ea150
+  
+  const REQUEST_TYPE_LABELS: Record<string, string> = {
+    PA: "Demande de passeport",
+    CN: "Demande de carte d'identité",
+    CG: "Demande de carte grise",
+    PC: "Demande de permis de conduire",
+    CE: "Demande de carte électorale",
+    TF: "Demande de timbres fiscaux",
+  };
+  
+  const PASSPORT_REASON_LABELS: Record<string, string> = {
+    PD: "Première demande",
+    RE: "Renouvellement",
+    PE: "Perte",
+    VO: "Vol",
+  };
+  
+  const CNI_REASON_LABELS: Record<string, string> = {
+    PD: "Première demande",
+    RE: "Renouvellement",
+    PE: "Perte",
+    VO: "Vol",
+  };
   // End of user code
   
   return (
@@ -192,7 +264,8 @@ export default function RequestForm () {
         {selectedRequest === "PA" && (<>
         {/* // End of user code
        */}
-      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de passeport  : </p>
+      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de passeport  : {" "}
+      </p>
        <Select
           label="Motif de la demande pour le passeport"
           hint="" 
@@ -259,7 +332,8 @@ export default function RequestForm () {
         </>)} {selectedRequest === "CN" && (<>
         {/* // End of user code
        */}
-      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de carte d'identité : </p>
+      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de carte d'identité : {" "}
+      </p>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
       <Input 

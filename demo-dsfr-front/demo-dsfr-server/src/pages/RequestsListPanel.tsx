@@ -27,16 +27,35 @@ export default function RequestsListPanel () {
   const [data_ListRequestTable, setData_ListRequestTable] = useState<any[]>([]);
   
   // ----------------------------------------------
-  // Chargement des tables avec des données de test.
+  // Chargement des données (appels des services).
   // ----------------------------------------------
   useEffect(() => {
-    setData_ListRequestTable(getFakeTableData_ListRequestTable());
-    
     // Start of user code 437b0889bfbb91081f33fc51e544c470
-    getUserRequests("123");
-    
+    setData_ListRequestTable(getFakeTableData_ListRequestTable());
     // End of user code
+    
+    // Start of user code e5aef8b6d20ae639ba3ddccb57f65f73
+    // Placer ici le code pour l'initialisation des paramètres en entrée.
+    const userId = user?.id;
+    // End of user code
+    
+    getUserRequests(userId)
+      .then(rows => {
+        setData_ListRequestTable(
+        listRequestTableDataMap(rows));}); 
   }, []);
+  
+  // ----------------------------------------------
+  // Mapping des données pour ListRequestTable
+  // ----------------------------------------------
+  function listRequestTableDataMap (result) {
+     return result.map(req => [
+      req.type ?? "",
+      req.identifier ?? "",
+      req.status ?? "",
+      req.reason ?? "",
+     ]);
+   }
   
   /**
    * Retourne l'ensemble des demandes pour un utilisateur..
@@ -44,6 +63,7 @@ export default function RequestsListPanel () {
   async function getUserRequests(userId) {
     const result = await requests
       .getUserRequests(userId);
+    return result;
   }
   
   
@@ -65,7 +85,7 @@ export default function RequestsListPanel () {
       "Type de démarche",
       "Identifiant de la démarche",
       "Statut de la démarche",
-      "Accès aux documents associés",
+      "Raison de la démarche",
       ]}/>
     </>
   );

@@ -69,24 +69,33 @@ export default function ConnectionPanel () {
   // Fonction appelée lors de la soumission du formulaire.
   // -----------------------------------------------------
   const onSubmit = async (data: FormValues) => {
-    console.log("Formulaire soumis :", data);
-    const isValid = await validateAndExecuteForm(data);
-    
-    if (!isValid) {
-      setGlobalMessage({ 
-         text: "Nous ne trouvons pas de compte associé à ces informations. Assurez-vous que vos identifiants sont exacts.", 
-         severity: "error",
-      });
-      //reset(); 
-      return;
+    try {
+      console.log("Formulaire soumis :", data);
+      const isValid = await validateAndExecuteForm(data);
+      
+      if (!isValid) {
+        setGlobalMessage({ 
+           text: "Nous ne trouvons pas de compte associé à ces informations. Assurez-vous que vos identifiants sont exacts.", 
+           severity: "error",
+        });
+        //reset(); 
+        return;
+       }
+       
+       
+       
+       setGlobalMessage({ 
+          text: "Vous êtes maintenant connecté avec votre espace personnel.", 
+          severity: "success",
+       });
+       
+    } catch (error) {
+        console.error(error);
+        setGlobalMessage({
+          text: "Une erreur est survenue lors de l’enregistrement.",
+          severity: "error",
+        });
      }
-     
-     
-     
-     setGlobalMessage({ 
-        text: "Vous êtes maintenant connecté avec votre espace personnel.", 
-        severity: "success",
-     });
   };
   
   // ----------------------------------------------
@@ -123,6 +132,8 @@ export default function ConnectionPanel () {
      );
   }
   
+   
+        
   // Start of user code 2db3a48fc78d36b67cb4f1068ffcac92
   // End of user code
   

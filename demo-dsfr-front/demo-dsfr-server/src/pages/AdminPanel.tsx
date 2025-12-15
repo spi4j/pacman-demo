@@ -21,6 +21,9 @@ const modal = createModal({
    id: "edit-row-modal", 
    isOpenedByDefault: false 
 });
+import { apiClient } from "../api/apiClient";
+import { requests } from "demo-dsfr-client-rest";
+import { RequestDemo } from "demo-dsfr-client-rest";
 
 // Start of user code 5adad5b103d11d932756b57cf2338a44
 
@@ -98,37 +101,46 @@ export default function AdminPanel () {
   // Fonction appelée lors de la soumission du formulaire.
   // -----------------------------------------------------
   const onSubmit = async (data: FormValues) => {
-    console.log("Formulaire soumis :", data);
-    const isValid = await validateAndExecuteForm(data);
-    
-    if (!isValid) {
-      setGlobalMessage({ 
-         text: "", 
-         severity: "error",
-      });
-      //reset(); 
-      return;
+    try {
+      console.log("Formulaire soumis :", data);
+      const isValid = await validateAndExecuteForm(data);
+      
+      if (!isValid) {
+        setGlobalMessage({ 
+           text: "", 
+           severity: "error",
+        });
+        //reset(); 
+        return;
+       }
+       
+       
+       // ------------------------------------------------------
+       // Gestion des fenêtres modales pour les tables éditables.
+       // ------------------------------------------------------
+       if (!currentTable || !currentRow) return;
+       const updatedRow = [    data.inRequestType,     data.inRequestId,     data.inRequestUser,     data.inRequestStatus, 
+       ];
+       
+       if (currentTable === "requestsInProgressTable") {
+          setData_requestsInProgressTable(prev =>
+          prev.map(row => (row[0] === currentRow[0] ? updatedRow : row))
+          );
+       } 
+       modal.close();
+       
+       setGlobalMessage({ 
+          text: "", 
+          severity: "success",
+       });
+       
+    } catch (error) {
+        console.error(error);
+        setGlobalMessage({
+          text: "Une erreur est survenue lors de l’enregistrement.",
+          severity: "error",
+        });
      }
-     
-     
-     // ------------------------------------------------------
-     // Gestion des fenêtres modales pour les tables éditables.
-     // ------------------------------------------------------
-     if (!currentTable || !currentRow) return;
-     const updatedRow = [    data.inRequestType,     data.inRequestId,     data.inRequestUser,     data.inRequestStatus, 
-     ];
-     
-     if (currentTable === "requestsInProgressTable") {
-        setData_requestsInProgressTable(prev =>
-        prev.map(row => (row[0] === currentRow[0] ? updatedRow : row))
-        );
-     } 
-     modal.close();
-     
-     setGlobalMessage({ 
-        text: "", 
-        severity: "success",
-     });
   };
   
   // ----------------------------------------------
@@ -165,6 +177,8 @@ export default function AdminPanel () {
      );
   }
   
+   
+        
   // Start of user code 2db3a48fc78d36b67cb4f1068ffcac92
   // End of user code
   const [data_requestsInProgressTable, setData_requestsInProgressTable] = useState<any[]>([]);
@@ -200,15 +214,26 @@ export default function AdminPanel () {
   };
   
   // ----------------------------------------------
-  // Chargement des tables avec des données de test.
+  // Chargement des données (appels des services).
   // ----------------------------------------------
   useEffect(() => {
+    // Start of user code 437b0889bfbb91081f33fc51e544c470
     setData_requestsInProgressTable(getFakeTableData_requestsInProgressTable());
     setData_requestFinalizedTable(getFakeTableData_requestFinalizedTable());
-    
-    // Start of user code 437b0889bfbb91081f33fc51e544c470
     // End of user code
+    
   }, []);
+  
+  
+  /**
+   * Retourne la liste des demandes (tous utilisateurs confondus)..
+   */
+  async function getRequests() {
+    const result = await requests
+      .getRequests();
+    return result;
+  }
+  
   
   // Start of user code a845b1bb6c48236d0e87cf5136144aef
   // End of user code

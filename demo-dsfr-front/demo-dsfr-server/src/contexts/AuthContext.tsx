@@ -1,9 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
-
-type User = {
-  username: string;
-  roles: string[];
-};
+import { apiClient } from "../api/apiClient";
+import { users } from "demo-dsfr-client-rest";
+import { UserDemo } from "demo-dsfr-client-rest";
 
 type AuthContextType = {
   user: User | null;
@@ -24,7 +22,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Rechargement automatique depuis localStorage
   // --------------------------------------------
   useEffect(() => {
-    const storedUser = localStorage.getItem("user");
+    const storedUser = sessionStorage.getItem("user");
     if (storedUser) {
       setUser(JSON.parse(storedUser));
     }
@@ -35,8 +33,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Persistance automatique de l’utilisateur
   // ----------------------------------------
   useEffect(() => {
-    if (user) localStorage.setItem("user", JSON.stringify(user));
-    else localStorage.removeItem("user");
+    if (user) sessionStorage.setItem("user", JSON.stringify(user));
+    else sessionStorage.removeItem("user");
   }, [user]);
 
   // -------------------------------
@@ -46,14 +44,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     console.log("Tentative de connexion :", username, password);
 
     if (username === "12345" && password === "azerty") {
+      const userData = await users.getUser("3");
       console.log("Utilisateur connecté :", { username });
-      setUser({ username, roles: ["user"] });
+      setUser({ ...userData, roles: ["user"] });
       return true;
     }
 
     if (username === "admin" && password === "admin") {
       console.log("Administrateur connecté :", { username });
-      setUser({ username, roles: ["admin"] });
+      const userData = await users.getUser("5");
+      setUser({ ...userData, roles: ["admin"] });
       return true;
     }
     console.log("Authentification échouée");

@@ -32,17 +32,21 @@ export default function ProfilPanel () {
         content: (<>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Nom : </p>
+      <p className="fr-text--lg fr-text--bold">Nom : {" "}
+      {user?.lastName ?? "-"}</p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Prénom : </p>
+      <p className="fr-text--lg fr-text--bold">Prénom : {" "}
+      {user?.firstName ?? "-"}</p>
       </div></div>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Adresse mail : </p>
+      <p className="fr-text--lg fr-text--bold">Adresse mail : {" "}
+      {user?.mail ?? "-"}</p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Téléphone : </p>
+      <p className="fr-text--lg fr-text--bold">Téléphone : {" "}
+      {user?.phone ?? "-"}</p>
       </div></div>
       </>)},
       { 
@@ -50,13 +54,16 @@ export default function ProfilPanel () {
         iconId: "fr-icon-home-4-line",
         label: "Adresse",
         content: (<>
-      <p className="fr-text--lg fr-text--bold">Rue  : </p>
+      <p className="fr-text--lg fr-text--bold">Rue  : {" "}
+      {user?.address ?? "-"}</p>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Ville  : </p>
+      <p className="fr-text--lg fr-text--bold">Ville  : {" "}
+      {user?.city ?? "-"}</p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Code postal : </p>
+      <p className="fr-text--lg fr-text--bold">Code postal : {" "}
+      {user?.zipCode ?? "-"}</p>
       </div></div>
       </>)},
       { 
@@ -64,7 +71,8 @@ export default function ProfilPanel () {
         iconId: "fr-icon-lock-line",
         label: "Information de connexion",
         content: (<>
-      <p className="fr-text--lg fr-text--bold">Identifiant  : </p>
+      <p className="fr-text--lg fr-text--bold">Identifiant  : {" "}
+      {user?.login ?? "-"}</p>
       </>)},
       ]}/>
     </>

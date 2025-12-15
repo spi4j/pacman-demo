@@ -23,6 +23,7 @@ export interface RequestDemo {
   /** Le statut de la démarche.. */
   status: string;
   
-  /** Utilisateur de l'application. */
-  userDemo_hasRequests : UserDemo ;
+  
+  /** L'identifiant pour UserDemo. */
+  userDemo_id  : string;
 }
