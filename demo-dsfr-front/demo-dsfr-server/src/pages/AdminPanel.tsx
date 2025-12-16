@@ -32,11 +32,12 @@ import { RequestDemo } from "demo-dsfr-client-rest";
 // ------------------------------------------------------
 const selectColumns: Record<number, Record<string, string>> = {
    3: {
-     S:"Soumise",
-     ET:"En cours de traitement",
-     EV:"En cours de vérification",
-     EA:"En attente de pièces complémentaires",
-     C:"Complétée",
+     DE:"Déposée",
+     ET:"En cours",
+     AC:"Acceptée",
+     TE:"Traitée",
+     RE:"Rejetée",
+     AN:"Annulée",
   },
 };
 // End of user code
@@ -129,6 +130,10 @@ export default function AdminPanel () {
        } 
        modal.close();
        
+       // Start of user code 662e9e4f936a26d2a3b4f4353662e3eb
+          
+       // End of user code
+          
        setGlobalMessage({ 
           text: "", 
           severity: "success",
@@ -222,8 +227,69 @@ export default function AdminPanel () {
     setData_requestFinalizedTable(getFakeTableData_requestFinalizedTable());
     // End of user code
     
+    // Start of user code 4f0f56ca550b4c895a23f6827b2f1aad
+    // Placer ici le code pour l'initialisation des paramètres en entrée.
+    // End of user code
+    
+    getRequests()
+      .then(rows => {
+        setData_requestsInProgressTable(
+        requestsInProgressTableDataMap(rows));}); 
+    // Start of user code dec1497ef742ce9e841a4089b4fb2fb1
+    // Placer ici le code pour l'initialisation des paramètres en entrée.
+    // End of user code
+    
+    getRequests()
+      .then(rows => {
+        setData_requestFinalizedTable(
+        requestFinalizedTableDataMap(rows));}); 
   }, []);
   
+  // ----------------------------------------------
+  // Mapping des données pour requestsInProgressTable
+  // ----------------------------------------------
+  function requestsInProgressTableDataMap (result) {
+     return result
+       // Start of user code 4867ee96dbb0b03a64af598e3d38fe2c
+       .filter(req => req.status !== "TE")
+       // End of user code
+       .map(req => { 
+       const row = [
+       req.type ?? "",
+       req.identifier ?? "",
+       req.reason ?? "",
+       req.status ?? "",
+       ];
+       // Start of user code 44f42bebb02e5178be62e4efeb211adf
+       row[0] = REQUEST_TYPE_LABELS[req.type] ?? row[0];
+       row[2] = REQUEST_REASON_LABELS[req.reason] ?? row[3];
+       // End of user code
+       return row;
+     });
+   }
+  // ----------------------------------------------
+  // Mapping des données pour requestFinalizedTable
+  // ----------------------------------------------
+  function requestFinalizedTableDataMap (result) {
+     return result
+       // Start of user code c61d8bfbb5ad9c3e07e633f1b31d34b9
+       .filter(req => req.status == "TE")
+       // End of user code
+       .map(req => { 
+       const row = [
+       req.type ?? "",
+       req.identifier ?? "",
+       req.reason ?? "",
+       req.status ?? "",
+       ];
+       // Start of user code eca511d5b64f77037701e975fba2c7c8
+       row[0] = REQUEST_TYPE_LABELS[req.type] ?? row[0];
+       row[3] = REQUEST_STATUS_LABELS[req.status] ?? row[2];
+       row[2] = REQUEST_REASON_LABELS[req.reason] ?? row[3];
+       // End of user code
+       return row;
+     });
+   }
   
   /**
    * Retourne la liste des demandes (tous utilisateurs confondus)..
@@ -236,6 +302,33 @@ export default function AdminPanel () {
   
   
   // Start of user code a845b1bb6c48236d0e87cf5136144aef
+  
+    const REQUEST_TYPE_LABELS: Record<string, string> = {
+    PA: "Demande de passeport",
+    CN: "Demande de carte d'identité",
+    CG: "Demande de carte grise",
+    PC: "Demande de permis de conduire",
+    CE: "Demande de carte électorale",
+    TF: "Demande de timbres fiscaux",
+   };
+  
+   const REQUEST_REASON_LABELS: Record<string, string> = {
+    PD: "Première demande",
+    RE: "Renouvellement",
+    CA: "Changement d'adresse",
+    PE: "Perte",
+    VO: "Vol",
+   };
+  
+   const REQUEST_STATUS_LABELS: Record<string, string> = {
+    DE: "Déposée",
+    ET: "En cours",
+    AC: "Acceptée",
+    TE: "Traitée",
+    RE: "Rejetée",
+    AN: "Annulée",
+   };
+   
   // End of user code
   
   return (
@@ -278,7 +371,7 @@ export default function AdminPanel () {
       headers={[
       "Type de demande",
       "Identifiant de la démarche",
-      "Utilisateur propriétaire de la demande",
+      "Motif de la demande",
       "Statut de la demande",
       "Edition",
       ]}/>
@@ -373,11 +466,12 @@ export default function AdminPanel () {
           }
        >
        <option value="">Selectionnez une option</option>
-       <option value="S">Soumise</option>
-       <option value="ET">En cours de traitement</option>
-       <option value="EV">En cours de vérification</option>
-       <option value="EA">En attente de pièces complémentaires</option>
-       <option value="C">Complétée</option>
+       <option value="DE">Déposée</option>
+       <option value="ET">En cours</option>
+       <option value="AC">Acceptée</option>
+       <option value="TE">Traitée</option>
+       <option value="RE">Rejetée</option>
+       <option value="AN">Annulée</option>
       </Select>
       <p/><Button type="submit">Valider</Button>
           </div> {/* writeCloseForm */}
@@ -403,7 +497,7 @@ export default function AdminPanel () {
       headers={[
       "Type de demande",
       "Identifiant de la démarche",
-      "Utilisateur propriétaire de la demande",
+      "Motif de la demande",
       "Statut de la demande",
       ]}/>
       </Accordion>

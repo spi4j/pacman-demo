@@ -107,10 +107,10 @@ public class Demo_dsfr_restDbPopulateImpl {
 		userDemo.setFirstName(fn);
 		userDemo.setLastName(ln);
 		userDemo.setPhone(faker.phoneNumber().phoneNumber());
-		userDemo.setMail(faker.internet().emailAddress(fn + "." + ln));
+		userDemo.setMail(faker.internet().emailAddress(fn + "." + ln).toLowerCase());
 		userDemo.setCity(faker.address().city());
 		userDemo.setZipCode(faker.address().zipCode());
-		userDemo.setLogin(faker.credentials().username());
+		userDemo.setLogin((fn + "." + ln).toLowerCase());
 		userDemo.setAddress(faker.address().streetAddress());
 		userDemo.setCivility(faker.name().prefix());
 		userDemo.setDateOfBirth(randomLocalDate(80));
@@ -130,14 +130,10 @@ public class Demo_dsfr_restDbPopulateImpl {
 
 		// Start of user code 2b3517d11bcb1172ba92edf896aa109a
 
-		requestDemo.setType(
-				faker.options().option("Demande de passeport", "Demande de carte d'identité", "Demande de carte grise",
-						"Demande de permis de conduire", "Demande de carte électorale", "Demande de timbres fiscaux"));
-		requestDemo.setReason(faker.options().option("Renouvellement", "Première demande",
-				"Renouvellement suite à perte", "Renouvellement suite à vol", "Changement d'adresse"));
+		requestDemo.setType(faker.options().option("PA", "CN", "CG", "PC", "CE", "TF"));
+		requestDemo.setReason(faker.options().option("RE", "PD", "PE", "VO", "CA"));
 		requestDemo.setIdentifier(faker.code().asin());
-		requestDemo.setStatus(
-				faker.options().option("En cours de traitement", "Acceptée", "Traitée", "Rejetée", "Annulée"));
+		requestDemo.setStatus(faker.options().option("DE", "ET", "AC", "TE", "RE", "AN"));
 		requestDemo.setUserDemo_hasRequests(userDemo);
 
 		// End of user code

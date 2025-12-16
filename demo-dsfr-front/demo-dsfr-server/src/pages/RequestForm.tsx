@@ -93,9 +93,14 @@ export default function RequestForm () {
         return;
        }
        
-              const payload = buildRequestFormPayload(data);
+       
+       const payload = buildRequestFormPayload(data);
        await setRequest(payload);
        
+       // Start of user code e44bd242ede4029a648d53ff249e5a9a
+          
+       // End of user code
+          
        setGlobalMessage({ 
           text: "La demande a bien été envoyé.", 
           severity: "success",
@@ -151,19 +156,19 @@ export default function RequestForm () {
   function buildRequestFormPayload(data : FormValues) 
   {
     return {
-      reason : data.purposePassRequestSelect,
-      reason : data.purposeCniRequestSelect,
+      reason: data.purposePassRequestSelect,
+      reason: data.purposeCniRequestSelect,
       // Start of user code 10b7ef2154c9c5efc789dd8d75b7df7e
       
       reason:
       data.requestSelect === "PA"
-        ? PASSPORT_REASON_LABELS[data.purposePassRequestSelect]
+        ? data.purposePassRequestSelect
         : data.requestSelect === "CN"
-        ? CNI_REASON_LABELS[data.purposeCniRequestSelect]
+        ? data.purposeCniRequestSelect
         : null,
-      type: REQUEST_TYPE_LABELS[data.requestSelect] ?? data.requestSelect,
+      type: data.requestSelect,
       identifier: "B4508QFJAA",
-      status: "Déposée",
+      status: "DE",
       userDemo_id: user?.id,
       
       // End of user code
@@ -189,29 +194,6 @@ export default function RequestForm () {
   
   
   // Start of user code 0a2fc978427341faec5d316c3c3ea150
-  
-  const REQUEST_TYPE_LABELS: Record<string, string> = {
-    PA: "Demande de passeport",
-    CN: "Demande de carte d'identité",
-    CG: "Demande de carte grise",
-    PC: "Demande de permis de conduire",
-    CE: "Demande de carte électorale",
-    TF: "Demande de timbres fiscaux",
-  };
-  
-  const PASSPORT_REASON_LABELS: Record<string, string> = {
-    PD: "Première demande",
-    RE: "Renouvellement",
-    PE: "Perte",
-    VO: "Vol",
-  };
-  
-  const CNI_REASON_LABELS: Record<string, string> = {
-    PD: "Première demande",
-    RE: "Renouvellement",
-    PE: "Perte",
-    VO: "Vol",
-  };
   // End of user code
   
   return (

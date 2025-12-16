@@ -84,6 +84,10 @@ export default function ConnectionPanel () {
        
        
        
+       // Start of user code 898b7ec196b52eca0fecaa7867e09ea5
+          
+       // End of user code
+          
        setGlobalMessage({ 
           text: "Vous êtes maintenant connecté avec votre espace personnel.", 
           severity: "success",

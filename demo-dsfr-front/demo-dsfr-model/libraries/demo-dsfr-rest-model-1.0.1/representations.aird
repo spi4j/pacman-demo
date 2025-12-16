@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_2="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:manifest="http://www.obeonetwork.org/dsl/manifest/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oent="http://www.obeonetwork.org/dsl/entity/3.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:requirement="http://www.obeonetwork.org/dsl/requirement/1.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis uid="_2tULQLl2EfCXjffJImK66Q" selectedViews="_3E9PMLl2EfCXjffJImK66Q _3FWQwLl2EfCXjffJImK66Q _3FbJQLl2EfCXjffJImK66Q _3XyEkLl2EfCXjffJImK66Q _3YAuELl2EfCXjffJImK66Q _3b_PILl2EfCXjffJImK66Q _3cPGwLl2EfCXjffJImK66Q" version="105.0.0">
+  <viewpoint:DAnalysis uid="_2tULQLl2EfCXjffJImK66Q" selectedViews="_3E9PMLl2EfCXjffJImK66Q _3FWQwLl2EfCXjffJImK66Q _3FbJQLl2EfCXjffJImK66Q _3XyEkLl2EfCXjffJImK66Q _3YAuELl2EfCXjffJImK66Q _3b_PILl2EfCXjffJImK66Q _3cPGwLl2EfCXjffJImK66Q _RqPsoNXPEfCYms6aHvRZSw" version="105.0.0">
     <semanticResources>platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment</semanticResources>
     <semanticResources>demo-dsfr-rest.entity</semanticResources>
     <semanticResources>demo-dsfr-rest.requirement</semanticResources>
@@ -62,6 +62,9 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.soa.design/description/soa.odesign#//@ownedViewpoints[name='SOA%20Views']/@ownedRepresentations[name='Component%20Contract%20Diagram']"/>
         <target xmi:type="soa:Component" href="demo-dsfr-rest.soa#_8hDORsn6EfCBednkP-lEaQ"/>
       </ownedRepresentationDescriptors>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_RqPsoNXPEfCYms6aHvRZSw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.environment.binding.design/description/binding.odesign#//@ownedViewpoints[name='IS%20Databinding']"/>
     </ownedViews>
   </viewpoint:DAnalysis>
   <diagram:DSemanticDiagram uid="_3GA_ILl2EfCXjffJImK66Q">

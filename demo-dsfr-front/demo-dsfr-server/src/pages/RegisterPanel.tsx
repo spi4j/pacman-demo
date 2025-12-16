@@ -102,6 +102,10 @@ export default function RegisterPanel () {
        
        
        
+       // Start of user code 7fb2063420987239932587e096b544e8
+          
+       // End of user code
+          
        setGlobalMessage({ 
           text: "Les données ont bien été enregistrées, vous pouvez désormais vous connecter à votre espace personnel.", 
           severity: "success",

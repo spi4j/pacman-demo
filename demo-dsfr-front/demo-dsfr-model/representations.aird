@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-toolkits="http://www.obeonetwork.org/dsl/cinematic/toolkits/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:manifest="http://www.obeonetwork.org/dsl/manifest/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:style_1="http://www.eclipse.org/sirius/description/style/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//flow http://www.obeonetwork.org/dsl/cinematic/toolkits/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//toolkits http://www.obeonetwork.org/dsl/cinematic/view/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//view http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://www.eclipse.org/sirius/description/style/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description/style">
-  <viewpoint:DAnalysis uid="_m3vJsKkPEfCaZO_mXFe3Rw" selectedViews="_m93m4KkPEfCaZO_mXFe3Rw _nBF6AKkPEfCaZO_mXFe3Rw _xN5BALotEfCoqpzTQmO7pQ _8haaoMn6EfCBednkP-lEaQ _8hlZwMn6EfCBednkP-lEaQ _8hvx0Mn6EfCBednkP-lEaQ _8jUfIMn6EfCBednkP-lEaQ _8jZ-sMn6EfCBednkP-lEaQ" version="105.0.0">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bindingdialect="http://www.obeonetwork.org/dsl/environment/binding/dialect/1.0.0" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-toolkits="http://www.obeonetwork.org/dsl/cinematic/toolkits/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/tree/description/1.0.0" xmlns:description_2="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:description_3="http://www.obeonetwork.org/dsl/environment/binding/dialect/description/1.0.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:manifest="http://www.obeonetwork.org/dsl/manifest/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:style_1="http://www.eclipse.org/sirius/description/style/1.1.0" xmlns:tree="http://www.eclipse.org/sirius/tree/1.0.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//flow http://www.obeonetwork.org/dsl/cinematic/toolkits/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//toolkits http://www.obeonetwork.org/dsl/cinematic/view/1.0.0 http://www.obeonetwork.org/dsl/cinematic/3.0.0#//view http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/tree/description/1.0.0 http://www.eclipse.org/sirius/tree/1.0.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.obeonetwork.org/dsl/environment/binding/dialect/description/1.0.0 http://www.obeonetwork.org/dsl/environment/binding/dialect/1.0.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style http://www.eclipse.org/sirius/description/style/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_m3vJsKkPEfCaZO_mXFe3Rw" selectedViews="_m93m4KkPEfCaZO_mXFe3Rw _nBF6AKkPEfCaZO_mXFe3Rw _xN5BALotEfCoqpzTQmO7pQ _8haaoMn6EfCBednkP-lEaQ _8hlZwMn6EfCBednkP-lEaQ _8hvx0Mn6EfCBednkP-lEaQ _8jUfIMn6EfCBednkP-lEaQ _8jZ-sMn6EfCBednkP-lEaQ _RqOegNXPEfCYms6aHvRZSw" version="105.0.0">
     <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="libraries/demo-dsfr-rest-model-1.0.1/representations.aird#_2tULQLl2EfCXjffJImK66Q"/>
     <semanticResources>platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment</semanticResources>
     <semanticResources>demo-dsfr-model.cinematic</semanticResources>
@@ -11,7 +11,7 @@
     <eAnnotations xmi:type="description:DAnnotationEntry" uid="_m62vIKkPEfCaZO_mXFe3Rw" source="FIRST_SESSION_OPENNING_PERFORMED"/>
     <ownedViews xmi:type="viewpoint:DView" uid="_m93m4KkPEfCaZO_mXFe3Rw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_nFfR0KkPEfCaZO_mXFe3Rw" name="demo-dsfr-model - UI Structure" repPath="#_nBrv4KkPEfCaZO_mXFe3Rw" changeId="1764344063291">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_nFfR0KkPEfCaZO_mXFe3Rw" name="demo-dsfr-model - UI Structure" repPath="#_nBrv4KkPEfCaZO_mXFe3Rw" changeId="1765266403802">
         <description xmi:type="description_1:TreeDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='UI%20Structure']"/>
         <target xmi:type="cinematic:CinematicRoot" href="demo-dsfr-model.cinematic#_m75Q8KkPEfCaZO_mXFe3Rw"/>
       </ownedRepresentationDescriptors>
@@ -23,7 +23,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_BC4EoqmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_GwxJoamFEfCpWIL5h8qf4A" name="localRequestsListPanel View Container Mockup" repPath="#_GwwikKmFEfCpWIL5h8qf4A" changeId="1762160428772">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_GwxJoamFEfCpWIL5h8qf4A" name="localRequestsListPanel View Container Mockup" repPath="#_GwwikKmFEfCpWIL5h8qf4A" changeId="1765459153374">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_dCxeAqmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
@@ -55,7 +55,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']"/>
         <target xmi:type="cinematic-flow:Flow" href="demo-dsfr-model.cinematic#_w0U88amDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_59iSQamFEfCpWIL5h8qf4A" name="applicationFlow Flow Diagram" repPath="#_59hrMKmFEfCpWIL5h8qf4A" changeId="1764078344745">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_59iSQamFEfCpWIL5h8qf4A" name="applicationFlow Flow Diagram" repPath="#_59hrMKmFEfCpWIL5h8qf4A" changeId="1765874449526">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']"/>
         <target xmi:type="cinematic-flow:Flow" href="demo-dsfr-model.cinematic#_y5sG8amDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
@@ -107,7 +107,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_vb7SMbSdEfCZPdtqbACrBg"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_9ITC0bYiEfCBwfPZ3usFUA" name="adminPanel View Container Mockup" repPath="#_9ISbwLYiEfCBwfPZ3usFUA" changeId="1762172129970">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_9ITC0bYiEfCBwfPZ3usFUA" name="adminPanel View Container Mockup" repPath="#_9ISbwLYiEfCBwfPZ3usFUA" changeId="1765889995124">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_2Ex8wrYiEfCBwfPZ3usFUA"/>
       </ownedRepresentationDescriptors>
@@ -152,6 +152,13 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_8jZ-sMn6EfCBednkP-lEaQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.is.design/description/safran-is.odesign#//@ownedViewpoints[name='SOA%20(ISD%20consolidated%20view)']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="_RqOegNXPEfCYms6aHvRZSw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.environment.binding.design/description/binding.odesign#//@ownedViewpoints[name='IS%20Databinding']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_R-naINXPEfCYms6aHvRZSw" name="Binding ListRequestTable - requestDemo" repPath="#_R-mMANXPEfCYms6aHvRZSw">
+        <description xmi:type="description_3:DBindingEditorDescription" href="platform:/plugin/org.obeonetwork.dsl.environment.binding.design/description/binding.odesign#//@ownedViewpoints[name='IS%20Databinding']/@ownedRepresentations[name='Binding%20Details']"/>
+        <target xmi:type="oenv:BindingInfo" href="demo-dsfr-model.cinematic#_3ZjzMcxvEfCimP2YDicPfQ"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
   <tree:DTree uid="_nBrv4KkPEfCaZO_mXFe3Rw">
@@ -1723,7 +1730,7 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_27ivc7CtEfCiZpQZH0nslw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_27iIYbCtEfCiZpQZH0nslw" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27iIYrCtEfCiZpQZH0nslw" x="432" y="16" height="45"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27iIYrCtEfCiZpQZH0nslw" x="432" y="16" width="249" height="45"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_SkzHQrCqEfC3orNkt0KDHA"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_SkzHQ7CqEfC3orNkt0KDHA"/>
@@ -1785,7 +1792,7 @@
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_2J3a4LCtEfCiZpQZH0nslw" labelSize="12" showIcon="false" description="_1o-UULCtEfCiZpQZH0nslw" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
           <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']/@defaultLayer/@containerMappings[name='VCD_RootViewContainer']/@subContainerMappings[name='VCD_ViewElement']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_27gTMrCtEfCiZpQZH0nslw" name="Accès aux documents associés">
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_27gTMrCtEfCiZpQZH0nslw" name="Raison de la démarche">
           <target xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_27fsIrCtEfCiZpQZH0nslw"/>
           <semanticElements xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_27fsIrCtEfCiZpQZH0nslw"/>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_27g6QLCtEfCiZpQZH0nslw" labelSize="12" showIcon="false" description="_1o-UULCtEfCiZpQZH0nslw" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
@@ -3049,27 +3056,11 @@
         <children xmi:type="notation:Node" xmi:id="_59sqUKmFEfCpWIL5h8qf4A" type="2003" element="_59nKw6mFEfCpWIL5h8qf4A">
           <children xmi:type="notation:Node" xmi:id="_59tRYKmFEfCpWIL5h8qf4A" type="5007"/>
           <children xmi:type="notation:Node" xmi:id="_59tRYamFEfCpWIL5h8qf4A" type="7004">
-            <children xmi:type="notation:Node" xmi:id="_rGoSYLouEfCoqpzTQmO7pQ" type="3010" element="_rGXMoLouEfCoqpzTQmO7pQ">
-              <styles xmi:type="notation:FontStyle" xmi:id="_rGoSYbouEfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_rGoSYrouEfCoqpzTQmO7pQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_fCZPALovEfCoqpzTQmO7pQ" type="3010" element="_fCMasLovEfCoqpzTQmO7pQ">
-              <styles xmi:type="notation:FontStyle" xmi:id="_fCZPAbovEfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_fCZPArovEfCoqpzTQmO7pQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_ebl7cLo0EfCoqpzTQmO7pQ" type="3010" element="_ebZuMLo0EfCoqpzTQmO7pQ">
-              <styles xmi:type="notation:FontStyle" xmi:id="_ebl7cbo0EfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_ebl7cro0EfCoqpzTQmO7pQ"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_g6TZkLo0EfCoqpzTQmO7pQ" type="3010" element="_g6F-MLo0EfCoqpzTQmO7pQ">
-              <styles xmi:type="notation:FontStyle" xmi:id="_g6TZkbo0EfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_g6TZkro0EfCoqpzTQmO7pQ"/>
-            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_59tRYqmFEfCpWIL5h8qf4A"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_59tRY6mFEfCpWIL5h8qf4A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_59sqUamFEfCpWIL5h8qf4A" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59sqUqmFEfCpWIL5h8qf4A" x="1008" y="588"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59sqUqmFEfCpWIL5h8qf4A" x="-78" y="36"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_8KnN0KmFEfCpWIL5h8qf4A" type="2001" element="_8Ki8YKmFEfCpWIL5h8qf4A">
           <children xmi:type="notation:Node" xmi:id="_8KnN06mFEfCpWIL5h8qf4A" type="5002">
@@ -3348,7 +3339,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KnVgro0EfCoqpzTQmO7pQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_2KidAbo0EfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="10" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KidAro0EfCoqpzTQmO7pQ" x="-108" y="219" width="50" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2KidAro0EfCoqpzTQmO7pQ" x="-96" y="299" width="50" height="50"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_59mjsqmFEfCpWIL5h8qf4A"/>
         <edges xmi:type="notation:Edge" xmi:id="_8KtUcKmFEfCpWIL5h8qf4A" visible="false" type="4001" element="_8KlYoKmFEfCpWIL5h8qf4A" source="_8KnN0KmFEfCpWIL5h8qf4A" target="_8KstYKmFEfCpWIL5h8qf4A">
@@ -3561,7 +3552,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_E9y8kK_aEfChh63joL0dtA" type="4001" element="_E9uEQK_aEfChh63joL0dtA" source="_MRkqUKmGEfCpWIL5h8qf4A" target="_5TgBUKmGEfCpWIL5h8qf4A">
           <children xmi:type="notation:Node" xmi:id="_E9y8lK_aEfChh63joL0dtA" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E9y8la_aEfChh63joL0dtA" x="90" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E9y8la_aEfChh63joL0dtA" x="-69" y="-20"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_E9y8lq_aEfChh63joL0dtA" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E9y8l6_aEfChh63joL0dtA" x="103" y="-124"/>
@@ -3753,7 +3744,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_j3QsMLovEfCoqpzTQmO7pQ" type="4001" element="_j3IwtLovEfCoqpzTQmO7pQ" source="_SBT0UKmGEfCpWIL5h8qf4A" target="_boDPELovEfCoqpzTQmO7pQ">
           <children xmi:type="notation:Node" xmi:id="_j3QsNLovEfCoqpzTQmO7pQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3QsNbovEfCoqpzTQmO7pQ" x="-9" y="-4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3QsNbovEfCoqpzTQmO7pQ" x="-9" y="-15"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_j3QsNrovEfCoqpzTQmO7pQ" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3QsN7ovEfCoqpzTQmO7pQ" x="-10" y="1"/>
@@ -3785,7 +3776,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_l9MEoLo0EfCoqpzTQmO7pQ" type="4001" element="_l9EJD7o0EfCoqpzTQmO7pQ" source="_PJBdULYjEfCBwfPZ3usFUA" target="_5kms8LowEfCoqpzTQmO7pQ">
           <children xmi:type="notation:Node" xmi:id="_l9MEpLo0EfCoqpzTQmO7pQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9MEpbo0EfCoqpzTQmO7pQ" x="-17" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9MEpbo0EfCoqpzTQmO7pQ" x="-20" y="-19"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_l9MEpro0EfCoqpzTQmO7pQ" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_l9MEp7o0EfCoqpzTQmO7pQ" x="-5" y="10"/>
@@ -3817,7 +3808,7 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_oKmXYLo0EfCoqpzTQmO7pQ" type="4001" element="_oKfDB7o0EfCoqpzTQmO7pQ" source="_PJBdULYjEfCBwfPZ3usFUA" target="_02R8oLowEfCoqpzTQmO7pQ">
           <children xmi:type="notation:Node" xmi:id="_oKmXZLo0EfCoqpzTQmO7pQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oKmXZbo0EfCoqpzTQmO7pQ" x="-47" y="16"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oKmXZbo0EfCoqpzTQmO7pQ" x="-21" y="13"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_oKmXZro0EfCoqpzTQmO7pQ" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oKmXZ7o0EfCoqpzTQmO7pQ" x="2" y="-10"/>
@@ -3849,34 +3840,34 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_8CRscLo0EfCoqpzTQmO7pQ" type="4001" element="_8CKXsro0EfCoqpzTQmO7pQ" source="_5TgBUKmGEfCpWIL5h8qf4A" target="_2KidALo0EfCoqpzTQmO7pQ">
           <children xmi:type="notation:Node" xmi:id="_8CRsdLo0EfCoqpzTQmO7pQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsdbo0EfCoqpzTQmO7pQ" x="2" y="11"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsdbo0EfCoqpzTQmO7pQ" x="-21" y="17"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_8CRsdro0EfCoqpzTQmO7pQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsd7o0EfCoqpzTQmO7pQ" y="-8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsd7o0EfCoqpzTQmO7pQ" x="13" y="-9"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_8CRseLo0EfCoqpzTQmO7pQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsebo0EfCoqpzTQmO7pQ" x="-1" y="-9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8CRsebo0EfCoqpzTQmO7pQ" x="17"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_8CRscbo0EfCoqpzTQmO7pQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_8CRscro0EfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8CRsc7o0EfCoqpzTQmO7pQ" points="[-2, 0, 134, -1]$[-127, 0, 9, -1]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8CRsero0EfCoqpzTQmO7pQ" id="(0.011904761904761904,0.23529411764705882)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8CRse7o0EfCoqpzTQmO7pQ" id="(0.8,0.24)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8CRsc7o0EfCoqpzTQmO7pQ" points="[-2, 0, 140, -68]$[-140, 0, 2, -68]$[-140, 68, 2, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8CRsero0EfCoqpzTQmO7pQ" id="(0.011904761904761904,0.2647058823529412)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8CRse7o0EfCoqpzTQmO7pQ" id="(0.44,0.0)"/>
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_C2PTkLo1EfCoqpzTQmO7pQ" type="4001" element="_C2GxIro1EfCoqpzTQmO7pQ" source="_2KidALo0EfCoqpzTQmO7pQ" target="_5TgBUKmGEfCpWIL5h8qf4A">
           <children xmi:type="notation:Node" xmi:id="_C2PTlLo1EfCoqpzTQmO7pQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTlbo1EfCoqpzTQmO7pQ" x="53" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTlbo1EfCoqpzTQmO7pQ" x="43" y="-3"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_C2PTlro1EfCoqpzTQmO7pQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTl7o1EfCoqpzTQmO7pQ" x="-14" y="6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTl7o1EfCoqpzTQmO7pQ" x="2" y="-2"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_C2PTmLo1EfCoqpzTQmO7pQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTmbo1EfCoqpzTQmO7pQ" x="-2" y="-9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C2PTmbo1EfCoqpzTQmO7pQ" x="3" y="-1"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_C2PTkbo1EfCoqpzTQmO7pQ"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_C2PTkro1EfCoqpzTQmO7pQ" fontColor="3943168" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C2PTk7o1EfCoqpzTQmO7pQ" points="[0, 24, -235, 16]$[0, 56, -235, 48]$[235, 56, 0, 48]$[235, 11, 0, 3]"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C2PTm7o1EfCoqpzTQmO7pQ" id="(0.5119047619047619,0.8823529411764706)"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C2PTk7o1EfCoqpzTQmO7pQ" points="[24, -6, -145, 67]$[169, -6, 0, 67]$[169, -69, 0, 4]"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C2PTm7o1EfCoqpzTQmO7pQ" id="(0.19047619047619047,0.8529411764705882)"/>
         </edges>
       </data>
     </ownedAnnotationEntries>
@@ -3900,38 +3891,6 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_rGXMoLouEfCoqpzTQmO7pQ" name="registerNewUser (1)">
-        <target xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_rGWlkbouEfCoqpzTQmO7pQ"/>
-        <semanticElements xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_rGWlkbouEfCoqpzTQmO7pQ"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_rGXzsLouEfCoqpzTQmO7pQ" labelColor="0,43,60" labelAlignment="LEFT">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_fCMasLovEfCoqpzTQmO7pQ" name="registerNewRequest (1)">
-        <target xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_fCLzobovEfCoqpzTQmO7pQ"/>
-        <semanticElements xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_fCLzobovEfCoqpzTQmO7pQ"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_fCMasbovEfCoqpzTQmO7pQ" labelColor="0,43,60" labelAlignment="LEFT">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_ebZuMLo0EfCoqpzTQmO7pQ" name="listAllEvents (0)">
-        <target xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_ebZHIbo0EfCoqpzTQmO7pQ"/>
-        <semanticElements xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_ebZHIbo0EfCoqpzTQmO7pQ"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_ebZuMbo0EfCoqpzTQmO7pQ" labelColor="0,43,60" labelAlignment="LEFT">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_g6F-MLo0EfCoqpzTQmO7pQ" name="ListAllUserEvents (0)">
-        <target xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_g6FXIbo0EfCoqpzTQmO7pQ"/>
-        <semanticElements xmi:type="cinematic-flow:FlowEvent" href="demo-dsfr-model.cinematic#_g6FXIbo0EfCoqpzTQmO7pQ"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_g6F-Mbo0EfCoqpzTQmO7pQ" labelColor="0,43,60" labelAlignment="LEFT">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@additionalLayers[name='Flow%20Events']/@containerMappings[name='FLD_FlowEvents']/@subNodeMappings[name='FLD_FlowEvent']"/>
-      </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_8Ki8YKmFEfCpWIL5h8qf4A" name="footerState" outgoingEdges="_8KlYoKmFEfCpWIL5h8qf4A" width="15" height="15" resizeKind="NSEW">
       <target xmi:type="cinematic-flow:ViewState" href="demo-dsfr-model.cinematic#_66EzAamFEfCpWIL5h8qf4A"/>
@@ -4410,7 +4369,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@nodeMappings[name='FLD_ActionState']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2KVosLo0EfCoqpzTQmO7pQ" name="listAllUserEvents" outgoingEdges="_C2GxIro1EfCoqpzTQmO7pQ" incomingEdges="_8CKXsro0EfCoqpzTQmO7pQ" width="5" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_2KVosLo0EfCoqpzTQmO7pQ" name="listUserRequests" outgoingEdges="_C2GxIro1EfCoqpzTQmO7pQ" incomingEdges="_8CKXsro0EfCoqpzTQmO7pQ" width="5" height="5" resizeKind="NSEW">
       <target xmi:type="cinematic-flow:ActionState" href="demo-dsfr-model.cinematic#_2KVBobo0EfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:ActionState" href="demo-dsfr-model.cinematic#_2KVBobo0EfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_2KVosbo0EfCoqpzTQmO7pQ" labelSize="10" showIcon="false" labelColor="0,43,60" workspacePath="/org.obeonetwork.dsl.cinematic.design/icons/viewpoint/action.svg">
@@ -4419,7 +4378,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@nodeMappings[name='FLD_ActionState']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y6CkVrouEfCoqpzTQmO7pQ" name="registerNewUser" sourceNode="_Ej47AK5qEfChnv0egttq_g" targetNode="_bI0K0LouEfCoqpzTQmO7pQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y6CkVrouEfCoqpzTQmO7pQ" sourceNode="_Ej47AK5qEfChnv0egttq_g" targetNode="_bI0K0LouEfCoqpzTQmO7pQ">
       <target xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_yG7sYbouEfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_yG7sYbouEfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_y6CkV7ouEfCoqpzTQmO7pQ" lineStyle="dash" strokeColor="0,43,60">
@@ -4439,7 +4398,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@edgeMappings[name='FLD_Transition']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_j3IwtLovEfCoqpzTQmO7pQ" name="registerNewRequest" sourceNode="_SBNtsKmGEfCpWIL5h8qf4A" targetNode="_bn5eELovEfCoqpzTQmO7pQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_j3IwtLovEfCoqpzTQmO7pQ" name="requestSubmit_onSubmit" sourceNode="_SBNtsKmGEfCpWIL5h8qf4A" targetNode="_bn5eELovEfCoqpzTQmO7pQ">
       <target xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_jSNeYbovEfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_jSNeYbovEfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_j3IwtbovEfCoqpzTQmO7pQ" lineStyle="dash" strokeColor="0,43,60">
@@ -4459,7 +4418,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@edgeMappings[name='FLD_Transition']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_l9EJD7o0EfCoqpzTQmO7pQ" name="listAllEvents" sourceNode="_PI3FQLYjEfCBwfPZ3usFUA" targetNode="_5kZ4oLowEfCoqpzTQmO7pQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_l9EJD7o0EfCoqpzTQmO7pQ" name="requestFinalizedTable_onLoad" sourceNode="_PI3FQLYjEfCBwfPZ3usFUA" targetNode="_5kZ4oLowEfCoqpzTQmO7pQ">
       <target xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_lAucYbo0EfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_lAucYbo0EfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_l9EJELo0EfCoqpzTQmO7pQ" lineStyle="dash" strokeColor="0,43,60">
@@ -4479,7 +4438,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@edgeMappings[name='FLD_Transition']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_oKfDB7o0EfCoqpzTQmO7pQ" name="listAllEvents" sourceNode="_PI3FQLYjEfCBwfPZ3usFUA" targetNode="_02DTIrowEfCoqpzTQmO7pQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_oKfDB7o0EfCoqpzTQmO7pQ" name="requestsInProgressTable_onLoad" sourceNode="_PI3FQLYjEfCBwfPZ3usFUA" targetNode="_02DTIrowEfCoqpzTQmO7pQ">
       <target xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_nkjrEbo0EfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_nkjrEbo0EfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_oKfDCLo0EfCoqpzTQmO7pQ" lineStyle="dash" strokeColor="0,43,60">
@@ -4499,7 +4458,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='Flow%20Diagram']/@defaultLayer/@edgeMappings[name='FLD_Transition']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8CKXsro0EfCoqpzTQmO7pQ" name="ListAllUserEvents" sourceNode="_5TcW8KmGEfCpWIL5h8qf4A" targetNode="_2KVosLo0EfCoqpzTQmO7pQ">
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_8CKXsro0EfCoqpzTQmO7pQ" name="ListRequestTable_onLoad" sourceNode="_5TcW8KmGEfCpWIL5h8qf4A" targetNode="_2KVosLo0EfCoqpzTQmO7pQ">
       <target xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_7PQ7Ibo0EfCoqpzTQmO7pQ"/>
       <semanticElements xmi:type="cinematic-flow:Transition" href="demo-dsfr-model.cinematic#_7PQ7Ibo0EfCoqpzTQmO7pQ"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_8CKXs7o0EfCoqpzTQmO7pQ" lineStyle="dash" strokeColor="0,43,60">
@@ -6830,7 +6789,7 @@
                             <styles xmi:type="notation:FilteringStyle" xmi:id="_00D3obiaEfC3SLxoYNCmgQ"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_00D3nLiaEfC3SLxoYNCmgQ" fontName="Segoe UI" fontHeight="12"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_00D3nbiaEfC3SLxoYNCmgQ" x="426" y="7" height="48"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_00D3nbiaEfC3SLxoYNCmgQ" x="432" y="7" width="291" height="48"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_00D3oriaEfC3SLxoYNCmgQ" type="3008" element="_H5dZ8LiBEfC3SLxoYNCmgQ">
                           <children xmi:type="notation:Node" xmi:id="_00D3pbiaEfC3SLxoYNCmgQ" type="5005"/>
@@ -6839,7 +6798,7 @@
                             <styles xmi:type="notation:FilteringStyle" xmi:id="_00D3qLiaEfC3SLxoYNCmgQ"/>
                           </children>
                           <styles xmi:type="notation:ShapeStyle" xmi:id="_00D3o7iaEfC3SLxoYNCmgQ" fontName="Segoe UI" fontHeight="12"/>
-                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_00D3pLiaEfC3SLxoYNCmgQ" x="774" y="7" width="207" height="47"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_00D3pLiaEfC3SLxoYNCmgQ" x="732" y="7" width="207" height="47"/>
                         </children>
                         <children xmi:type="notation:Node" xmi:id="_00D3qbiaEfC3SLxoYNCmgQ" type="3008" element="_LWIP9LiTEfC3SLxoYNCmgQ">
                           <children xmi:type="notation:Node" xmi:id="_00D3rLiaEfC3SLxoYNCmgQ" type="5005"/>
@@ -7046,7 +7005,7 @@
               <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_HWi6IbiBEfC3SLxoYNCmgQ" labelSize="12" showIcon="false" description="_HWi6ILiBEfC3SLxoYNCmgQ" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
               <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']/@defaultLayer/@containerMappings[name='VCD_RootViewContainer']/@subContainerMappings[name='VCD_ViewElement']"/>
             </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_HrRM8riBEfC3SLxoYNCmgQ" name="Utilisateur propriétaire de la demande">
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_HrRM8riBEfC3SLxoYNCmgQ" name="Motif de la demande">
               <target xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_HrQl4riBEfC3SLxoYNCmgQ"/>
               <semanticElements xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_HrQl4riBEfC3SLxoYNCmgQ"/>
               <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_HrRM87iBEfC3SLxoYNCmgQ" labelSize="12" showIcon="false" description="_HWi6ILiBEfC3SLxoYNCmgQ" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
@@ -7082,7 +7041,7 @@
               <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_yY3lUbiLEfC3SLxoYNCmgQ" labelSize="12" showIcon="false" description="_HWi6ILiBEfC3SLxoYNCmgQ" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
               <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']/@defaultLayer/@containerMappings[name='VCD_RootViewContainer']/@subContainerMappings[name='VCD_ViewElement']"/>
             </ownedDiagramElements>
-            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vcGcxLiMEfC3SLxoYNCmgQ" name="Utilisateur propriétaire de la demande">
+            <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_vcGcxLiMEfC3SLxoYNCmgQ" name="Motif de la demande">
               <target xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_vcF1sriMEfC3SLxoYNCmgQ"/>
               <semanticElements xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_vcF1sriMEfC3SLxoYNCmgQ"/>
               <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_vcHD0LiMEfC3SLxoYNCmgQ" labelSize="12" showIcon="false" description="_HWi6ILiBEfC3SLxoYNCmgQ" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
@@ -7974,4 +7933,8 @@
   <manifest:MImportExportData uid="_8n1ywMn6EfCBednkP-lEaQ">
     <importedManifests xmi:type="manifest:MManifest" xmi:id="_8n42EMn6EfCBednkP-lEaQ" projectId="demo-dsfr-rest-model" exportDate="2025-11-21T08:51:14.000+0100" importDate="2025-11-25T13:33:29.580+0100" versionMajor="1" versionPatch="1" comment=""/>
   </manifest:MImportExportData>
+  <bindingdialect:DBindingEditor uid="_R-mMANXPEfCYms6aHvRZSw">
+    <target xmi:type="oenv:BindingInfo" href="demo-dsfr-model.cinematic#_3ZjzMcxvEfCimP2YDicPfQ"/>
+    <description xmi:type="description_3:DBindingEditorDescription" href="platform:/plugin/org.obeonetwork.dsl.environment.binding.design/description/binding.odesign#//@ownedViewpoints[name='IS%20Databinding']/@ownedRepresentations[name='Binding%20Details']"/>
+  </bindingdialect:DBindingEditor>
 </xmi:XMI>
