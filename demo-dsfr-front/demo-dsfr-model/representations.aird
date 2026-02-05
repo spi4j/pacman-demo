@@ -31,7 +31,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_85f_AKmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MKjRwamFEfCpWIL5h8qf4A" name="profilPanel View Container Mockup" repPath="#_MKiqsKmFEfCpWIL5h8qf4A" changeId="1761239335559">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MKjRwamFEfCpWIL5h8qf4A" name="profilPanel View Container Mockup" repPath="#_MKiqsKmFEfCpWIL5h8qf4A" changeId="1767797283561">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_cPpX8qmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
@@ -2125,7 +2125,7 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_zEr_cq_5EfColsm8OfSYlw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zErYYa_5EfColsm8OfSYlw" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zErYYq_5EfColsm8OfSYlw" x="18" y="10" width="1089" height="225"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zErYYq_5EfColsm8OfSYlw" x="18" y="10" width="1089" height="177"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_zZRvYK_5EfColsm8OfSYlw" type="3008" element="_zZQhQK_5EfColsm8OfSYlw">
                   <children xmi:type="notation:Node" xmi:id="_zZRvY6_5EfColsm8OfSYlw" type="5005"/>
@@ -2161,7 +2161,7 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_zZRvZq_5EfColsm8OfSYlw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zZRvYa_5EfColsm8OfSYlw" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZRvYq_5EfColsm8OfSYlw" x="15" y="268" width="1089" height="185"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZRvYq_5EfColsm8OfSYlw" x="18" y="190" width="1089" height="147"/>
                 </children>
                 <children xmi:type="notation:Node" xmi:id="_zpIJQK_5EfColsm8OfSYlw" type="3008" element="_zpG7Jq_5EfColsm8OfSYlw">
                   <children xmi:type="notation:Node" xmi:id="_zpIJQ6_5EfColsm8OfSYlw" type="5005"/>
@@ -2179,19 +2179,19 @@
                     <styles xmi:type="notation:FilteringStyle" xmi:id="_zpIJRq_5EfColsm8OfSYlw"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_zpIJQa_5EfColsm8OfSYlw" fontName="Segoe UI" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zpIJQq_5EfColsm8OfSYlw" x="15" y="460" width="1095" height="105"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zpIJQq_5EfColsm8OfSYlw" x="18" y="346" width="1095" height="105"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_vV0hAq_5EfColsm8OfSYlw"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_vV0hA6_5EfColsm8OfSYlw"/>
               </children>
               <styles xmi:type="notation:ShapeStyle" xmi:id="_vVw2oa_5EfColsm8OfSYlw" fontName="Segoe UI" fontHeight="12"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vVw2oq_5EfColsm8OfSYlw" y="4" width="1161" height="651"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vVw2oq_5EfColsm8OfSYlw" y="4" width="1161" height="507"/>
             </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_MKmVFamFEfCpWIL5h8qf4A"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_MKmVFqmFEfCpWIL5h8qf4A"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_MKmVEamFEfCpWIL5h8qf4A" fontName="Segoe UI" fontHeight="12"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MKmVEqmFEfCpWIL5h8qf4A" x="60" y="24" width="1185" height="711"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MKmVEqmFEfCpWIL5h8qf4A" x="60" y="24" width="1185" height="567"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_MKkf4qmFEfCpWIL5h8qf4A"/>
       </data>

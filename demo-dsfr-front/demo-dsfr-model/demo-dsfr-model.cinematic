@@ -569,7 +569,7 @@
       </ownedLayouts>
     </layout>
   </viewContainers>
-  <viewContainers xmi:id="_cPpX8qmDEfCpWIL5h8qf4A" technicalid="_cPpX8KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:57:24.976+0200" modifiedOn="2025-10-23T19:08:29.922+0200" name="profilPanel">
+  <viewContainers xmi:id="_cPpX8qmDEfCpWIL5h8qf4A" technicalid="_cPpX8KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:57:24.976+0200" modifiedOn="2026-01-07T15:48:03.565+0100" name="profilPanel">
     <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_cVIkIJJGEfCaOp8KF-MYRg"/>
     <viewStyle xmi:id="_cPpX86mDEfCpWIL5h8qf4A" technicalid="_cPpX8amDEfCpWIL5h8qf4A"/>
     <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_vVo60q_5EfColsm8OfSYlw" technicalid="_vVo60K_5EfColsm8OfSYlw" createdOn="2025-10-23T12:19:20.703+0200" modifiedOn="2025-10-23T12:21:07.296+0200" name="profilTabGroup">
@@ -641,26 +641,26 @@
         </ownedElements>
       </ownedElements>
     </ownedElements>
-    <layout xmi:id="_OVEokKmFEfCpWIL5h8qf4A" x="60" y="24" width="1185" height="711" viewElement="_cPpX8qmDEfCpWIL5h8qf4A">
-      <ownedLayouts xmi:id="_vWEYoa_5EfColsm8OfSYlw" y="4" width="1161" height="651" viewElement="_vVo60q_5EfColsm8OfSYlw">
-        <ownedLayouts xmi:id="_Bv544bAJEfColsm8OfSYlw" x="18" y="10" width="1089" height="225" viewElement="_zEo8Iq_5EfColsm8OfSYlw">
-          <ownedLayouts xmi:id="_5dQUILAyEfCNrJOIo0weDw" x="6" y="16" width="648" height="51" direction="HORIZONTAL">
+    <layout xmi:id="_OVEokKmFEfCpWIL5h8qf4A" x="60" y="24" width="1185" height="567" viewElement="_cPpX8qmDEfCpWIL5h8qf4A">
+      <ownedLayouts xmi:id="_vWEYoa_5EfColsm8OfSYlw" y="4" width="1161" height="507" viewElement="_vVo60q_5EfColsm8OfSYlw">
+        <ownedLayouts xmi:id="_Bv544bAJEfColsm8OfSYlw" x="18" y="10" width="1089" height="177" viewElement="_zEo8Iq_5EfColsm8OfSYlw">
+          <ownedLayouts xmi:id="_3rkJ0OvXEfCNttcxMPY7pQ" x="6" y="16" width="648" height="51" direction="HORIZONTAL">
             <ownedLayouts xmi:id="_3W0zIbAyEfCNrJOIo0weDw" x="6" y="16" width="189" height="51" viewElement="_F44gcLAJEfColsm8OfSYlw"/>
             <ownedLayouts xmi:id="_XH2b8rALEfColsm8OfSYlw" x="504" y="16" width="150" height="51" viewElement="_XHw8YrALEfColsm8OfSYlw"/>
           </ownedLayouts>
-          <ownedLayouts xmi:id="_5dQUIbAyEfCNrJOIo0weDw" x="6" y="76" width="648" height="45" direction="HORIZONTAL">
+          <ownedLayouts xmi:id="_3rkJ0evXEfCNttcxMPY7pQ" x="6" y="76" width="648" height="45" direction="HORIZONTAL">
             <ownedLayouts xmi:id="_ys1JM7AyEfCNrJOIo0weDw" x="6" y="76" width="189" height="45" viewElement="_ysvporAyEfCNrJOIo0weDw"/>
             <ownedLayouts xmi:id="_zAlytLAyEfCNrJOIo0weDw" x="504" y="76" width="150" height="45" viewElement="_zAgTIrAyEfCNrJOIo0weDw"/>
           </ownedLayouts>
         </ownedLayouts>
-        <ownedLayouts xmi:id="_TPMvYLALEfColsm8OfSYlw" x="15" y="268" width="1089" height="185" viewElement="_zZP6Mq_5EfColsm8OfSYlw">
+        <ownedLayouts xmi:id="_TPMvYLALEfColsm8OfSYlw" x="18" y="190" width="1089" height="147" viewElement="_zZP6Mq_5EfColsm8OfSYlw">
           <ownedLayouts xmi:id="_TPMvYbALEfColsm8OfSYlw" x="18" y="-140" width="645" height="45" viewElement="_GV2JQrAJEfColsm8OfSYlw"/>
-          <ownedLayouts xmi:id="_5dQUIrAyEfCNrJOIo0weDw" x="18" y="-92" width="636" height="45" direction="HORIZONTAL">
+          <ownedLayouts xmi:id="_3rkJ0uvXEfCNttcxMPY7pQ" x="18" y="-92" width="636" height="45" direction="HORIZONTAL">
             <ownedLayouts xmi:id="_jb3S0bAtEfCNrJOIo0weDw" x="18" y="-92" width="150" height="45" viewElement="_jbRc8rAtEfCNrJOIo0weDw"/>
             <ownedLayouts xmi:id="_n0oC07AtEfCNrJOIo0weDw" x="504" y="-92" width="150" height="45" viewElement="_n0gHArAtEfCNrJOIo0weDw"/>
           </ownedLayouts>
         </ownedLayouts>
-        <ownedLayouts xmi:id="_TPMvYrALEfColsm8OfSYlw" x="15" y="460" width="1095" height="105" viewElement="_zpGUEq_5EfColsm8OfSYlw">
+        <ownedLayouts xmi:id="_TPMvYrALEfColsm8OfSYlw" x="18" y="346" width="1095" height="105" viewElement="_zpGUEq_5EfColsm8OfSYlw">
           <ownedLayouts xmi:id="_TPMvY7ALEfColsm8OfSYlw" x="27" y="2" width="150" height="45" viewElement="_GHSv4rAJEfColsm8OfSYlw"/>
         </ownedLayouts>
       </ownedLayouts>
@@ -669,7 +669,7 @@
   <viewContainers xmi:id="_dCxeAqmDEfCpWIL5h8qf4A" technicalid="_dCxeAKmDEfCpWIL5h8qf4A" description="" createdOn="2025-10-15T06:57:30.337+0200" modifiedOn="2025-12-11T14:19:13.389+0100" name="requestsListPanel" label="">
     <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_cVIkIJJGEfCaOp8KF-MYRg"/>
     <viewStyle xmi:id="_dCxeA6mDEfCpWIL5h8qf4A" technicalid="_dCxeAamDEfCpWIL5h8qf4A"/>
-    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_SkwD8rCqEfC3orNkt0KDHA" technicalid="_SkwD8LCqEfC3orNkt0KDHA" description="dfdg" createdOn="2025-10-24T09:23:08.592+0200" modifiedOn="2025-12-11T10:38:53.968+0100" name="ListRequestTable" label="Liste de vos d&#xe9;marches administratives en cours et/ou finalis&#xe9;es">
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_SkwD8rCqEfC3orNkt0KDHA" technicalid="_SkwD8LCqEfC3orNkt0KDHA" description="dfdg" createdOn="2025-10-24T09:23:08.592+0200" modifiedOn="2026-01-06T16:43:01.231+0100" name="ListRequestTable" label="Liste de vos d&#xe9;marches administratives en cours et/ou finalis&#xe9;es">
       <metadatas xmi:id="_SkxSE7CqEfC3orNkt0KDHA" technicalid="_SkxSELCqEfC3orNkt0KDHA">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_SkxSFLCqEfC3orNkt0KDHA" technicalid="_SkxSEbCqEfC3orNkt0KDHA" title="WITH_COLOR_VARIANT"/>
         <metadatas xsi:type="oenv:Annotation" xmi:id="_SkxSFbCqEfC3orNkt0KDHA" technicalid="_SkxSErCqEfC3orNkt0KDHA" title="WITH_EDITION" body="false"/>
