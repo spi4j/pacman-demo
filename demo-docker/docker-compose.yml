@@ -1,0 +1,54 @@
+services:
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.5
+    container_name: keycloak
+    command: start-dev --import-realm
+    environment:
+      KC_DB: dev-mem
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: password
+      KC_HTTP_ENABLED: "true"
+    ports:
+      - "8085:8080"
+    networks:
+      - backend
+    volumes:
+      - ./keycloak/config/realm-export.json:/opt/keycloak/data/import/realm.json
+
+  vault:
+    image: hashicorp/vault:1.21
+    container_name: vault
+    ports:
+      - "8200:8200"
+    environment:
+      VAULT_ADDR: "http://0.0.0.0:8200"
+    cap_add:
+      - IPC_LOCK
+    command: vault server -config=/vault/config/vault.hcl
+    volumes:
+      - ./vault/config:/vault/config
+      - ./vault/data:/vault/data
+    networks:
+      - backend
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: password
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - backend
+
+networks:
+  backend:
+
+volumes:
+  minio_data:
