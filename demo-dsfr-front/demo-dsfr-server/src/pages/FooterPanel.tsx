@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { headerFooterDisplayItem } from "@codegouvfr/react-dsfr/Display";
 import { Footer } from "@codegouvfr/react-dsfr/Footer";
+import { Link } from "react-router-dom";
 import opLogo from "../assets/imgs/logo.png";
 
 // Start of user code dc81cd04f0dd0432929066eacc434a3f

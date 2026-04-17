@@ -59,6 +59,15 @@
           <groupId>io.github.resilience4j</groupId>
           <artifactId>resilience4j-spring-boot2</artifactId>
       </dependency>
+      <!-- Stockage S3 -->
+      <dependency>
+        <groupId>io.minio</groupId>
+        <artifactId>minio</artifactId>
+      </dependency>
+      <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+      </dependency>
       <!-- coffre fort -->
       <dependency>
         <groupId>org.springframework.cloud</groupId>

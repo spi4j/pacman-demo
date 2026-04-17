@@ -89,6 +89,34 @@ echo Environnement vierge pret pour relance
 
 goto END
 
+:DOCKER
+
+echo =====================================
+echo ARRET DE DOCKER
+echo =====================================
+
+tasklist | find /I "Docker Desktop.exe" >nul 2>&1
+set A=%errorlevel%
+
+tasklist | find /I "com.docker.backend.exe" >nul 2>&1
+set B=%errorlevel%
+
+if %A%==0 goto RUNNING
+if %B%==0 goto RUNNING
+
+echo Docker n'est PAS en cours d'execution
+goto END
+
+:RUNNING
+echo Docker est actif
+
+echo Arret de Docker Desktop...
+taskkill /IM "Docker Desktop.exe" /F >nul 2>&1
+taskkill /IM "com.docker.backend.exe" /F >nul 2>&1
+
+echo Docker Desktop arrete
+goto END
+
 :END
 
 echo.

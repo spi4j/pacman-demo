@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmi:id="_m75Q8KkPEfCaZO_mXFe3Rw" technicalid="_m7rOgKkPEfCaZO_mXFe3Rw" createdOn="2025-10-14T17:08:15.080+0200" modifiedOn="2025-11-28T16:35:17.432+0100">
+<cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmi:id="_m75Q8KkPEfCaZO_mXFe3Rw" technicalid="_m7rOgKkPEfCaZO_mXFe3Rw" createdOn="2025-10-14T17:08:15.080+0200" modifiedOn="2026-04-16T14:29:02.425+0200">
   <bindingRegistries xmi:id="_11DTgcxvEfCimP2YDicPfQ" technicalid="_11DTgMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:27.971+0100" modifiedOn="2025-12-16T09:38:59.930+0100">
     <bindingInfos xmi:id="_3ZjzMcxvEfCimP2YDicPfQ" technicalid="_3ZjzMMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:43.253+0100" modifiedOn="2025-12-11T07:24:55.193+0100" left="_SkwD8rCqEfC3orNkt0KDHA">
       <references xmi:id="_5rTMUcxvEfCimP2YDicPfQ" technicalid="_5rSlQsxvEfCimP2YDicPfQ" left="_5rSlQ8xvEfCimP2YDicPfQ" right="_5rTMUMxvEfCimP2YDicPfQ"/>
@@ -155,13 +155,15 @@
       </elements>
     </bindingInfos>
   </bindingRegistries>
-  <flows xmi:id="_w0U88amDEfCpWIL5h8qf4A" technicalid="_w0U88KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:59:43.040+0200" modifiedOn="2025-10-30T07:57:13.138+0100" name="connectionFlow">
+  <flows xmi:id="_w0U88amDEfCpWIL5h8qf4A" technicalid="_w0U88KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:59:43.040+0200" modifiedOn="2026-04-16T14:42:11.020+0200" name="connectionFlow">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_vNX7UamFEfCpWIL5h8qf4A" technicalid="_vNX7UKmFEfCpWIL5h8qf4A" createdOn="2025-10-15T07:13:51.237+0200" modifiedOn="2025-10-15T07:13:51.237+0200" name="Initial"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_Gsn0AamGEfCpWIL5h8qf4A" technicalid="_Gsn0AKmGEfCpWIL5h8qf4A" createdOn="2025-10-15T07:16:28.865+0200" modifiedOn="2025-10-15T07:16:54.556+0200" name="connectionState" viewContainers="_SHAUAqmDEfCpWIL5h8qf4A"/>
     <states xsi:type="cinematic-flow:SubflowState" xmi:id="_VH1E0K8iEfC9As7cpHHYSQ" technicalid="_VH0dwK8iEfC9As7cpHHYSQ" createdOn="2025-10-22T10:37:22.976+0200" modifiedOn="2025-10-22T10:37:22.976+0200" subflow="_y5sG8amDEfCpWIL5h8qf4A"/>
-    <transitions xmi:id="_-2ePwa5qEfChnv0egttq_g" technicalid="_-2ePwK5qEfChnv0egttq_g" createdOn="2025-10-21T12:44:55.612+0200" modifiedOn="2025-10-28T16:33:42.114+0100" name="goToConnexion" guard="connect" from="_vNX7UamFEfCpWIL5h8qf4A" to="_Gsn0AamGEfCpWIL5h8qf4A" on="_U_DF4K5qEfChnv0egttq_g"/>
+    <states xsi:type="cinematic-flow:ViewState" xmi:id="_NJBsMTmQEfGlbeNqY0EoKA" technicalid="_NJBsMDmQEfGlbeNqY0EoKA" createdOn="2026-04-16T14:31:34.516+0200" modifiedOn="2026-04-16T14:31:56.205+0200" name="connectionSelectState" viewContainers="_2ektgjmPEfGlbeNqY0EoKA"/>
+    <transitions xmi:id="_-2ePwa5qEfChnv0egttq_g" technicalid="_-2ePwK5qEfChnv0egttq_g" createdOn="2025-10-21T12:44:55.612+0200" modifiedOn="2026-04-16T14:34:40.565+0200" name="goToConnexion" guard="connect" from="_vNX7UamFEfCpWIL5h8qf4A" to="_NJBsMTmQEfGlbeNqY0EoKA" on="_U_DF4K5qEfChnv0egttq_g"/>
     <transitions xmi:id="_WzDQga8iEfC9As7cpHHYSQ" technicalid="_WzDQgK8iEfC9As7cpHHYSQ" createdOn="2025-10-22T10:37:34.217+0200" modifiedOn="2025-10-22T10:38:02.123+0200" name="goToRegister" from="_Gsn0AamGEfCpWIL5h8qf4A" to="_VH1E0K8iEfC9As7cpHHYSQ" on="_ZMudoa8iEfC9As7cpHHYSQ"/>
-    <transitions xmi:id="_qac5IbVdEfC9fu3dsM337g" technicalid="_qac5ILVdEfC9fu3dsM337g" createdOn="2025-10-30T07:57:13.138+0100" modifiedOn="2025-10-30T07:57:51.077+0100" name="goToReconnect" from="_vNX7UamFEfCpWIL5h8qf4A" to="_Gsn0AamGEfCpWIL5h8qf4A" on="_jfq4UbVdEfC9fu3dsM337g"/>
+    <transitions xmi:id="_qac5IbVdEfC9fu3dsM337g" technicalid="_qac5ILVdEfC9fu3dsM337g" createdOn="2025-10-30T07:57:13.138+0100" modifiedOn="2026-04-16T14:37:25.478+0200" name="goToReconnect" from="_vNX7UamFEfCpWIL5h8qf4A" to="_NJBsMTmQEfGlbeNqY0EoKA" on="_jfq4UbVdEfC9fu3dsM337g"/>
+    <transitions xmi:id="_r_NgwTmREfGlbeNqY0EoKA" technicalid="_r_NgwDmREfGlbeNqY0EoKA" createdOn="2026-04-16T14:42:11.020+0200" modifiedOn="2026-04-16T14:43:47.862+0200" name="goToInternalConnexion" from="_NJBsMTmQEfGlbeNqY0EoKA" to="_Gsn0AamGEfCpWIL5h8qf4A" on="_1FNRYTmQEfGlbeNqY0EoKA"/>
   </flows>
   <flows xmi:id="_y5sG8amDEfCpWIL5h8qf4A" technicalid="_y5sG8KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:59:57.024+0200" modifiedOn="2025-12-15T10:19:14.105+0100" name="applicationFlow">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_59hrMqmFEfCpWIL5h8qf4A" technicalid="_59hrMamFEfCpWIL5h8qf4A" createdOn="2025-10-15T07:15:03.395+0200" modifiedOn="2025-10-15T07:15:03.395+0200" name="Initial"/>
@@ -298,7 +300,7 @@
     <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_V28ekamFEfCpWIL5h8qf4A" technicalid="_V27QcKmFEfCpWIL5h8qf4A" description="Connectez-vous pour suivre l'ensemble de vos d&#xe9;marches et g&#xe9;rer vos informations en ligne." createdOn="2025-10-15T07:11:01.113+0200" modifiedOn="2025-10-22T10:57:42.550+0200" name="connexionForm" label="Formulaire de connexion">
       <metadatas xmi:id="_V28elqmFEfCpWIL5h8qf4A" technicalid="_V28ek6mFEfCpWIL5h8qf4A">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_V28el6mFEfCpWIL5h8qf4A" technicalid="_V28elKmFEfCpWIL5h8qf4A" title="TXT_ERROR" body="Nous ne trouvons pas de compte associ&#xe9; &#xe0; ces informations. Assurez-vous que vos identifiants sont exacts."/>
-        <metadatas xsi:type="oenv:Annotation" xmi:id="_V28emKmFEfCpWIL5h8qf4A" technicalid="_V28elamFEfCpWIL5h8qf4A" title="TXT_VALID" body="Vous &#xea;tes maintenant connect&#xe9; avec votre espace personnel."/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_V28emKmFEfCpWIL5h8qf4A" technicalid="_V28elamFEfCpWIL5h8qf4A" title="TXT_VALID" body="Vous &#xea;tes connect&#xe9; avec votre espace personnel."/>
         <metadatas xsi:type="oenv:Annotation" xmi:id="_MODowa8XEfCmvuZNeMmYsQ" technicalid="_MODowK8XEfCmvuZNeMmYsQ" title="WITH_INLINE_STYLE" body="maxWidth: &quot;600px&quot;&#xD;&#xA;&#xD;&#xA;"/>
       </metadatas>
       <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_rT6mUJHzEfCF6-2aQyGFWw"/>
@@ -1044,7 +1046,7 @@
     <viewStyle xmi:id="_AXl5s65qEfChnv0egttq_g" technicalid="_AXl5sa5qEfChnv0egttq_g"/>
     <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_8Ldlkq5rEfChnv0egttq_g" technicalid="_8LdlkK5rEfChnv0egttq_g" description="Bienvenue&#x202f;! Pour cr&#xe9;er votre compte et profiter pleinement de nos services en ligne, veuillez compl&#xe9;ter ce formulaire. Tous les champs obligatoires doivent &#xea;tre remplis et vous devrez cocher les trois cases relatives &#xe0; vos informations personnelles afin de valider vos donn&#xe9;es de mani&#xe8;re s&#xe9;curis&#xe9;e. Merci de vous assurer que toutes les informations fournies sont exactes." createdOn="2025-10-21T12:51:47.178+0200" modifiedOn="2025-10-23T19:01:26.674+0200" name="registerForm" label="Formulaire d'inscription">
       <metadatas xmi:id="_8Lezs65rEfChnv0egttq_g" technicalid="_8LezsK5rEfChnv0egttq_g">
-        <metadatas xsi:type="oenv:Annotation" xmi:id="_8LeztK5rEfChnv0egttq_g" technicalid="_8Lezsa5rEfChnv0egttq_g" title="TXT_ERROR" body="Les donn&#xe9;es de sont pas valides, veuillez v&#xe9;rifier."/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_8LeztK5rEfChnv0egttq_g" technicalid="_8Lezsa5rEfChnv0egttq_g" title="TXT_ERROR" body="Les donn&#xe9;es ne sont pas valides, veuillez v&#xe9;rifier."/>
         <metadatas xsi:type="oenv:Annotation" xmi:id="_8Lezta5rEfChnv0egttq_g" technicalid="_8Lezsq5rEfChnv0egttq_g" title="TXT_VALID" body="Les donn&#xe9;es ont bien &#xe9;t&#xe9; enregistr&#xe9;es, vous pouvez d&#xe9;sormais vous connecter &#xe0; votre espace personnel."/>
       </metadatas>
       <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_rT6mUJHzEfCF6-2aQyGFWw"/>
@@ -1683,6 +1685,67 @@
           </ownedLayouts>
         </ownedLayouts>
       </ownedLayouts>
+    </layout>
+  </viewContainers>
+  <viewContainers xmi:id="_2ektgjmPEfGlbeNqY0EoKA" technicalid="_2ektgDmPEfGlbeNqY0EoKA" createdOn="2026-04-16T14:29:02.430+0200" modifiedOn="2026-04-16T16:30:30.002+0200" name="connectionSelectPanel">
+    <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_cVIkIJJGEfCaOp8KF-MYRg"/>
+    <viewStyle xmi:id="_2ektgzmPEfGlbeNqY0EoKA" technicalid="_2ektgTmPEfGlbeNqY0EoKA"/>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_T4e_EjmWEfGlbeNqY0EoKA" technicalid="_T4e_EDmWEfGlbeNqY0EoKA" description="&lt;b>Pour acc&#xe9;der &#xe0; votre espace, veuillez choisir votre m&#xe9;thode d&#x2019;authentification.&lt;/b>&lt;p>&lt;/p>&lt;hr>&lt;/hr>&lt;p>Vous pouvez vous connecter &#xe0; l&#x2019;aide du formulaire interne en utilisant vos identifiants habituels, ou bien passer par l&#x2019;authentification s&#xe9;curis&#xe9;e via DemoConnect (SSO), si votre organisation le permet.&lt;/p>" createdOn="2026-04-16T15:15:16.738+0200" modifiedOn="2026-04-16T15:55:25.971+0200" name="connectionSelectContent1">
+      <metadatas xmi:id="_T4gNMTmWEfGlbeNqY0EoKA" technicalid="_T4fmIDmWEfGlbeNqY0EoKA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_T4gNMjmWEfGlbeNqY0EoKA" technicalid="_T4gNMDmWEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_n3SHYJHzEfCF6-2aQyGFWw"/>
+      <viewStyle xmi:id="_T4e_EzmWEfGlbeNqY0EoKA" technicalid="_T4e_ETmWEfGlbeNqY0EoKA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_cuJiwjmXEfGlbeNqY0EoKA" technicalid="_cuJiwDmXEfGlbeNqY0EoKA" createdOn="2026-04-16T15:23:25.548+0200" modifiedOn="2026-04-16T15:24:11.223+0200" name="connectionSelectImg">
+      <metadatas xmi:id="_cuKJ1DmXEfGlbeNqY0EoKA" technicalid="_cuKJ0DmXEfGlbeNqY0EoKA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_cuKJ1TmXEfGlbeNqY0EoKA" technicalid="_cuKJ0TmXEfGlbeNqY0EoKA" title="WITH_IMG" body="selection-methode-athentification.png"/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_cuKJ1jmXEfGlbeNqY0EoKA" technicalid="_cuKJ0jmXEfGlbeNqY0EoKA" title="WITH_LINK"/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_cuKJ1zmXEfGlbeNqY0EoKA" technicalid="_cuKJ0zmXEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_XpH1wKmkEfC-YOAopVywXw"/>
+      <viewStyle xmi:id="_cuJiwzmXEfGlbeNqY0EoKA" technicalid="_cuJiwTmXEfGlbeNqY0EoKA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Ah0vkjmaEfGlbeNqY0EoKA" technicalid="_Ah0vkDmaEfGlbeNqY0EoKA" description="&lt;p>&lt;/p>&lt;p>Afin de garantir une exp&#xe9;rience fluide et s&#xe9;curis&#xe9;e, chaque acc&#xe8;s est strictement contr&#xf4;l&#xe9; par des m&#xe9;canismes d&#x2019;authentification robustes, con&#xe7;us pour prot&#xe9;ger vos donn&#xe9;es et assurer l&#x2019;int&#xe9;grit&#xe9; de vos sessions. Les &#xe9;changes entre votre navigateur et nos services sont chiffr&#xe9;s de bout en bout, r&#xe9;duisant ainsi tout risque d&#x2019;interception ou d&#x2019;usurpation d&#x2019;identit&#xe9;.&lt;/p>&#xD;&#xA;Nous mettons un point d&#x2019;honneur &#xe0; appliquer les meilleures pratiques en mati&#xe8;re de s&#xe9;curit&#xe9; informatique, incluant la gestion s&#xe9;curis&#xe9;e des identifiants, la limitation des tentatives de connexion et la surveillance des activit&#xe9;s suspectes. Vous pouvez ainsi choisir votre mode de connexion en toute confiance, dans un environnement pens&#xe9; pour la fiabilit&#xe9;, la confidentialit&#xe9; et la protection de vos informations.&lt;p>&lt;/p>" createdOn="2026-04-16T15:41:44.842+0200" modifiedOn="2026-04-16T16:03:37.656+0200" name="connectionSelectContent2">
+      <metadatas xmi:id="_Ah1WojmaEfGlbeNqY0EoKA" technicalid="_Ah1WoDmaEfGlbeNqY0EoKA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_Ah1WozmaEfGlbeNqY0EoKA" technicalid="_Ah1WoTmaEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_n3SHYJHzEfCF6-2aQyGFWw"/>
+      <viewStyle xmi:id="_Ah0vkzmaEfGlbeNqY0EoKA" technicalid="_Ah0vkTmaEfGlbeNqY0EoKA"/>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_FCblQjmgEfGlbeNqY0EoKA" technicalid="_FCblQDmgEfGlbeNqY0EoKA" createdOn="2026-04-16T16:25:12.085+0200" modifiedOn="2026-04-16T16:25:55.466+0200" name="connectionSelectForm">
+      <metadatas xmi:id="_FCeokDmgEfGlbeNqY0EoKA" technicalid="_FCeBgDmgEfGlbeNqY0EoKA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_FCeokTmgEfGlbeNqY0EoKA" technicalid="_FCeBgTmgEfGlbeNqY0EoKA" title="TXT_ERROR" body="Nous ne trouvons pas de compte associ&#xe9; &#xe0; ces informations. Assurez-vous que vos identifiants sont exacts."/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_FCeokjmgEfGlbeNqY0EoKA" technicalid="_FCeBgjmgEfGlbeNqY0EoKA" title="TXT_VALID" body="Vous &#xea;tes connect&#xe9; avec votre espace personnel."/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_rT6mUJHzEfCF6-2aQyGFWw"/>
+      <viewStyle xmi:id="_FCblQzmgEfGlbeNqY0EoKA" technicalid="_FCblQTmgEfGlbeNqY0EoKA"/>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_ATjOkjmQEfGlbeNqY0EoKA" technicalid="_ATjOkDmQEfGlbeNqY0EoKA" createdOn="2026-04-16T14:30:08.378+0200" modifiedOn="2026-04-16T16:27:12.331+0200" name="ssoConnectButton" label="Connexion par DemoConnect">
+        <metadatas xmi:id="_ATj1ojmQEfGlbeNqY0EoKA" technicalid="_ATj1oDmQEfGlbeNqY0EoKA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_ATj1ozmQEfGlbeNqY0EoKA" technicalid="_ATj1oTmQEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_PCz5EJkCEfCCxMPawgpazA"/>
+        <viewStyle xmi:id="_ATjOkzmQEfGlbeNqY0EoKA" technicalid="_ATjOkTmQEfGlbeNqY0EoKA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_8quGsjmPEfGlbeNqY0EoKA" technicalid="_8quGsDmPEfGlbeNqY0EoKA" createdOn="2026-04-16T14:29:43.965+0200" modifiedOn="2026-04-16T15:14:03.998+0200" name="internalConnectButton" label="Connexion par formulaire">
+        <metadatas xmi:id="_8qwi8jmPEfGlbeNqY0EoKA" technicalid="_8qwi8DmPEfGlbeNqY0EoKA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_8qwi8zmPEfGlbeNqY0EoKA" technicalid="_8qwi8TmPEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_j8lMYJHzEfCF6-2aQyGFWw"/>
+        <events xmi:id="_1FNRYTmQEfGlbeNqY0EoKA" technicalid="_1FNRYDmQEfGlbeNqY0EoKA" name="internalConnectButton_onClick">
+          <type href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_M3heAJLzEfCa3-VOW44b4A"/>
+        </events>
+        <viewStyle xmi:id="_8quGszmPEfGlbeNqY0EoKA" technicalid="_8quGsTmPEfGlbeNqY0EoKA"/>
+      </ownedElements>
+    </ownedElements>
+    <layout xmi:id="_63eAYDmPEfGlbeNqY0EoKA" x="60" y="30" width="861" height="567" viewElement="_2ektgjmPEfGlbeNqY0EoKA">
+      <ownedLayouts xmi:id="_IbKboDmgEfGlbeNqY0EoKA" x="18" y="16" width="807" height="99" viewElement="_T4e_EjmWEfGlbeNqY0EoKA"/>
+      <ownedLayouts xmi:id="_LgVc0DmgEfGlbeNqY0EoKA" x="18" y="130" width="807" height="171" direction="HORIZONTAL" viewElement="_FCblQjmgEfGlbeNqY0EoKA">
+        <ownedLayouts xmi:id="_bCVyIDmgEfGlbeNqY0EoKA" x="6" y="16" width="281" height="70" viewElement="_8quGsjmPEfGlbeNqY0EoKA"/>
+        <ownedLayouts xmi:id="_bCVyITmgEfGlbeNqY0EoKA" x="486" y="16" width="281" height="70" viewElement="_ATjOkjmQEfGlbeNqY0EoKA"/>
+      </ownedLayouts>
+      <ownedLayouts xmi:id="_Ah5oEzmaEfGlbeNqY0EoKA" x="17" y="322" width="810" height="70" viewElement="_Ah0vkjmaEfGlbeNqY0EoKA"/>
+      <ownedLayouts xmi:id="_1qZ6EzmZEfGlbeNqY0EoKA" x="17" y="406" width="819" height="75" viewElement="_cuJiwjmXEfGlbeNqY0EoKA"/>
     </layout>
   </viewContainers>
   <toolkits href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_jIrpcK8aEeGs4sAdxwacjg"/>

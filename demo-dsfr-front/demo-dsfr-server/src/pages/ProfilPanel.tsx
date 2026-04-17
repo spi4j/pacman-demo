@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { Link } from "react-router-dom";
 import { Tabs } from "@codegouvfr/react-dsfr/Tabs";
 
 // Start of user code 390f51c79e9352b2247aa06eb0ba83c1

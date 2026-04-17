@@ -1,5 +1,8 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
 import { apiConfig } from "./apiConfig";
+import keycloak from "../contexts/Keycloak";
+
+console.log("API CLIENT INITIALISATION");
 
 // Construction de la configuration finale
 const finalConfig: AxiosRequestConfig = {
@@ -7,16 +10,34 @@ const finalConfig: AxiosRequestConfig = {
   timeout: apiConfig.timeout ?? 15000,
 };
 
-// Création de l’instance axios
+// Création de l'instance axios
 const apiClient: AxiosInstance = axios.create(finalConfig);
 
 // Intercepteur pour la requête.
 apiClient.interceptors.request.use(
-  (config) => {
-    return config;
+  async (config) => {
+    try {
+      console.log("INTERCEPTEUR ACTIF");
+      config.headers = config.headers ?? {};
+      
+      // priorité SSO
+      let token = keycloak.token;
+      
+      // fallback LOCAL
+      if (!token) {
+        token = sessionStorage.getItem("token");
+      }
+       
+      config.headers.Authorization = `Bearer ${token}`;
+      console.log("jeton ajouté dans l'en-tête");
+      return config;   
+    } catch (e) {
+      console.error("ERREUR INTERCEPTOR:", e);
+      throw e;
+    }
   },
   (error) => {
-    return Promise.reject(error);
+    return Promise.reject(error)
   }
 );
 

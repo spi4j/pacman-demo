@@ -29,6 +29,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 // End of user code
@@ -68,9 +69,10 @@ class RequestsControllerImpl {
 	 */
 	// Start of user code 9c1222dee25f7f457e46d87671870afb
 	// End of user code
-	@PostMapping(produces = "application/json;charset=utf8")
+	@PostMapping(produces = "application/json;charset=utf8", consumes = "application/json")
 	@Operation(operationId = "setRequest", description = "Création d'une nouvelle demande.", tags = {
-			"Requests" }, requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(required = true, description = "La requête à créer.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))))
+			"Requests" }, security = {
+					@SecurityRequirement(name = "demo-dsfr-oidc_authorizationcode") }, requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(required = true, description = "La requête à créer.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))))
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "201", description = "Created", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))) })
 	public ResponseEntity<RequestDemoXtoImpl> setRequest(@RequestBody(required = true) RequestDemoXtoImpl requestIn) {
@@ -97,7 +99,7 @@ class RequestsControllerImpl {
 	// End of user code
 	@GetMapping(value = "/{id}", produces = "application/json;charset=utf8")
 	@Operation(operationId = "getRequest", description = "Retoure une demande en fontion de son identifiant.", tags = {
-			"Requests" }, parameters = {
+			"Requests" }, security = { @SecurityRequirement(name = "demo-dsfr-oidc_authorizationcode") }, parameters = {
 					@Parameter(name = "id", description = "L'identifiant unique pour la demande.", required = true, in = ParameterIn.PATH, example = "") })
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "OK", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))),
@@ -126,7 +128,7 @@ class RequestsControllerImpl {
 	// End of user code
 	@GetMapping(produces = "application/json;charset=utf8")
 	@Operation(operationId = "getRequests", description = "Retourne la liste des demandes (tous utilisateurs confondus).", tags = {
-			"Requests" })
+			"Requests" }, security = { @SecurityRequirement(name = "demo-dsfr-oidc_authorizationcode") })
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "OK", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))),
 			@ApiResponse(responseCode = "404", description = "Not Found") })
@@ -153,7 +155,7 @@ class RequestsControllerImpl {
 	// End of user code
 	@GetMapping(value = "/user/{id}", produces = "application/json;charset=utf8")
 	@Operation(operationId = "getUserRequests", description = "Retourne l'ensemble des demandes pour un utilisateur.", tags = {
-			"Requests" }, parameters = {
+			"Requests" }, security = { @SecurityRequirement(name = "demo-dsfr-oidc_authorizationcode") }, parameters = {
 					@Parameter(name = "id", description = "L'identifiant de l'utilisateur.", required = true, in = ParameterIn.PATH, example = "") })
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "OK", content = @Content(mediaType = "application/json", schema = @Schema(implementation = RequestDemoXtoImpl.class))),

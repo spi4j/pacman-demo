@@ -30,10 +30,10 @@ import jakarta.servlet.http.HttpServletResponse;
  * d'échec ultérieur.
  * 
  * Placer le filtre avant les filtres de Spring Security s'il y a besoin de
- * modifier la requête avant l’authentification.
+ * modifier la requête avant l'authentification.
  * 
  * Placer le filtre après si on désire accéder aux informations
- * d’authentification (comme SecurityContextHolder) dans le filtre.
+ * d'authentification (comme SecurityContextHolder) dans le filtre.
  *
  * Utilise {@link OncePerRequestFilter} pour garantir que le filtre ne s'exécute
  * qu'une seule fois par requête HTTP, évitant ainsi les comportements

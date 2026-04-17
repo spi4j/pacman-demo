@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useForm } from "react-hook-form";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
+import { Link } from "react-router-dom";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import { Input } from "@codegouvfr/react-dsfr/Input";
 import { PasswordInput } from "@codegouvfr/react-dsfr/blocks/PasswordInput";
@@ -61,7 +62,11 @@ export default function ConnectionPanel () {
   async function validateAndExecuteForm(data: FormValues): Promise<boolean> {
     console.log("Validation exécutée :", data);
     // Start of user code c0c3b9169b152f6602b8d199390d4d7d
-    return await login(data.idInput, data.pwdInput);
+    return await login({
+      type: "local",
+      username: data.idInput,
+      password: data.pwdInput
+    });
     // End of user code
   }
   
@@ -89,14 +94,14 @@ export default function ConnectionPanel () {
        // End of user code
           
        setGlobalMessage({ 
-          text: "Vous êtes maintenant connecté avec votre espace personnel.", 
+          text: "Vous êtes connecté avec votre espace personnel.", 
           severity: "success",
        });
        
     } catch (error) {
         console.error(error);
         setGlobalMessage({
-          text: "Une erreur est survenue lors de l’enregistrement.",
+          text: "Une erreur est survenue lors de l’accès au service.",
           severity: "error",
         });
      }

@@ -56,4 +56,6 @@ public interface RequestsProvider {
 	 */
 	public List<RequestDemoDtoImpl> getUserRequests(final Long userId);
 
+	// Start of user code 1ff03cf55afd4636d997f8ec313a49d4
+	// End of user code
 }

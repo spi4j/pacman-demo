@@ -12,6 +12,7 @@ import org.springframework.context.annotation.FilterType;
 import fr.demo_dsfr_rest.domain.AdapterService;
 import fr.demo_dsfr_rest.domain.DomainService;
 import fr.demo_dsfr_rest.domain.StubService;
+import fr.demo_dsfr_rest.domain.port.adapters.stub.demo_dsfr.DocumentsProviderStubImpl;
 import fr.demo_dsfr_rest.domain.port.adapters.stub.demo_dsfr.RequestsProviderStubImpl;
 import fr.demo_dsfr_rest.domain.port.adapters.stub.demo_dsfr.UsersProviderStubImpl;
 
@@ -39,6 +40,7 @@ import fr.demo_dsfr_rest.domain.port.adapters.stub.demo_dsfr.UsersProviderStubIm
 		@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = { DomainService.class, StubService.class,
 				AdapterService.class }) }, excludeFilters = {
 						@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {
-								UsersProviderStubImpl.class, RequestsProviderStubImpl.class }) })
+								UsersProviderStubImpl.class, RequestsProviderStubImpl.class,
+								DocumentsProviderStubImpl.class }) })
 public class Demo_dsfr_restTestConfig {
 }

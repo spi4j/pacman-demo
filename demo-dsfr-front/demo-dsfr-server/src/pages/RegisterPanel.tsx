@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useForm } from "react-hook-form";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
+import { Link } from "react-router-dom";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import { Input } from "@codegouvfr/react-dsfr/Input";
 import { RadioButtons } from "@codegouvfr/react-dsfr/RadioButtons";
@@ -79,7 +80,7 @@ export default function RegisterPanel () {
   async function validateAndExecuteForm(data: FormValues): Promise<boolean> {
     console.log("Validation exécutée :", data);
     // Start of user code c0c3b9169b152f6602b8d199390d4d7d
-    return data.IdentifiantInput === "12345" && data.passwordInput === "azerty";
+    return true;
     // End of user code
   }
   
@@ -93,7 +94,7 @@ export default function RegisterPanel () {
       
       if (!isValid) {
         setGlobalMessage({ 
-           text: "Les données de sont pas valides, veuillez vérifier.", 
+           text: "Les données ne sont pas valides, veuillez vérifier.", 
            severity: "error",
         });
         //reset(); 
@@ -114,7 +115,7 @@ export default function RegisterPanel () {
     } catch (error) {
         console.error(error);
         setGlobalMessage({
-          text: "Une erreur est survenue lors de l’enregistrement.",
+          text: "Une erreur est survenue lors de l’accès au service.",
           severity: "error",
         });
      }

@@ -26,6 +26,7 @@ import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 // End of user code
@@ -65,7 +66,7 @@ class UsersControllerImpl {
 	 */
 	// Start of user code 525e4ae1466a9b953190d0cf023144e3
 	// End of user code
-	@PostMapping(produces = "application/json;charset=utf8")
+	@PostMapping(produces = "application/json;charset=utf8", consumes = "application/json")
 	@Operation(operationId = "setUser", description = "Création d'un nouvel utilisateur.", tags = {
 			"Users" }, requestBody = @io.swagger.v3.oas.annotations.parameters.RequestBody(required = true, description = "L'utilisateur à créer.", content = @Content(mediaType = "application/json", schema = @Schema(implementation = UserDemoXtoImpl.class))))
 	@ApiResponses(value = {
@@ -93,7 +94,7 @@ class UsersControllerImpl {
 	// End of user code
 	@GetMapping(value = "/{id}", produces = "application/json;charset=utf8")
 	@Operation(operationId = "getUser", description = "Retourne un utilisateur en fonction de son identifiant.", tags = {
-			"Users" }, parameters = {
+			"Users" }, security = { @SecurityRequirement(name = "demo-dsfr-oidc_authorizationcode") }, parameters = {
 					@Parameter(name = "id", description = "L'identifiant unique pour l'utilisateur.", required = true, in = ParameterIn.PATH, example = "") })
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "OK", content = @Content(mediaType = "application/json", schema = @Schema(implementation = UserDemoXtoImpl.class))),

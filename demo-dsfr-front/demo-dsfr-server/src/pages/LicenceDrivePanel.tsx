@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { Link } from "react-router-dom";
 
 // Start of user code b17d151793af5ee1a310b63720f0cfd0
 // End of user code

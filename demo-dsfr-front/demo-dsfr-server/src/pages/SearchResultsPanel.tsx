@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { Link } from "react-router-dom";
 import { Table } from "@codegouvfr/react-dsfr/Table";
 import { getFakeTableData_searchTable } from "../mocks/SearchResultsPanelMock";
 

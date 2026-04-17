@@ -1,28 +1,157 @@
 {
   "realm": "pacman-demo-realm",
+  "displayName": "Demo Pacman",
   "enabled": true,
+
+  "sslRequired": "external",
+  "registrationAllowed": false,
+  "registrationEmailAsUsername": false,
+  "rememberMe": true,
+  "verifyEmail": false,
+  "loginWithEmailAllowed": true,
+  "duplicateEmailsAllowed": false,
+  "resetPasswordAllowed": true,
+  "editUsernameAllowed": false,
+  "bruteForceProtected": true,
+  "permanentLockout": false,
+  "maxFailureWaitSeconds": 900,
+  "minimumQuickLoginWaitSeconds": 60,
+  "waitIncrementSeconds": 60,
+  "quickLoginCheckMilliSeconds": 1000,
+  "maxDeltaTimeSeconds": 43200,
+  "failureFactor": 30,
+
+  "accessTokenLifespan": 300,
+  "ssoSessionIdleTimeout": 1800,
+  "ssoSessionMaxLifespan": 36000,
+  "offlineSessionIdleTimeout": 2592000,
+
+  "defaultSignatureAlgorithm": "RS256",
+
+  "roles": {
+    "realm": [
+      { "name": "user", "description": "Utilisateur standard" },
+      { "name": "admin", "description": "Administrateur" }
+    ]
+  },
 
   "clients": [
     {
-      "clientId": "pacman-dsfr-demo",
+      "clientId": "pacman-demo-id",
+      "name": "Application de démonstration Pacman",
+      "description": "Client principal pour application React Pacman",
       "enabled": true,
+
+      "protocol": "openid-connect",
       "publicClient": true,
-      "redirectUris": ["*"]
+
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+
+      "redirectUris": [
+        "http://localhost:5173/*"
+      ],
+      "webOrigins": [
+        "http://localhost:5173"
+      ],
+      "baseUrl": "http://localhost:5173",
+      "adminUrl": "http://localhost:5173",
+
+      "attributes": {
+        "pkce.code.challenge.method": "S256",
+        "access.token.lifespan": "300",
+        "client.session.idle.timeout": "1800"
+      },
+
+      "defaultClientScopes": [
+        "profile",
+        "email",
+        "roles",
+        "web-origins"
+      ],
+      "optionalClientScopes": [
+        "address",
+        "phone",
+        "offline_access"
+      ]
     }
   ],
 
   "users": [
     {
-      "username": "user1",
+      "username": "userdemo",
+      "firstName": "User",
+      "lastName": "Demo",
+      "email": "userdemo@example.com",
       "enabled": true,
       "emailVerified": true,
+
+      "attributes": {
+        "department": ["IT"],
+        "project": ["Pacman"]
+      },
+
       "credentials": [
         {
           "type": "password",
           "value": "password",
           "temporary": false
         }
-      ]
+      ],
+
+      "realmRoles": ["user"]
+    },
+    {
+      "username": "admindemo",
+      "firstName": "Admin",
+      "lastName": "Demo",
+      "email": "admindemo@example.com",
+      "enabled": true,
+      "emailVerified": true,
+
+      "attributes": {
+        "department": ["IT"],
+        "project": ["Pacman"],
+        "level": ["super"]
+      },
+
+      "credentials": [
+        {
+          "type": "password",
+          "value": "password",
+          "temporary": false
+        }
+      ],
+
+      "realmRoles": ["admin"]
     }
-  ]
+  ],
+
+  "groups": [
+    {
+      "name": "users",
+      "realmRoles": ["user"]
+    },
+    {
+      "name": "admins",
+      "realmRoles": ["admin"]
+    }
+  ],
+
+  "components": {
+    "org.keycloak.services.clientregistration.policy.ClientRegistrationPolicy": [
+      {
+        "name": "Allowed Protocol Mapper Types",
+        "providerId": "allowed-protocol-mappers",
+        "config": {
+          "allowed-protocol-mapper-types": [
+            "oidc-usermodel-property-mapper",
+            "oidc-usermodel-realm-role-mapper"
+          ]
+        }
+      }
+    ]
+  }
 }

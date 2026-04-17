@@ -8,6 +8,16 @@ echo DEMARRAGE DE L'ENVIRONNEMENT DEMO
 echo =====================================
 
 echo.
+echo Activation de Docker...
+rem net start com.docker.service >nul 2>&1
+docker info >nul 2>&1
+if errorlevel 1 (
+    echo Docker non demarre. Merci de le lancer....
+    goto END
+)
+echo Docker est pret...
+
+echo.
 echo Lancement des conteneurs Docker...
 docker compose up -d
 
@@ -105,7 +115,6 @@ for /f "delims=" %%k in ('type %INIT_FILE% ^| findstr /i "Unseal Key"') do (
 )
 
 echo Vault deverrouille
-
 goto INFOS
 
 :INFOS
@@ -131,7 +140,7 @@ echo Mot de passe : password
 
 echo.
 echo =====================================
-echo TOKEN ROOT VAULT
+echo INFORMATIONS VAULT
 echo =====================================
 
 if exist %INIT_FILE% (
@@ -141,8 +150,11 @@ if exist %INIT_FILE% (
 )
 
 echo.
+echo Finalisation demarrage des interfaces serveurs...
+timeout /t 20 /nobreak
+
+echo.
 echo =====================================
 echo ENVIRONNEMENT PRET POUR LA DEMO
 echo =====================================
-timeout /t 25 >nul
 :END

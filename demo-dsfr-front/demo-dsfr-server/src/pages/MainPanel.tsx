@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { Link } from "react-router-dom";
 import { Notice } from "@codegouvfr/react-dsfr/Notice";
 import mainImg from"../assets/imgs/administratives-demarches-accelerer-comment-vos-1024x569.jpg";
 

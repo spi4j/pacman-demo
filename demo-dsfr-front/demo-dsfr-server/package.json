@@ -13,6 +13,7 @@
     "@codegouvfr/react-dsfr": "^1.26.0",
     "@gouvfr/dsfr": "^1.14.1",
     "demo-dsfr-client-rest": "file:lib/demo-dsfr-client-rest-1.0.0.tgz",
+    "keycloak-js": "^26.2.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-hook-form": "^7.45.0"

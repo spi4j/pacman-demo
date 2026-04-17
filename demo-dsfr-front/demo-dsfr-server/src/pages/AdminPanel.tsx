@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useForm } from "react-hook-form";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
+import { Link } from "react-router-dom";
 import { fr } from "@codegouvfr/react-dsfr/fr";
 import { Accordion } from "@codegouvfr/react-dsfr/Accordion";
 import { Table } from "@codegouvfr/react-dsfr/Table";
@@ -22,7 +23,7 @@ const modal = createModal({
    isOpenedByDefault: false 
 });
 import { apiClient } from "../api/apiClient";
-import { requests } from "demo-dsfr-client-rest";
+import { requests } from "../api/overrideApiClient";
 import { RequestDemo } from "demo-dsfr-client-rest";
 
 // Start of user code 5adad5b103d11d932756b57cf2338a44
@@ -142,7 +143,7 @@ export default function AdminPanel () {
     } catch (error) {
         console.error(error);
         setGlobalMessage({
-          text: "Une erreur est survenue lors de l’enregistrement.",
+          text: "Une erreur est survenue lors de l’accès au service.",
           severity: "error",
         });
      }

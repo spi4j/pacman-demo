@@ -9,7 +9,7 @@
       <associatedTypes xsi:type="oent:Entity" href="demo-dsfr-rest.entity#_r_zbgbl9EfCXjffJImK66Q"/>
     </types>
   </ownedNamespaces>
-  <ownedComponents xmi:id="_qQ1Q4bmAEfCXjffJImK66Q" technicalid="_qQw_cLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:17:49.168+0100" modifiedOn="2025-11-04T14:18:33.240+0100" name="demo-dsfr" apiVersion="0.0.1">
+  <ownedComponents xmi:id="_qQ1Q4bmAEfCXjffJImK66Q" technicalid="_qQw_cLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:17:49.168+0100" modifiedOn="2026-04-14T15:47:24.563+0200" name="demo-dsfr" apiVersion="0.0.1">
     <ownedServices xmi:id="_sM2RobmAEfCXjffJImK66Q" technicalid="_sM2RoLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:02.170+0100" modifiedOn="2025-11-04T14:24:06.443+0100" name="Users" URI="/users">
       <ownedInterface xmi:id="_uYHPUbmAEfCXjffJImK66Q" technicalid="_uYHPULmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:16.774+0100" modifiedOn="2025-11-04T14:18:18.976+0100" name="Users">
         <ownedOperations xmi:id="_uYH2YbmAEfCXjffJImK66Q" technicalid="_uYH2YLmAEfCXjffJImK66Q" description="Cr&#xe9;ation d'un nouvel utilisateur." createdOn="2025-11-04T14:18:16.775+0100" modifiedOn="2025-11-21T08:44:47.707+0100" name="setUser" public="true" verb="POST" exposition="REST">
@@ -20,7 +20,8 @@
             <mediaType xmi:id="_h1lQ8bmCEfCXjffJImK66Q" technicalid="_h1lQ8LmCEfCXjffJImK66Q" createdOn="2025-11-04T14:31:15.496+0100" modifiedOn="2025-11-04T14:31:15.496+0100" identifier="application/json"/>
           </output>
         </ownedOperations>
-        <ownedOperations xmi:id="_utH2AbmAEfCXjffJImK66Q" technicalid="_utH2ALmAEfCXjffJImK66Q" description="Retourne un utilisateur en fonction de son identifiant." createdOn="2025-11-04T14:18:18.976+0100" modifiedOn="2025-11-21T08:45:04.667+0100" name="getUser" public="true" URI="/{id}" exposition="REST">
+        <ownedOperations xmi:id="_utH2AbmAEfCXjffJImK66Q" technicalid="_utH2ALmAEfCXjffJImK66Q" description="Retourne un utilisateur en fonction de son identifiant." createdOn="2025-11-04T14:18:18.976+0100" modifiedOn="2026-04-14T15:49:02.648+0200" name="getUser" public="true" URI="/{id}" exposition="REST">
+          <securityApplications xmi:id="_sj27gTgIEfGY2ayxECyaOg" technicalid="_sj27gDgIEfGY2ayxECyaOg" securityScheme="_d8cmMTgIEfGY2ayxECyaOg"/>
           <input xmi:id="_8a1GsbmBEfCXjffJImK66Q" technicalid="_8a1GsLmBEfCXjffJImK66Q" description="L'identifiant unique pour l'utilisateur." createdOn="2025-11-04T14:27:00.507+0100" modifiedOn="2025-11-21T08:46:53.515+0100" name="id">
             <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_9dnH8bGqEd2SRpTkL4GntA"/>
             <restData xmi:id="_8a70YbmBEfCXjffJImK66Q" technicalid="_8a70YLmBEfCXjffJImK66Q" passingMode="PATH" restId="id"/>
@@ -34,7 +35,8 @@
         </ownedOperations>
       </ownedInterface>
     </ownedServices>
-    <ownedServices xmi:id="_w1J5gbmAEfCXjffJImK66Q" technicalid="_w1J5gLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:33.240+0100" modifiedOn="2025-11-04T14:24:08.006+0100" name="Requests" URI="/requests">
+    <ownedServices xmi:id="_w1J5gbmAEfCXjffJImK66Q" technicalid="_w1J5gLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:33.240+0100" modifiedOn="2026-04-14T15:48:19.434+0200" name="Requests" URI="/requests">
+      <securityApplications xmi:id="_mHvMoDgIEfGY2ayxECyaOg" technicalid="_mHulkDgIEfGY2ayxECyaOg" securityScheme="_d8cmMTgIEfGY2ayxECyaOg"/>
       <ownedInterface xmi:id="_x7M7kLmAEfCXjffJImK66Q" technicalid="_x7MUgLmAEfCXjffJImK66Q" createdOn="2025-11-04T14:18:40.585+0100" modifiedOn="2025-11-04T14:21:47.104+0100" name="Requests">
         <ownedOperations xmi:id="_x7M7krmAEfCXjffJImK66Q" technicalid="_x7M7kbmAEfCXjffJImK66Q" description="Cr&#xe9;ation d'une nouvelle demande." createdOn="2025-11-04T14:18:40.585+0100" modifiedOn="2025-11-21T08:45:20.530+0100" name="setRequest" public="true" verb="POST" exposition="REST">
           <input xmi:id="_M7xwgbmCEfCXjffJImK66Q" technicalid="_M7xwgLmCEfCXjffJImK66Q" description="La requ&#xea;te &#xe0; cr&#xe9;er." createdOn="2025-11-04T14:28:51.337+0100" modifiedOn="2025-11-21T08:47:29.360+0100" type="_W3RtI7l-EfCXjffJImK66Q" name="requestIn">
@@ -75,6 +77,52 @@
         </ownedOperations>
       </ownedInterface>
     </ownedServices>
+    <ownedServices xmi:id="_jeOB0Db5EfGY2ayxECyaOg" technicalid="_jeNawDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:28:08.046+0200" modifiedOn="2026-04-14T15:48:24.587+0200" name="Documents" URI="/documents">
+      <metadatas xmi:id="_8YK94Te9EfGY2ayxECyaOg" technicalid="_8YK94De9EfGY2ayxECyaOg">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_8YK94je9EfGY2ayxECyaOg" technicalid="_7qrlwDe9EfGY2ayxECyaOg" title="STORAGE" body="DOCUMENT : Service de stockage pour un document (S3 par d&#xe9;faut)"/>
+      </metadatas>
+      <securityApplications xmi:id="_m44VsDgIEfGY2ayxECyaOg" technicalid="_m43uoDgIEfGY2ayxECyaOg" securityScheme="_d8cmMTgIEfGY2ayxECyaOg"/>
+      <ownedInterface xmi:id="_ochu4Tb5EfGY2ayxECyaOg" technicalid="_ochu4Db5EfGY2ayxECyaOg" createdOn="2026-04-13T07:28:41.423+0200" modifiedOn="2026-04-13T07:28:47.964+0200" name="Documents">
+        <ownedOperations xmi:id="_ociV8Tb5EfGY2ayxECyaOg" technicalid="_ociV8Db5EfGY2ayxECyaOg" createdOn="2026-04-13T07:28:41.424+0200" modifiedOn="2026-04-14T06:53:15.789+0200" name="setDocument" public="true" URI="/{name}" verb="POST" exposition="REST">
+          <input xmi:id="_udWB0Db5EfGY2ayxECyaOg" technicalid="_udVawDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:29:21.774+0200" modifiedOn="2026-04-13T08:30:03.172+0200" name="docName">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__Lc96Tb5EfGY2ayxECyaOg"/>
+            <restData xmi:id="_udaTQTb5EfGY2ayxECyaOg" technicalid="_udaTQDb5EfGY2ayxECyaOg" passingMode="PATH" restId="name"/>
+          </input>
+          <input xmi:id="_uslXsTb5EfGY2ayxECyaOg" technicalid="_uslXsDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:29:23.371+0200" modifiedOn="2026-04-14T07:31:03.141+0200" name="docContent">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__LcW0jb5EfGY2ayxECyaOg"/>
+            <mediaType xmi:id="_IKrJUTfDEfGY2ayxECyaOg" technicalid="_IKrJUDfDEfGY2ayxECyaOg" createdOn="2026-04-14T07:31:06.372+0200" modifiedOn="2026-04-14T07:31:06.372+0200" identifier="multipart/form-data"/>
+            <restData xmi:id="_usnz8Tb5EfGY2ayxECyaOg" technicalid="_usnz8Db5EfGY2ayxECyaOg"/>
+          </input>
+          <input xmi:id="_4RGhQTcBEfGY2ayxECyaOg" technicalid="_4RGhQDcBEfGY2ayxECyaOg" createdOn="2026-04-13T08:27:43.572+0200" modifiedOn="2026-04-13T08:30:15.969+0200" name="docMetadatas">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__Lc94zb5EfGY2ayxECyaOg"/>
+            <restData xmi:id="_4RI9gTcBEfGY2ayxECyaOg" technicalid="_4RI9gDcBEfGY2ayxECyaOg"/>
+          </input>
+          <input xmi:id="_5dBh0TcBEfGY2ayxECyaOg" technicalid="_5dBh0DcBEfGY2ayxECyaOg" createdOn="2026-04-13T08:27:51.533+0200" modifiedOn="2026-04-13T08:30:21.296+0200" name="docType">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__Lc95Tb5EfGY2ayxECyaOg"/>
+            <restData xmi:id="_5dDXATcBEfGY2ayxECyaOg" technicalid="_5dDXADcBEfGY2ayxECyaOg" passingMode="QUERY" restId="type"/>
+          </input>
+          <output xmi:id="_CV3x0TcCEfGY2ayxECyaOg" technicalid="_CV3x0DcCEfGY2ayxECyaOg" createdOn="2026-04-13T08:28:51.181+0200" modifiedOn="2026-04-13T08:32:34.906+0200" name="docOut" statusCode="201" statusMessage="Created">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </output>
+        </ownedOperations>
+        <ownedOperations xmi:id="_pa6pwTb5EfGY2ayxECyaOg" technicalid="_pa6pwDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:28:47.964+0200" modifiedOn="2026-04-14T06:52:47.289+0200" name="getDocument" public="true" URI="/{name}" exposition="REST">
+          <input xmi:id="_wJR_MTb5EfGY2ayxECyaOg" technicalid="_wJR_MDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:29:33.092+0200" modifiedOn="2026-04-13T08:30:48.033+0200" name="docName">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__Lc96Tb5EfGY2ayxECyaOg"/>
+            <restData xmi:id="_wJUbcTb5EfGY2ayxECyaOg" technicalid="_wJUbcDb5EfGY2ayxECyaOg" passingMode="PATH" restId="name"/>
+          </input>
+          <output xmi:id="_xT1GwDb5EfGY2ayxECyaOg" technicalid="_xT0fsDb5EfGY2ayxECyaOg" createdOn="2026-04-13T07:29:40.909+0200" modifiedOn="2026-04-14T07:37:43.079+0200" name="docContent" multiplicity="0..1" statusCode="200" statusMessage="OK">
+            <type xsi:type="oenv:PrimitiveType" href="demo-dsfr-rest.environment#__Lc94Tb5EfGY2ayxECyaOg"/>
+            <mediaType xmi:id="_Dwx7cTfEEfGY2ayxECyaOg" technicalid="_Dwx7cDfEEfGY2ayxECyaOg" createdOn="2026-04-14T07:37:46.034+0200" modifiedOn="2026-04-14T07:37:46.034+0200" identifier="application/octet-stream"/>
+          </output>
+          <fault xmi:id="_IIQnMTcCEfGY2ayxECyaOg" technicalid="_IIQnMDcCEfGY2ayxECyaOg" description="Aucun document trouv&#xe9;." createdOn="2026-04-13T08:29:30.020+0200" modifiedOn="2026-04-14T06:54:22.121+0200" name="fault1" statusCode="404" statusMessage="Not Found">
+            <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+          </fault>
+        </ownedOperations>
+      </ownedInterface>
+    </ownedServices>
+    <securitySchemes xmi:id="_d8cmMTgIEfGY2ayxECyaOg" technicalid="_d8cmMDgIEfGY2ayxECyaOg" createdOn="2026-04-14T15:47:27.103+0200" modifiedOn="2026-04-14T16:54:40.237+0200" type="openIdConnect" name="demo-dsfr-oidc" connectURL="http://localhost:8085/realms/pacman-demo-realm/protocol/openid-connect/auth">
+      <flows xmi:id="_gB2zgTgIEfGY2ayxECyaOg" technicalid="_gB2zgDgIEfGY2ayxECyaOg" createdOn="2026-04-14T15:47:38.553+0200" modifiedOn="2026-04-14T15:47:38.553+0200" flowType="AUTHORIZATIONCODE"/>
+    </securitySchemes>
     <license xmi:id="_qQ138LmAEfCXjffJImK66Q" technicalid="_qQ0CwLmAEfCXjffJImK66Q" name="Apache 2.0" URL="http://www.apache.org/licenses/LICENSE-2.0.html"/>
     <information xmi:id="_qQ138bmAEfCXjffJImK66Q" technicalid="_qQy0oLmAEfCXjffJImK66Q"/>
     <contact xmi:id="_qQ138rmAEfCXjffJImK66Q" technicalid="_qQ1Q4LmAEfCXjffJImK66Q"/>

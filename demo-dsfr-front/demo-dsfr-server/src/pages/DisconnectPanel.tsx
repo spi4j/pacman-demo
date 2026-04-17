@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
+import { Link } from "react-router-dom";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
 
 // Start of user code 834c79e2934f27325adefbc92e044920

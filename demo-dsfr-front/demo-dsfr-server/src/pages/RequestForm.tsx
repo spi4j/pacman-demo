@@ -4,13 +4,14 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useForm } from "react-hook-form";
 import { Alert } from "@codegouvfr/react-dsfr/Alert";
+import { Link } from "react-router-dom";
 import { Select } from "@codegouvfr/react-dsfr/Select";
 import { Button } from "@codegouvfr/react-dsfr/Button";
 import { Upload } from "@codegouvfr/react-dsfr/Upload";
 import { ToggleSwitch } from "@codegouvfr/react-dsfr/ToggleSwitch";
 import { Input } from "@codegouvfr/react-dsfr/Input";
 import { apiClient } from "../api/apiClient";
-import { requests } from "demo-dsfr-client-rest";
+import { requests } from "../api/overrideApiClient";
 import { RequestDemo } from "demo-dsfr-client-rest";
 
 // Start of user code 995723c4afdf2e019a92beded2745f35
@@ -110,7 +111,7 @@ export default function RequestForm () {
     } catch (error) {
         console.error(error);
         setGlobalMessage({
-          text: "Une erreur est survenue lors de l’enregistrement.",
+          text: "Une erreur est survenue lors de l’accès au service.",
           severity: "error",
         });
      }

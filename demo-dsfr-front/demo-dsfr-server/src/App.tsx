@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProtectedRoutes from "./security/ProtectedRoutes";
 import { useLocation } from "react-router-dom";
 import ConnectionPanel from "./pages/ConnectionPanel";
+import ConnectionSelectPanel from "./pages/ConnectionSelectPanel";
 import _Footer from "./pages/FooterPanel";
       
 import _Header from "./pages/HeaderPanel";
@@ -41,10 +42,11 @@ function App() {
     <Router>
       <Layout>
       <Routes>  
-        <Route path="/goToConnexion" element={< ConnectionPanel />}/>
+        <Route path="/goToInternalConnexion" element={< ConnectionPanel />}/>
+        <Route path="/goToConnexion" element={< ConnectionSelectPanel />}/>
         // Double l'url pour une url fixe en provenance de AuthContext.tsx
-        <Route path="/login" element={< ConnectionPanel />}/>
-        <Route path="/goToReconnect" element={< ConnectionPanel />}/>
+        <Route path="/login" element={< ConnectionSelectPanel />}/>
+        <Route path="/goToReconnect" element={< ConnectionSelectPanel />}/>
         <Route element={<ProtectedRoutes roles={["user", "admin"]} />}>
           <Route path="/goToProfil" element={< ProfilPanel />}/>
         </Route>

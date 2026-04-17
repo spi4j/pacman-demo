@@ -11,6 +11,7 @@ import fr.demo_dsfr_rest.app.exceptions.Demo_dsfr_restMapperException;
 import fr.demo_dsfr_rest.domain.entities.demo_dsfr.RequestDemoDtoImpl;
 
 // End of user code
+
 /**
  * La classe {@code RequestDemoMapper} est responsable de la conversion entre
  * deux types d'objets : {@link RequestDemoXtoImpl} et

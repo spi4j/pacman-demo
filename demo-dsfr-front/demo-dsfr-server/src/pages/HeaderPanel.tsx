@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { headerFooterDisplayItem } from "@codegouvfr/react-dsfr/Display";
 import { Header } from "@codegouvfr/react-dsfr/Header";
+import { Link } from "react-router-dom";
 import { MainNavigation } from "@codegouvfr/react-dsfr/MainNavigation";
 import { SearchBar } from "@codegouvfr/react-dsfr/SearchBar";
 import opLogo from "../assets/imgs/logo.png";
