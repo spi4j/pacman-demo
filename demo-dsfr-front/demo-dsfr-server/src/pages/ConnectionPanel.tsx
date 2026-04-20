@@ -42,6 +42,7 @@ export default function ConnectionPanel () {
     reset,
     watch,
     register, 
+    setValue,
     handleSubmit, 
     formState: { errors, dirtyFields }, 
   } = useForm<FormValues>({

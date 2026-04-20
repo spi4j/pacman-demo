@@ -1,7 +1,8 @@
-import { apiClient } from "../api/apiClient";
+// fallback global (IMPORTANT)
+import { apiClient as defaultApiClient } from "../api/apiClient";
 export class Requests {
     // Permet la surchage du client.
-    constructor(apiClient = apiClient) {
+    constructor(apiClient = defaultApiClient) {
         this.apiClient = apiClient;
     }
     /**
@@ -12,7 +13,7 @@ export class Requests {
      * @return RequestDemo : La requête créée avec son identifiant.
      */
     async setRequest(requestIn) {
-        const response = await apiClient.post(`/v0/requests`, requestIn);
+        const response = await this.apiClient.post(`/v0/requests`, requestIn);
         return response.data;
     }
     /**
@@ -23,7 +24,7 @@ export class Requests {
      * @return RequestDemo : La demande retournée en fonction de son identifiant.
      */
     async getRequest(id) {
-        const response = await apiClient.get(`/v0/requests/${id}`);
+        const response = await this.apiClient.get(`/v0/requests/${id}`);
         return response.data;
     }
     /**
@@ -33,7 +34,7 @@ export class Requests {
      * @return RequestDemo[] : La liste de toutes les demandes pour l'ensemble des utilistateurs.
      */
     async getRequests() {
-        const response = await apiClient.get(`/v0/requests`);
+        const response = await this.apiClient.get(`/v0/requests`);
         return response.data;
     }
     /**
@@ -45,9 +46,7 @@ export class Requests {
      */
     async getUserRequests(userId) {
         const id = userId;
-        const response = await apiClient.get(`/v0/requests/user/${id}`);
+        const response = await this.apiClient.get(`/v0/requests/user/${id}`);
         return response.data;
     }
 }
-// On exporte une instance pour simplifier l’usage.
-export const requests = new Requests(apiClient);

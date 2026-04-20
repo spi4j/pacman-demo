@@ -75,6 +75,7 @@ export default function AdminPanel () {
     reset,
     watch,
     register, 
+    setValue,
     handleSubmit, 
     formState: { errors, dirtyFields }, 
   } = useForm<FormValues>({
@@ -381,7 +382,7 @@ export default function AdminPanel () {
       <div className="fr-col">
       {currentRow && currentTable && (
       <modal.Component 
-        className="modal-auto-size"
+        className="request-modal-requestsInProgressTableEditor fr-modal--lg-requestsInProgressTableEditor"
         title="" 
         onClose={handleClose}>
         <div >

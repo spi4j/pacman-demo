@@ -4,13 +4,19 @@
  * @Author MINARM
  */
 import type { AxiosInstance } from "axios";
-import { apiClient } from "../api/apiClient";
-import { RequestDemo } from "../models/RequestDemo";
+import type { RequestDemo } from "../models/RequestDemo";
+
+// fallback global (IMPORTANT)
+import { apiClient as defaultApiClient } from "../api/apiClient";
 
 export class Requests {
   
+  private apiClient: AxiosInstance;
+  
   // Permet la surchage du client.
-  constructor(private apiClient: AxiosInstance = apiClient) {}
+  constructor(apiClient: AxiosInstance = defaultApiClient) {
+     this.apiClient = apiClient;
+  }
   
    /**
     * Création d'une nouvelle demande.
@@ -21,7 +27,7 @@ export class Requests {
     */
    async setRequest(requestIn: RequestDemo) : Promise<RequestDemo> {
       
-      const response = await apiClient.post(`/v0/requests`, requestIn);
+      const response = await this.apiClient.post(`/v0/requests`, requestIn);
       return response.data;
    }
   
@@ -34,7 +40,7 @@ export class Requests {
     */
    async getRequest(id: string) : Promise<RequestDemo> {
       
-      const response = await apiClient.get(`/v0/requests/${id}`);
+      const response = await this.apiClient.get(`/v0/requests/${id}`);
       return response.data;
    }
   
@@ -46,7 +52,7 @@ export class Requests {
     */
    async getRequests() : Promise<RequestDemo[]> {
       
-      const response = await apiClient.get(`/v0/requests`);
+      const response = await this.apiClient.get(`/v0/requests`);
       return response.data;
    }
   
@@ -59,11 +65,8 @@ export class Requests {
     */
    async getUserRequests(userId: string) : Promise<RequestDemo[]> {
       const id = userId;
-      const response = await apiClient.get(`/v0/requests/user/${id}`);
+      const response = await this.apiClient.get(`/v0/requests/user/${id}`);
       return response.data;
    }
   
 }
-
-// On exporte une instance pour simplifier l’usage.
-export const requests = new Requests(apiClient);

@@ -746,7 +746,7 @@
         </events>
         <viewStyle xmi:id="_24bu86_aEfChh63joL0dtA" technicalid="_24bu8a_aEfChh63joL0dtA"/>
       </ownedElements>
-      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_x20jgrAMEfColsm8OfSYlw" technicalid="_x20jgLAMEfColsm8OfSYlw" createdOn="2025-10-23T14:35:38.040+0200" modifiedOn="2025-10-27T11:01:40.459+0100" name="docUpload" label="Chargement de documents justificatifs pour la demande de passeport">
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_x20jgrAMEfColsm8OfSYlw" technicalid="_x20jgLAMEfColsm8OfSYlw" createdOn="2025-10-23T14:35:38.040+0200" modifiedOn="2026-04-20T15:10:14.271+0200" name="docUpload" label="Pieces justificatives pour la demande de passeport (Fichiers pdf uniquement)">
         <metadatas xmi:id="_x21KkbAMEfColsm8OfSYlw" technicalid="_x21KkLAMEfColsm8OfSYlw">
           <metadatas xsi:type="oenv:Annotation" xmi:id="_JKbhwLMfEfC10MzneKw31g" technicalid="_JKa6sLMfEfC10MzneKw31g" title="WITH_CUSTOM_CODE" body=""/>
         </metadatas>
@@ -1690,7 +1690,7 @@
   <viewContainers xmi:id="_2ektgjmPEfGlbeNqY0EoKA" technicalid="_2ektgDmPEfGlbeNqY0EoKA" createdOn="2026-04-16T14:29:02.430+0200" modifiedOn="2026-04-16T16:30:30.002+0200" name="connectionSelectPanel">
     <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_cVIkIJJGEfCaOp8KF-MYRg"/>
     <viewStyle xmi:id="_2ektgzmPEfGlbeNqY0EoKA" technicalid="_2ektgTmPEfGlbeNqY0EoKA"/>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_T4e_EjmWEfGlbeNqY0EoKA" technicalid="_T4e_EDmWEfGlbeNqY0EoKA" description="&lt;b>Pour acc&#xe9;der &#xe0; votre espace, veuillez choisir votre m&#xe9;thode d&#x2019;authentification.&lt;/b>&lt;p>&lt;/p>&lt;hr>&lt;/hr>&lt;p>Vous pouvez vous connecter &#xe0; l&#x2019;aide du formulaire interne en utilisant vos identifiants habituels, ou bien passer par l&#x2019;authentification s&#xe9;curis&#xe9;e via DemoConnect (SSO), si votre organisation le permet.&lt;/p>" createdOn="2026-04-16T15:15:16.738+0200" modifiedOn="2026-04-16T15:55:25.971+0200" name="connectionSelectContent1">
+    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_T4e_EjmWEfGlbeNqY0EoKA" technicalid="_T4e_EDmWEfGlbeNqY0EoKA" description="&lt;b>Pour acc&#xe9;der &#xe0; votre espace, veuillez choisir votre m&#xe9;thode d&#x2019;authentification.&lt;/b>&lt;p>&lt;/p>&lt;hr>&lt;/hr>Vous pouvez vous connecter &#xe0; l&#x2019;aide du formulaire interne en utilisant vos identifiants habituels, ou bien passer par l&#x2019;authentification s&#xe9;curis&#xe9;e via DemoConnect (SSO), si votre organisation le permet." createdOn="2026-04-16T15:15:16.738+0200" modifiedOn="2026-04-20T12:33:44.302+0200" name="connectionSelectContent1">
       <metadatas xmi:id="_T4gNMTmWEfGlbeNqY0EoKA" technicalid="_T4fmIDmWEfGlbeNqY0EoKA">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_T4gNMjmWEfGlbeNqY0EoKA" technicalid="_T4gNMDmWEfGlbeNqY0EoKA" title="WITH_CUSTOM_CODE"/>
       </metadatas>

@@ -15,6 +15,9 @@ import { requests } from "../api/overrideApiClient";
 import { RequestDemo } from "demo-dsfr-client-rest";
 
 // Start of user code 995723c4afdf2e019a92beded2745f35
+
+import { documents } from "../api/overrideApiClient";
+
 // End of user code
 
 export default function RequestForm () {
@@ -30,6 +33,7 @@ export default function RequestForm () {
   type FormValues = {
     
     requestSelect : string;
+    docUpload : FileList;
     purposePassRequestSelect : string;
     oldPasswordInput : string;
     firstName : string;
@@ -53,6 +57,7 @@ export default function RequestForm () {
     reset,
     watch,
     register, 
+    setValue,
     handleSubmit, 
     formState: { errors, dirtyFields }, 
   } = useForm<FormValues>({
@@ -99,14 +104,37 @@ export default function RequestForm () {
        await setRequest(payload);
        
        // Start of user code e44bd242ede4029a648d53ff249e5a9a
+       
+       console.log("docUpload:", data.docUpload);
+       if (data.docUpload && data.docUpload.length > 0) {
+          console.log("Upload de fichier détecté, on appelle le second service...");
+          // premier fichier uniquement (même si multiple)
+          const file = data.docUpload[0];
           
+          try {
+             await documents.setDocument(
+               "mondocumentfromreact.pdf",
+               file,
+               JSON.stringify({                   
+                 requestType: data.requestSelect,
+                 userId: user?.id,
+               }),
+               "application/pdf");
+          } catch (err) {
+             console.error("Erreur upload fichier :", err);
+             setGlobalMessage({
+                text: "La demande est créée mais le fichier n'a pas pu être envoyé.",
+                severity: "warning",
+             });
+          }
+       }
+       
        // End of user code
           
        setGlobalMessage({ 
           text: "La demande a bien été envoyé.", 
           severity: "success",
        });
-       navigate("/");
        
     } catch (error) {
         console.error(error);
@@ -305,10 +333,19 @@ export default function RequestForm () {
         )}
       />
       <Upload
-        multiple 
+        multiple
+        label="Pieces justificatives pour la demande de passeport (Fichiers pdf uniquement)" 
         hint=""
         state="default"
         stateRelatedMessage="Text de validation / d'explication de l'erreur"
+        nativeInputProps={{
+          onChange: (e) => {
+            setValue("docUpload", e.target.files, {
+            shouldValidate: true,
+            shouldDirty: true,
+            });
+          }
+        }}
       />
       {/* // Start of user code a35b801de33eb554d235d989ede1627d
        */}

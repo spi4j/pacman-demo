@@ -27,7 +27,7 @@
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_dCxeAqmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KRgsgamFEfCpWIL5h8qf4A" name="localRequestForm View Container Mockup" repPath="#_KRgFcKmFEfCpWIL5h8qf4A" changeId="1761579995519">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_KRgsgamFEfCpWIL5h8qf4A" name="localRequestForm View Container Mockup" repPath="#_KRgFcKmFEfCpWIL5h8qf4A" changeId="1776690614291">
         <description xmi:type="description_2:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']"/>
         <target xmi:type="cinematic-view:ViewContainer" href="demo-dsfr-model.cinematic#_85f_AKmDEfCpWIL5h8qf4A"/>
       </ownedRepresentationDescriptors>
@@ -2092,7 +2092,7 @@
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_24c9EK_aEfChh63joL0dtA" labelSize="12" showIcon="false" description="_xCsqoa_aEfChh63joL0dtA" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>
           <actualMapping xmi:type="description_2:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.cinematic.design/description/cinematic.odesign#//@ownedViewpoints[name='Cinematic%20Views']/@ownedRepresentations[name='View%20Container%20Mockup']/@defaultLayer/@containerMappings[name='VCD_RootViewContainer']/@subContainerMappings[name='VCD_ViewElement']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_x21KkrAMEfColsm8OfSYlw" name="Chargement de documents justificatifs pour la demande de passeport">
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_x21KkrAMEfColsm8OfSYlw" name="Pieces justificatives pour la demande de passeport (Fichiers pdf uniquement)">
           <target xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_x20jgrAMEfColsm8OfSYlw"/>
           <semanticElements xmi:type="cinematic-view:ViewElement" href="demo-dsfr-model.cinematic#_x20jgrAMEfColsm8OfSYlw"/>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_x21Kk7AMEfColsm8OfSYlw" labelSize="12" showIcon="false" description="_xCsqoa_aEfChh63joL0dtA" borderSize="2" borderSizeComputationExpression="aql:self.getBorderSize()" foregroundColor="255,255,255"/>

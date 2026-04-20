@@ -4,7 +4,7 @@
  * @Author MINARM
  */
 import type { AxiosInstance } from "axios";
-import { UserDemo } from "../models/UserDemo";
+import type { UserDemo } from "../models/UserDemo";
 export declare class Users {
     private apiClient;
     constructor(apiClient?: AxiosInstance);
@@ -25,4 +25,3 @@ export declare class Users {
      */
     getUser(id: string): Promise<UserDemo>;
 }
-export declare const users: Users;

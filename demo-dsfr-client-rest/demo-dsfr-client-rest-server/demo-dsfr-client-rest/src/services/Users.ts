@@ -4,13 +4,19 @@
  * @Author MINARM
  */
 import type { AxiosInstance } from "axios";
-import { apiClient } from "../api/apiClient";
-import { UserDemo } from "../models/UserDemo";
+import type { UserDemo } from "../models/UserDemo";
+
+// fallback global (IMPORTANT)
+import { apiClient as defaultApiClient } from "../api/apiClient";
 
 export class Users {
   
+  private apiClient: AxiosInstance;
+  
   // Permet la surchage du client.
-  constructor(private apiClient: AxiosInstance = apiClient) {}
+  constructor(apiClient: AxiosInstance = defaultApiClient) {
+     this.apiClient = apiClient;
+  }
   
    /**
     * Création d'un nouvel utilisateur.
@@ -21,7 +27,7 @@ export class Users {
     */
    async setUser(userIn: UserDemo) : Promise<UserDemo> {
       
-      const response = await apiClient.post(`/v0/users`, userIn);
+      const response = await this.apiClient.post(`/v0/users`, userIn);
       return response.data;
    }
   
@@ -34,11 +40,8 @@ export class Users {
     */
    async getUser(id: string) : Promise<UserDemo> {
       
-      const response = await apiClient.get(`/v0/users/${id}`);
+      const response = await this.apiClient.get(`/v0/users/${id}`);
       return response.data;
    }
   
 }
-
-// On exporte une instance pour simplifier l’usage.
-export const users = new Users(apiClient);

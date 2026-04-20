@@ -1,7 +1,8 @@
-import { apiClient } from "../api/apiClient";
+// fallback global (IMPORTANT)
+import { apiClient as defaultApiClient } from "../api/apiClient";
 export class Users {
     // Permet la surchage du client.
-    constructor(apiClient = apiClient) {
+    constructor(apiClient = defaultApiClient) {
         this.apiClient = apiClient;
     }
     /**
@@ -12,7 +13,7 @@ export class Users {
      * @return UserDemo : L'utilisateur avec son identifiant.
      */
     async setUser(userIn) {
-        const response = await apiClient.post(`/v0/users`, userIn);
+        const response = await this.apiClient.post(`/v0/users`, userIn);
         return response.data;
     }
     /**
@@ -23,9 +24,7 @@ export class Users {
      * @return UserDemo : L'utilisateur retourné en fonction de son identifiant.
      */
     async getUser(id) {
-        const response = await apiClient.get(`/v0/users/${id}`);
+        const response = await this.apiClient.get(`/v0/users/${id}`);
         return response.data;
     }
 }
-// On exporte une instance pour simplifier l’usage.
-export const users = new Users(apiClient);

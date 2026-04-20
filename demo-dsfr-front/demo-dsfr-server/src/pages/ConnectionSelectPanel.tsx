@@ -39,6 +39,7 @@ export default function ConnectionSelectPanel () {
     reset,
     watch,
     register, 
+    setValue,
     handleSubmit, 
     formState: { errors, dirtyFields }, 
   } = useForm<FormValues>({
@@ -152,7 +153,7 @@ export default function ConnectionSelectPanel () {
     <>
         
         
-      <b>Pour accéder à votre espace, veuillez choisir votre méthode d’authentification.</b><p></p><hr></hr><p>Vous pouvez vous connecter à l’aide du formulaire interne en utilisant vos identifiants habituels, ou bien passer par l’authentification sécurisée via DemoConnect (SSO), si votre organisation le permet.</p>
+      <b>Pour accéder à votre espace, veuillez choisir votre méthode d’authentification.</b><p></p><hr></hr>Vous pouvez vous connecter à l’aide du formulaire interne en utilisant vos identifiants habituels, ou bien passer par l’authentification sécurisée via DemoConnect (SSO), si votre organisation le permet.
        <form onSubmit={handleSubmit(onSubmit)} 
        >
          <fieldset className="fr-fieldset fr-fieldset__legend-adjusted" aria-labelledby="text-legend-connectionSelectForm">
