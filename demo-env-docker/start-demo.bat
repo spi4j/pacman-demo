@@ -104,7 +104,7 @@ for /f "delims=" %%k in ('type %INIT_FILE% ^| findstr /i "Unseal Key"') do (
 	    echo =====================================
         echo Vault deja deverrouille
 		echo =====================================
-        goto INFOS
+        goto CONFIG_VAULT
     )
 
     for /f "tokens=1,* delims=:" %%a in ("%%k") do (
@@ -115,6 +115,44 @@ for /f "delims=" %%k in ('type %INIT_FILE% ^| findstr /i "Unseal Key"') do (
 )
 
 echo Vault deverrouille
+goto CONFIG_VAULT
+
+:CONFIG_VAULT
+
+echo.
+echo =====================================
+echo CONFIGURATION VAULT
+echo =====================================
+
+if not exist %INIT_FILE% (
+    echo Fichier init introuvable - skip config
+    goto INFOS
+)
+
+rem Recuperation du root token
+for /f "tokens=2 delims=:" %%a in ('findstr /i "Initial Root Token" %INIT_FILE%') do set ROOT_TOKEN=%%a
+set ROOT_TOKEN=%ROOT_TOKEN:~1%
+
+if "%ROOT_TOKEN%"=="" (
+    echo Impossible de recuperer le root token
+    goto INFOS
+)
+echo TOKEN VAULT = [%ROOT_TOKEN%]
+echo Activation du moteur KV (si necessaire)...
+docker exec -e VAULT_TOKEN=%ROOT_TOKEN% vault vault secrets list | findstr "secret/" >nul
+if errorlevel 1 (
+    echo Activation KV...
+    docker exec -e VAULT_TOKEN=%ROOT_TOKEN% vault vault secrets enable -path=secret kv-v2
+) else (
+    echo KV deja actif
+)
+
+echo Injection des secrets S3 (MinIO)...
+docker exec -e VAULT_TOKEN=%ROOT_TOKEN% vault vault kv put secret/demo-dsfr-rest ^
+    s3.accessKey=admin ^
+    s3.secretKey=password >nul 2>&1
+
+echo Configuration Vault terminee
 goto INFOS
 
 :INFOS
@@ -137,17 +175,6 @@ echo API : http://localhost:9000
 echo Console : http://localhost:9001
 echo Utilisateur : admin
 echo Mot de passe : password
-
-echo.
-echo =====================================
-echo INFORMATIONS VAULT
-echo =====================================
-
-if exist %INIT_FILE% (
-    findstr /i "root token" %INIT_FILE%
-) else (
-    echo Root token non disponible
-)
 
 echo.
 echo Finalisation demarrage des interfaces serveurs...
