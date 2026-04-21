@@ -138,12 +138,9 @@ resilience4j.circuitbreaker.instances.externalServiceCircuitBreaker.slidingWindo
 # ----------------------------------------------------------------------------------------------
 # URL du serveur de stockage (par défaut : localhost:9000).
 s3.url=http://localhost:9000
-# Identifiant de connexion.
-# s3.access-key=minioadmin (placé dans coffre-fort Vault)
-# Mot de passe pour la connexion.
-# s3.secret-key=minioadmin (placé dans coffre-fort Vault)
 # Conteneur logique (comme un dossier racine).
 s3.bucket=documents
+# Les credentials s3 sont stockés au niveau de vault....
 
 # ----------------------------------------------------------------------------------------------
 # COFFRE FORT (VAULT)
@@ -202,11 +199,11 @@ logging.level.org.hibernate.SQL=DEBUG
 logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
 logging.level.org.hibernate.orm.jdbc.bind=TRACE
 
-# H2 DB (paramètres placés dans le coffre-fort vault)
-# spring.datasource.url=jdbc:h2:file:C:/h2/test;DB_CLOSE_DELAY=-1;
-# spring.datasource.username=sa
-# spring.datasource.password=
-# spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+# H2 DB
+spring.datasource.url=jdbc:h2:file:C:/h2/test;DB_CLOSE_DELAY=-1;
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
 ## PostgreSQL
 #spring.datasource.url=jdbc:postgresql://localhost:5432/<votre base de donnees>;DB_CLOSE_DELAY=-1;

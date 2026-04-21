@@ -147,10 +147,13 @@ if errorlevel 1 (
     echo KV deja actif
 )
 
-echo Injection des secrets S3 (MinIO)...
+echo Injection des secrets BDD,S3...	
 docker exec -e VAULT_TOKEN=%ROOT_TOKEN% vault vault kv put secret/demo-dsfr-rest ^
     s3.accessKey=admin ^
-    s3.secretKey=password >nul 2>&1
+    s3.secretKey=password ^
+    spring.datasource.url=jdbc:h2:file:C:/h2/test;DB_CLOSE_DELAY=-1 ^
+    spring.datasource.username=sa ^
+    spring.datasource.password="" >nul 2>&1
 
 echo Configuration Vault terminee
 goto INFOS
@@ -186,7 +189,7 @@ echo Back : http://localhost:8080/actuator/health
 echo Back : http://localhost:8081/swagger-ui
 echo Back : http://localhost:8081/api-docs
 echo Front : http://localhost:5173
-echo Front : (userdemo, password) (admindemon password)
+echo Front : (userdemo, password) (admindemo password)
 
 echo.
 echo Finalisation demarrage des interfaces serveurs...
