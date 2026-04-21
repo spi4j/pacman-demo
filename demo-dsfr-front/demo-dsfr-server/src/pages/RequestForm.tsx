@@ -110,10 +110,11 @@ export default function RequestForm () {
           console.log("Upload de fichier détecté, on appelle le second service...");
           // premier fichier uniquement (même si multiple)
           const file = data.docUpload[0];
+          const fileName = file.name;
           
           try {
              await documents.setDocument(
-               "mondocumentfromreact.pdf",
+               fileName,
                file,
                JSON.stringify({                   
                  requestType: data.requestSelect,
