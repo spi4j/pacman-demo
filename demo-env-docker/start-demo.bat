@@ -177,6 +177,18 @@ echo Utilisateur : admin
 echo Mot de passe : password
 
 echo.
+echo =====================================
+echo INFORMATIONS DEMO
+echo =====================================
+echo Back : http://localhost:8080/actuator
+echo Back : http://localhost:8080/actuator/info
+echo Back : http://localhost:8080/actuator/health
+echo Back : http://localhost:8081/swagger-ui
+echo Back : http://localhost:8081/api-docs
+echo Front : http://localhost:5173
+echo Front : (userdemo, password) (admindemon password)
+
+echo.
 echo Finalisation demarrage des interfaces serveurs...
 timeout /t 20 /nobreak
 
