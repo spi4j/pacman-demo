@@ -1371,5 +1371,6 @@
     <exportedManifests xmi:type="manifest:MManifest" xmi:id="_9IoroMO4EfCSfPeN-ETnxg" projectId="demo-dsfr-rest-model" exportDate="2025-11-17T14:25:59.025+0100" versionMajor="1" comment=""/>
     <exportedManifests xmi:type="manifest:MManifest" xmi:id="_2t5bYMauEfCj_qa39Dz3Aw" projectId="demo-dsfr-rest-model" exportDate="2025-11-21T08:51:14.661+0100" versionMajor="1" versionPatch="1" comment=""/>
     <exportedManifests xmi:type="manifest:MManifest" xmi:id="_W3g8kDx2EfGYE-aode3dZA" projectId="demo-dsfr-rest-model" exportDate="2026-04-20T07:04:06.308+0200" versionMajor="1" versionPatch="2" comment=""/>
+    <exportedManifests xmi:type="manifest:MManifest" xmi:id="_WnDgED8mEfGrJLlgwyaixw" projectId="demo-dsfr-rest-model" exportDate="2026-04-23T17:08:58.356+0200" versionMajor="1" versionPatch="2" comment=""/>
   </manifest:MImportExportData>
 </xmi:XMI>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0">
+  <oenv:PrimitiveType xmi:id="_akcisD8mEfGe1t_IPUQYqg" technicalid="__LcW0Tb5EfGY2ayxECyaOg" name="S3DocumentIn"/>
+  <oenv:PrimitiveType xmi:id="_akcisT8mEfGe1t_IPUQYqg" technicalid="__Lc94Db5EfGY2ayxECyaOg" name="S3DocumentOut"/>
+  <oenv:PrimitiveType xmi:id="_akcisj8mEfGe1t_IPUQYqg" technicalid="__Lc94jb5EfGY2ayxECyaOg" name="S3Metadata"/>
+  <oenv:PrimitiveType xmi:id="_akcisz8mEfGe1t_IPUQYqg" technicalid="__Lc95Db5EfGY2ayxECyaOg" name="S3ContentType"/>
+  <oenv:PrimitiveType xmi:id="_akcitD8mEfGe1t_IPUQYqg" technicalid="__Lc95jb5EfGY2ayxECyaOg" name="S3Bucket"/>
+  <oenv:PrimitiveType xmi:id="_akcitT8mEfGe1t_IPUQYqg" technicalid="__Lc96Db5EfGY2ayxECyaOg" name="s3DocumentName"/>
+  <oenv:Environment xmi:id="_akcitj8mEfGe1t_IPUQYqg" technicalid="__LcW0Db5EfGY2ayxECyaOg" name="sample"/>
+</xmi:XMI>

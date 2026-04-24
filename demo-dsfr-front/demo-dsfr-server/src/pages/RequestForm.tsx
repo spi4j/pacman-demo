@@ -27,6 +27,7 @@ export default function RequestForm () {
   // --------------------------------
   const { login, user, logout } = useAuth();
   
+  
   // --------------------------------------------------
   // Définition du type pour les valeurs du formulaire.
   // --------------------------------------------------
@@ -99,9 +100,12 @@ export default function RequestForm () {
         return;
        }
        
+       // Start of user code 2135ef2dbe77940851eea5abb384b61f
+       // End of user code
+       
        
        const payload = buildRequestFormPayload(data);
-       await setRequest(payload);
+       const result = await setRequest(payload);
        
        // Start of user code e44bd242ede4029a648d53ff249e5a9a
        
@@ -110,11 +114,11 @@ export default function RequestForm () {
           console.log("Upload de fichier détecté, on appelle le second service...");
           // premier fichier uniquement (même si multiple)
           const file = data.docUpload[0];
-          const fileName = file.name;
+          //const fileName = file.name;
           
           try {
              await documents.setDocument(
-               fileName,
+               result.identifier + ".pdf",
                file,
                JSON.stringify({                   
                  requestType: data.requestSelect,
@@ -183,13 +187,12 @@ export default function RequestForm () {
   // ---------------------------------------------
   // Peuplement des données pour le(s) service(s).
   // ---------------------------------------------
+  // Start of user code 10b7ef2154c9c5efc789dd8d75b7df7e
   function buildRequestFormPayload(data : FormValues) 
   {
     return {
       reason: data.purposePassRequestSelect,
       reason: data.purposeCniRequestSelect,
-      // Start of user code 10b7ef2154c9c5efc789dd8d75b7df7e
-      
       reason:
       data.requestSelect === "PA"
         ? data.purposePassRequestSelect
@@ -197,13 +200,12 @@ export default function RequestForm () {
         ? data.purposeCniRequestSelect
         : null,
       type: data.requestSelect,
-      identifier: "B4508QFJAA",
+      identifier: generateRequestCode(),
       status: "DE",
       userDemo_id: user?.id,
-      
-      // End of user code
     };
   }
+  // End of user code
    
         
   // Start of user code 2db3a48fc78d36b67cb4f1068ffcac92
@@ -224,6 +226,20 @@ export default function RequestForm () {
   
   
   // Start of user code 0a2fc978427341faec5d316c3c3ea150
+  
+  function generateRequestCode(): string {
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const alphanum = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let result = "";
+
+    // 1ère lettre obligatoire
+    result += letters.charAt(Math.floor(Math.random() * letters.length));
+    // 10 caractères suivants
+    for (let i = 0; i < 10; i++) {
+      result += alphanum.charAt(Math.floor(Math.random() * alphanum.length));
+    }
+    return result;
+  }
   // End of user code
   
   return (
@@ -238,7 +254,7 @@ export default function RequestForm () {
               <span className="fr-hint-text">Le formulaire de démarche administrative permet de transmettre facilement une demande ou une déclaration auprès d’un service public. Il doit être rempli avec soin, en fournissant toutes les informations requises et les pièces justificatives demandées. Selon la nature de la démarche, le formulaire peut être complété en ligne ou sur papier, puis transmis à l’administration compétente. <p/>Veillez à bien vérifier les délais, les conditions d’éligibilité et les modalités d’envoi afin d’éviter tout retard ou rejet de votre dossier.</span>
            </legend>
          <div style={{ width: "100%" }}>
-           {globalMessage && (
+           {globalMessage && globalMessage.text.trim() !== "" && (
              <Alert
                severity={globalMessage.severity}
                title=""
@@ -276,7 +292,7 @@ export default function RequestForm () {
         {selectedRequest === "PA" && (<>
         {/* // End of user code
        */}
-      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de passeport  : {" "}
+      <p>Formulaire pour une demande de passeport  : {" "}
       </p>
        <Select
           label="Motif de la demande pour le passeport"
@@ -353,7 +369,7 @@ export default function RequestForm () {
         </>)} {selectedRequest === "CN" && (<>
         {/* // End of user code
        */}
-      <p className="fr-text--lg fr-text--bold">Formulaire pour une demande de carte d'identité : {" "}
+      <p>Formulaire pour une demande de carte d'identité : {" "}
       </p>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">

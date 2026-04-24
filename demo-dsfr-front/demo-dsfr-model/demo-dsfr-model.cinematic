@@ -1,157 +1,193 @@
 <?xml version="1.0" encoding="ASCII"?>
 <cinematic:CinematicRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cinematic="http://www.obeonetwork.org/dsl/cinematic/3.0.0" xmlns:cinematic-flow="http://www.obeonetwork.org/dsl/cinematic/flow/1.0.0" xmlns:cinematic-view="http://www.obeonetwork.org/dsl/cinematic/view/1.0.0" xmlns:oenv="http://www.obeonetwork.org/dsl/environment/3.0.0" xmlns:soa="http://www.obeonetwork.org/dsl/soa/4.0.0" xmi:id="_m75Q8KkPEfCaZO_mXFe3Rw" technicalid="_m7rOgKkPEfCaZO_mXFe3Rw" createdOn="2025-10-14T17:08:15.080+0200" modifiedOn="2026-04-16T14:29:02.425+0200">
-  <bindingRegistries xmi:id="_11DTgcxvEfCimP2YDicPfQ" technicalid="_11DTgMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:27.971+0100" modifiedOn="2025-12-16T09:38:59.930+0100">
-    <bindingInfos xmi:id="_3ZjzMcxvEfCimP2YDicPfQ" technicalid="_3ZjzMMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:43.253+0100" modifiedOn="2025-12-11T07:24:55.193+0100" left="_SkwD8rCqEfC3orNkt0KDHA">
+  <bindingRegistries xmi:id="_11DTgcxvEfCimP2YDicPfQ" technicalid="_11DTgMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:27.971+0100" modifiedOn="2026-04-23T07:14:43.648+0200">
+    <bindingInfos xmi:id="_3ZjzMcxvEfCimP2YDicPfQ" technicalid="_3ZjzMMxvEfCimP2YDicPfQ" createdOn="2025-11-28T16:35:43.253+0100" modifiedOn="2026-04-23T17:09:25.533+0200" left="_SkwD8rCqEfC3orNkt0KDHA">
       <references xmi:id="_5rTMUcxvEfCimP2YDicPfQ" technicalid="_5rSlQsxvEfCimP2YDicPfQ" left="_5rSlQ8xvEfCimP2YDicPfQ" right="_5rTMUMxvEfCimP2YDicPfQ"/>
       <references xmi:id="_7FDNgsxvEfCimP2YDicPfQ" technicalid="_7FCmcsxvEfCimP2YDicPfQ" left="_7FDNgMxvEfCimP2YDicPfQ" right="_7FDNgcxvEfCimP2YDicPfQ"/>
       <references xmi:id="_8Lml48xvEfCimP2YDicPfQ" technicalid="_8Lml4MxvEfCimP2YDicPfQ" left="_8Lml4cxvEfCimP2YDicPfQ" right="_8Lml4sxvEfCimP2YDicPfQ"/>
       <references xmi:id="_G-XIkNZaEfChzpuPP9S-Bg" technicalid="_G-WhgtZaEfChzpuPP9S-Bg" left="_G-Whg9ZaEfChzpuPP9S-Bg" right="_G-WhhNZaEfChzpuPP9S-Bg"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_5rSlQ8xvEfCimP2YDicPfQ" technicalid="_5rSlQMxvEfCimP2YDicPfQ" boundElement="_1o1xcLCtEfCiZpQZH0nslw" referencedByAsLeft="_5rTMUcxvEfCimP2YDicPfQ" pathReferences="_SkwD8rCqEfC3orNkt0KDHA"/>
-      <elements xmi:id="_5rTMUMxvEfCimP2YDicPfQ" technicalid="_5rSlQcxvEfCimP2YDicPfQ" referencedByAsRight="_5rTMUcxvEfCimP2YDicPfQ">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQMn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_5rTMUMxvEfCimP2YDicPfQ" technicalid="_5rSlQcxvEfCimP2YDicPfQ" createdOn="2026-04-23T17:09:25.478+0200" modifiedOn="2026-04-23T17:09:25.534+0200" referencedByAsRight="_5rTMUcxvEfCimP2YDicPfQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7sz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_7FDNgMxvEfCimP2YDicPfQ" technicalid="_7FCmcMxvEfCimP2YDicPfQ" boundElement="_15RaIrCtEfCiZpQZH0nslw" referencedByAsLeft="_7FDNgsxvEfCimP2YDicPfQ" pathReferences="_SkwD8rCqEfC3orNkt0KDHA"/>
-      <elements xmi:id="_7FDNgcxvEfCimP2YDicPfQ" technicalid="_7FCmccxvEfCimP2YDicPfQ" referencedByAsRight="_7FDNgsxvEfCimP2YDicPfQ">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQsn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_7FDNgcxvEfCimP2YDicPfQ" technicalid="_7FCmccxvEfCimP2YDicPfQ" createdOn="2026-04-23T17:09:25.498+0200" modifiedOn="2026-04-23T17:09:25.535+0200" referencedByAsRight="_7FDNgsxvEfCimP2YDicPfQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_8Lml4cxvEfCimP2YDicPfQ" technicalid="_8Ll-0MxvEfCimP2YDicPfQ" boundElement="_2J1lsrCtEfCiZpQZH0nslw" referencedByAsLeft="_8Lml48xvEfCimP2YDicPfQ" pathReferences="_SkwD8rCqEfC3orNkt0KDHA"/>
-      <elements xmi:id="_8Lml4sxvEfCimP2YDicPfQ" technicalid="_8Ll-0cxvEfCimP2YDicPfQ" referencedByAsRight="_8Lml48xvEfCimP2YDicPfQ">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQ8n6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_8Lml4sxvEfCimP2YDicPfQ" technicalid="_8Ll-0cxvEfCimP2YDicPfQ" createdOn="2026-04-23T17:09:25.507+0200" modifiedOn="2026-04-23T17:09:25.536+0200" referencedByAsRight="_8Lml48xvEfCimP2YDicPfQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_G-Whg9ZaEfChzpuPP9S-Bg" technicalid="_G-WhgNZaEfChzpuPP9S-Bg" boundElement="_27fsIrCtEfCiZpQZH0nslw" referencedByAsLeft="_G-XIkNZaEfChzpuPP9S-Bg" pathReferences="_SkwD8rCqEfC3orNkt0KDHA"/>
-      <elements xmi:id="_G-WhhNZaEfChzpuPP9S-Bg" technicalid="_G-WhgdZaEfChzpuPP9S-Bg" referencedByAsRight="_G-XIkNZaEfChzpuPP9S-Bg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_G-WhhNZaEfChzpuPP9S-Bg" technicalid="_G-WhgdZaEfChzpuPP9S-Bg" createdOn="2026-04-23T17:09:25.489+0200" modifiedOn="2026-04-23T17:09:25.537+0200" referencedByAsRight="_G-XIkNZaEfChzpuPP9S-Bg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_uz-3UdadEfChD_Zlo9ecmg" technicalid="_uz-3UNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:29:43.853+0100" modifiedOn="2025-12-11T15:30:01.385+0100" left="_zEo8Iq_5EfColsm8OfSYlw">
+    <bindingInfos xmi:id="_uz-3UdadEfChD_Zlo9ecmg" technicalid="_uz-3UNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:29:43.853+0100" modifiedOn="2026-04-23T17:09:25.514+0200" left="_zEo8Iq_5EfColsm8OfSYlw">
       <references xmi:id="_1hcN09adEfChD_Zlo9ecmg" technicalid="_1hcN0NadEfChD_Zlo9ecmg" left="_1hcN0dadEfChD_Zlo9ecmg" right="_1hcN0tadEfChD_Zlo9ecmg"/>
       <references xmi:id="_2X-NNdadEfChD_Zlo9ecmg" technicalid="_2X-NMtadEfChD_Zlo9ecmg" left="_2X-NM9adEfChD_Zlo9ecmg" right="_2X-NNNadEfChD_Zlo9ecmg"/>
       <references xmi:id="_3Sn3ldadEfChD_Zlo9ecmg" technicalid="_3Sn3ktadEfChD_Zlo9ecmg" left="_3Sn3k9adEfChD_Zlo9ecmg" right="_3Sn3lNadEfChD_Zlo9ecmg"/>
       <references xmi:id="_4Io5ldadEfChD_Zlo9ecmg" technicalid="_4Io5ktadEfChD_Zlo9ecmg" left="_4Io5k9adEfChD_Zlo9ecmg" right="_4Io5lNadEfChD_Zlo9ecmg"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_1hcN0dadEfChD_Zlo9ecmg" technicalid="_1hbmwNadEfChD_Zlo9ecmg" boundElement="_F44gcLAJEfColsm8OfSYlw" referencedByAsLeft="_1hcN09adEfChD_Zlo9ecmg" pathReferences="_zEo8Iq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_1hcN0tadEfChD_Zlo9ecmg" technicalid="_1hbmwdadEfChD_Zlo9ecmg" referencedByAsRight="_1hcN09adEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnM8n6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_1hcN0tadEfChD_Zlo9ecmg" technicalid="_1hbmwdadEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.445+0200" modifiedOn="2026-04-23T17:09:25.516+0200" referencedByAsRight="_1hcN09adEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7pD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_2X-NM9adEfChD_Zlo9ecmg" technicalid="_2X-NMNadEfChD_Zlo9ecmg" boundElement="_XHw8YrALEfColsm8OfSYlw" referencedByAsLeft="_2X-NNdadEfChD_Zlo9ecmg" pathReferences="_zEo8Iq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_2X-NNNadEfChD_Zlo9ecmg" technicalid="_2X-NMdadEfChD_Zlo9ecmg" referencedByAsRight="_2X-NNdadEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnMsn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_2X-NNNadEfChD_Zlo9ecmg" technicalid="_2X-NMdadEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.438+0200" modifiedOn="2026-04-23T17:09:25.518+0200" referencedByAsRight="_2X-NNdadEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7oz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_3Sn3k9adEfChD_Zlo9ecmg" technicalid="_3Sn3kNadEfChD_Zlo9ecmg" boundElement="_ysvporAyEfCNrJOIo0weDw" referencedByAsLeft="_3Sn3ldadEfChD_Zlo9ecmg" pathReferences="_zEo8Iq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_3Sn3lNadEfChD_Zlo9ecmg" technicalid="_3Sn3kdadEfChD_Zlo9ecmg" referencedByAsRight="_3Sn3ldadEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnNcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_3Sn3lNadEfChD_Zlo9ecmg" technicalid="_3Sn3kdadEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.454+0200" modifiedOn="2026-04-23T17:09:25.519+0200" referencedByAsRight="_3Sn3ldadEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7pj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_4Io5k9adEfChD_Zlo9ecmg" technicalid="_4Io5kNadEfChD_Zlo9ecmg" boundElement="_zAgTIrAyEfCNrJOIo0weDw" referencedByAsLeft="_4Io5ldadEfChD_Zlo9ecmg" pathReferences="_zEo8Iq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_4Io5lNadEfChD_Zlo9ecmg" technicalid="_4Io5kdadEfChD_Zlo9ecmg" referencedByAsRight="_4Io5ldadEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnNMn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_4Io5lNadEfChD_Zlo9ecmg" technicalid="_4Io5kdadEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.450+0200" modifiedOn="2026-04-23T17:09:25.520+0200" referencedByAsRight="_4Io5ldadEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7pT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_8NZvgdadEfChD_Zlo9ecmg" technicalid="_8NZvgNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:30:46.859+0100" modifiedOn="2025-12-11T15:31:01.062+0100" left="_zZP6Mq_5EfColsm8OfSYlw">
+    <bindingInfos xmi:id="_8NZvgdadEfChD_Zlo9ecmg" technicalid="_8NZvgNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:30:46.859+0100" modifiedOn="2026-04-23T17:09:25.520+0200" left="_zZP6Mq_5EfColsm8OfSYlw">
       <references xmi:id="_-6UBtdadEfChD_Zlo9ecmg" technicalid="_-6UBstadEfChD_Zlo9ecmg" left="_-6UBs9adEfChD_Zlo9ecmg" right="_-6UBtNadEfChD_Zlo9ecmg"/>
       <references xmi:id="_AVJA9daeEfChD_Zlo9ecmg" technicalid="_AVJA8taeEfChD_Zlo9ecmg" left="_AVJA89aeEfChD_Zlo9ecmg" right="_AVJA9NaeEfChD_Zlo9ecmg"/>
       <references xmi:id="_BBw2ZdaeEfChD_Zlo9ecmg" technicalid="_BBw2YtaeEfChD_Zlo9ecmg" left="_BBw2Y9aeEfChD_Zlo9ecmg" right="_BBw2ZNaeEfChD_Zlo9ecmg"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_-6UBs9adEfChD_Zlo9ecmg" technicalid="_-6UBsNadEfChD_Zlo9ecmg" boundElement="_GV2JQrAJEfColsm8OfSYlw" referencedByAsLeft="_-6UBtdadEfChD_Zlo9ecmg" pathReferences="_zZP6Mq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_-6UBtNadEfChD_Zlo9ecmg" technicalid="_-6UBsdadEfChD_Zlo9ecmg" referencedByAsRight="_-6UBtdadEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnOcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_-6UBtNadEfChD_Zlo9ecmg" technicalid="_-6UBsdadEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.473+0200" modifiedOn="2026-04-23T17:09:25.522+0200" referencedByAsRight="_-6UBtdadEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7qj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_AVJA89aeEfChD_Zlo9ecmg" technicalid="_AVJA8NaeEfChD_Zlo9ecmg" boundElement="_jbRc8rAtEfCNrJOIo0weDw" referencedByAsLeft="_AVJA9daeEfChD_Zlo9ecmg" pathReferences="_zZP6Mq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_AVJA9NaeEfChD_Zlo9ecmg" technicalid="_AVJA8daeEfChD_Zlo9ecmg" referencedByAsRight="_AVJA9daeEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnNsn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_AVJA9NaeEfChD_Zlo9ecmg" technicalid="_AVJA8daeEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.457+0200" modifiedOn="2026-04-23T17:09:25.524+0200" referencedByAsRight="_AVJA9daeEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7pz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_BBw2Y9aeEfChD_Zlo9ecmg" technicalid="_BBw2YNaeEfChD_Zlo9ecmg" boundElement="_n0gHArAtEfCNrJOIo0weDw" referencedByAsLeft="_BBw2ZdaeEfChD_Zlo9ecmg" pathReferences="_zZP6Mq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_BBw2ZNaeEfChD_Zlo9ecmg" technicalid="_BBw2YdaeEfChD_Zlo9ecmg" referencedByAsRight="_BBw2ZdaeEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnN8n6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_BBw2ZNaeEfChD_Zlo9ecmg" technicalid="_BBw2YdaeEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.460+0200" modifiedOn="2026-04-23T17:09:25.525+0200" referencedByAsRight="_BBw2ZdaeEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7qD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_9721YdadEfChD_Zlo9ecmg" technicalid="_9721YNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:31:10.746+0100" modifiedOn="2025-12-11T15:31:10.746+0100" left="_zpGUEq_5EfColsm8OfSYlw">
+    <bindingInfos xmi:id="_9721YdadEfChD_Zlo9ecmg" technicalid="_9721YNadEfChD_Zlo9ecmg" createdOn="2025-12-11T15:31:10.746+0100" modifiedOn="2026-04-23T17:09:25.526+0200" left="_zpGUEq_5EfColsm8OfSYlw">
       <references xmi:id="_CeHfpdaeEfChD_Zlo9ecmg" technicalid="_CeHfotaeEfChD_Zlo9ecmg" left="_CeHfo9aeEfChD_Zlo9ecmg" right="_CeHfpNaeEfChD_Zlo9ecmg"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_CeHfo9aeEfChD_Zlo9ecmg" technicalid="_CeHfoNaeEfChD_Zlo9ecmg" boundElement="_GHSv4rAJEfColsm8OfSYlw" referencedByAsLeft="_CeHfpdaeEfChD_Zlo9ecmg" pathReferences="_zpGUEq_5EfColsm8OfSYlw"/>
-      <elements xmi:id="_CeHfpNaeEfChD_Zlo9ecmg" technicalid="_CeHfodaeEfChD_Zlo9ecmg" referencedByAsRight="_CeHfpdaeEfChD_Zlo9ecmg">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnOMn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOQ8n6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_CeHfpNaeEfChD_Zlo9ecmg" technicalid="_CeHfodaeEfChD_Zlo9ecmg" createdOn="2026-04-23T17:09:25.467+0200" modifiedOn="2026-04-23T17:09:25.527+0200" referencedByAsRight="_CeHfpdaeEfChD_Zlo9ecmg">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7qT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7uj8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_t8QOkNmREfC0zezrhGYvTA" technicalid="_t8PngNmREfC0zezrhGYvTA" createdOn="2025-12-15T09:40:38.354+0100" modifiedOn="2025-12-15T09:40:51.205+0100" left="_LDeU8qmFEfCpWIL5h8qf4A">
+    <bindingInfos xmi:id="_t8QOkNmREfC0zezrhGYvTA" technicalid="_t8PngNmREfC0zezrhGYvTA" createdOn="2025-12-15T09:40:38.354+0100" modifiedOn="2026-04-23T17:09:25.538+0200" left="_LDeU8qmFEfCpWIL5h8qf4A">
       <references xmi:id="_u0CLJdmREfC0zezrhGYvTA" technicalid="_u0CLItmREfC0zezrhGYvTA" left="_u0CLI9mREfC0zezrhGYvTA" right="_u0CLJNmREfC0zezrhGYvTA"/>
       <references xmi:id="_wulzUtmREfC0zezrhGYvTA" technicalid="_wulMQtmREfC0zezrhGYvTA" left="_wulzUNmREfC0zezrhGYvTA" right="_wulzUdmREfC0zezrhGYvTA"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_u0CLI9mREfC0zezrhGYvTA" technicalid="_u0CLINmREfC0zezrhGYvTA" boundElement="__JAiIrCXEfC3orNkt0KDHA" referencedByAsLeft="_u0CLJdmREfC0zezrhGYvTA" pathReferences="_LDeU8qmFEfCpWIL5h8qf4A"/>
-      <elements xmi:id="_u0CLJNmREfC0zezrhGYvTA" technicalid="_u0CLIdmREfC0zezrhGYvTA" referencedByAsRight="_u0CLJdmREfC0zezrhGYvTA">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_u0CLJNmREfC0zezrhGYvTA" technicalid="_u0CLIdmREfC0zezrhGYvTA" createdOn="2026-04-23T17:09:25.490+0200" modifiedOn="2026-04-23T17:09:25.539+0200" referencedByAsRight="_u0CLJdmREfC0zezrhGYvTA">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_wulzUNmREfC0zezrhGYvTA" technicalid="_wulMQNmREfC0zezrhGYvTA" boundElement="_QQp9wLNEEfC10MzneKw31g" referencedByAsLeft="_wulzUtmREfC0zezrhGYvTA" pathReferences="_LDeU8qmFEfCpWIL5h8qf4A"/>
-      <elements xmi:id="_wulzUdmREfC0zezrhGYvTA" technicalid="_wulMQdmREfC0zezrhGYvTA" referencedByAsRight="_wulzUtmREfC0zezrhGYvTA">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_wulzUdmREfC0zezrhGYvTA" technicalid="_wulMQdmREfC0zezrhGYvTA" createdOn="2026-04-23T17:09:25.491+0200" modifiedOn="2026-04-23T17:09:25.539+0200" referencedByAsRight="_wulzUtmREfC0zezrhGYvTA">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_roMZ0dpYEfCsz4VXzqGe3g" technicalid="_roMZ0NpYEfCsz4VXzqGe3g" createdOn="2025-12-16T09:43:00.108+0100" modifiedOn="2025-12-16T09:48:21.530+0100" left="_-p8WYriAEfC3SLxoYNCmgQ">
+    <bindingInfos xmi:id="_roMZ0dpYEfCsz4VXzqGe3g" technicalid="_roMZ0NpYEfCsz4VXzqGe3g" createdOn="2025-12-16T09:43:00.108+0100" modifiedOn="2026-04-23T17:09:25.540+0200" left="_-p8WYriAEfC3SLxoYNCmgQ">
       <references xmi:id="_Oig8wdpbEfCsz4VXzqGe3g" technicalid="_OigVstpbEfCsz4VXzqGe3g" left="_OigVs9pbEfCsz4VXzqGe3g" right="_Oig8wNpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_QBnYBdpbEfCsz4VXzqGe3g" technicalid="_QBnYAtpbEfCsz4VXzqGe3g" left="_QBnYA9pbEfCsz4VXzqGe3g" right="_QBnYBNpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_Qy4c5dpbEfCsz4VXzqGe3g" technicalid="_Qy4c4tpbEfCsz4VXzqGe3g" left="_Qy4c49pbEfCsz4VXzqGe3g" right="_Qy4c5NpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_-b1XpdpbEfCsz4VXzqGe3g" technicalid="_-b1XotpbEfCsz4VXzqGe3g" left="_-b1Xo9pbEfCsz4VXzqGe3g" right="_-b1XpNpbEfCsz4VXzqGe3g"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_OigVs9pbEfCsz4VXzqGe3g" technicalid="_OigVsNpbEfCsz4VXzqGe3g" boundElement="_yY2-QriLEfC3SLxoYNCmgQ" referencedByAsLeft="_Oig8wdpbEfCsz4VXzqGe3g" pathReferences="_-p8WYriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_Oig8wNpbEfCsz4VXzqGe3g" technicalid="_OigVsdpbEfCsz4VXzqGe3g" referencedByAsRight="_Oig8wdpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQMn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_Oig8wNpbEfCsz4VXzqGe3g" technicalid="_OigVsdpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.481+0200" modifiedOn="2026-04-23T17:09:25.541+0200" referencedByAsRight="_Oig8wdpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7sz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_QBnYA9pbEfCsz4VXzqGe3g" technicalid="_QBnYANpbEfCsz4VXzqGe3g" boundElement="_LvhnYriTEfC3SLxoYNCmgQ" referencedByAsLeft="_QBnYBdpbEfCsz4VXzqGe3g" pathReferences="_-p8WYriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_QBnYBNpbEfCsz4VXzqGe3g" technicalid="_QBnYAdpbEfCsz4VXzqGe3g" referencedByAsRight="_QBnYBdpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQsn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_QBnYBNpbEfCsz4VXzqGe3g" technicalid="_QBnYAdpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.499+0200" modifiedOn="2026-04-23T17:09:25.541+0200" referencedByAsRight="_QBnYBdpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_Qy4c49pbEfCsz4VXzqGe3g" technicalid="_Qy4c4NpbEfCsz4VXzqGe3g" boundElement="_vq0OMriMEfC3SLxoYNCmgQ" referencedByAsLeft="_Qy4c5dpbEfCsz4VXzqGe3g" pathReferences="_-p8WYriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_Qy4c5NpbEfCsz4VXzqGe3g" technicalid="_Qy4c4dpbEfCsz4VXzqGe3g" referencedByAsRight="_Qy4c5dpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQ8n6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_Qy4c5NpbEfCsz4VXzqGe3g" technicalid="_Qy4c4dpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.508+0200" modifiedOn="2026-04-23T17:09:25.542+0200" referencedByAsRight="_Qy4c5dpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_-b1Xo9pbEfCsz4VXzqGe3g" technicalid="_-b1XoNpbEfCsz4VXzqGe3g" boundElement="_vcF1sriMEfC3SLxoYNCmgQ" referencedByAsLeft="_-b1XpdpbEfCsz4VXzqGe3g" pathReferences="_-p8WYriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_-b1XpNpbEfCsz4VXzqGe3g" technicalid="_-b1XodpbEfCsz4VXzqGe3g" referencedByAsRight="_-b1XpdpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_-b1XpNpbEfCsz4VXzqGe3g" technicalid="_-b1XodpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.493+0200" modifiedOn="2026-04-23T17:09:25.543+0200" referencedByAsRight="_-b1XpdpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
-    <bindingInfos xmi:id="_1CNdMdpYEfCsz4VXzqGe3g" technicalid="_1CNdMNpYEfCsz4VXzqGe3g" createdOn="2025-12-16T09:42:39.415+0100" modifiedOn="2025-12-16T09:48:15.901+0100" left="_zrymwriAEfC3SLxoYNCmgQ">
+    <bindingInfos xmi:id="_1CNdMdpYEfCsz4VXzqGe3g" technicalid="_1CNdMNpYEfCsz4VXzqGe3g" createdOn="2025-12-16T09:42:39.415+0100" modifiedOn="2026-04-23T17:09:25.544+0200" left="_zrymwriAEfC3SLxoYNCmgQ">
       <references xmi:id="_LdLjgdpbEfCsz4VXzqGe3g" technicalid="_LdK8ctpbEfCsz4VXzqGe3g" left="_LdK8c9pbEfCsz4VXzqGe3g" right="_LdLjgNpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_MUoI5dpbEfCsz4VXzqGe3g" technicalid="_MUoI4tpbEfCsz4VXzqGe3g" left="_MUoI49pbEfCsz4VXzqGe3g" right="_MUoI5NpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_NSnbJdpbEfCsz4VXzqGe3g" technicalid="_NSnbItpbEfCsz4VXzqGe3g" left="_NSnbI9pbEfCsz4VXzqGe3g" right="_NSnbJNpbEfCsz4VXzqGe3g"/>
       <references xmi:id="_9mJs1dpbEfCsz4VXzqGe3g" technicalid="_9mJs0tpbEfCsz4VXzqGe3g" left="_9mJs09pbEfCsz4VXzqGe3g" right="_9mJs1NpbEfCsz4VXzqGe3g"/>
-      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       <elements xmi:id="_LdK8c9pbEfCsz4VXzqGe3g" technicalid="_LdK8cNpbEfCsz4VXzqGe3g" boundElement="_HWhsALiBEfC3SLxoYNCmgQ" referencedByAsLeft="_LdLjgdpbEfCsz4VXzqGe3g" pathReferences="_zrymwriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_LdLjgNpbEfCsz4VXzqGe3g" technicalid="_LdK8cdpbEfCsz4VXzqGe3g" referencedByAsRight="_LdLjgdpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQMn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_LdLjgNpbEfCsz4VXzqGe3g" technicalid="_LdK8cdpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.483+0200" modifiedOn="2026-04-23T17:09:25.546+0200" referencedByAsRight="_LdLjgdpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7sz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_MUoI49pbEfCsz4VXzqGe3g" technicalid="_MUoI4NpbEfCsz4VXzqGe3g" boundElement="_LWHo4riTEfC3SLxoYNCmgQ" referencedByAsLeft="_MUoI5dpbEfCsz4VXzqGe3g" pathReferences="_zrymwriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_MUoI5NpbEfCsz4VXzqGe3g" technicalid="_MUoI4dpbEfCsz4VXzqGe3g" referencedByAsRight="_MUoI5dpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQsn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_MUoI5NpbEfCsz4VXzqGe3g" technicalid="_MUoI4dpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.500+0200" modifiedOn="2026-04-23T17:09:25.547+0200" referencedByAsRight="_MUoI5dpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_NSnbI9pbEfCsz4VXzqGe3g" technicalid="_NSnbINpbEfCsz4VXzqGe3g" boundElement="_H5cL0riBEfC3SLxoYNCmgQ" referencedByAsLeft="_NSnbJdpbEfCsz4VXzqGe3g" pathReferences="_zrymwriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_NSnbJNpbEfCsz4VXzqGe3g" technicalid="_NSnbIdpbEfCsz4VXzqGe3g" referencedByAsRight="_NSnbJdpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQ8n6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_NSnbJNpbEfCsz4VXzqGe3g" technicalid="_NSnbIdpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.509+0200" modifiedOn="2026-04-23T17:09:25.548+0200" referencedByAsRight="_NSnbJdpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
       <elements xmi:id="_9mJs09pbEfCsz4VXzqGe3g" technicalid="_9mJs0NpbEfCsz4VXzqGe3g" boundElement="_HrQl4riBEfC3SLxoYNCmgQ" referencedByAsLeft="_9mJs1dpbEfCsz4VXzqGe3g" pathReferences="_zrymwriAEfC3SLxoYNCmgQ"/>
-      <elements xmi:id="_9mJs1NpbEfCsz4VXzqGe3g" technicalid="_9mJs0dpbEfCsz4VXzqGe3g" referencedByAsRight="_9mJs1dpbEfCsz4VXzqGe3g">
-        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.entity#_8hCnQcn6EfCBednkP-lEaQ"/>
-        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDORcn6EfCBednkP-lEaQ"/>
+      <elements xmi:id="_9mJs1NpbEfCsz4VXzqGe3g" technicalid="_9mJs0dpbEfCsz4VXzqGe3g" createdOn="2026-04-23T17:09:25.494+0200" modifiedOn="2026-04-23T17:09:25.548+0200" referencedByAsRight="_9mJs1dpbEfCsz4VXzqGe3g">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      </elements>
+    </bindingInfos>
+    <bindingInfos xmi:id="_mUFtcT4lEfGePf10BXl2aA" technicalid="_mUFtcD4lEfGePf10BXl2aA" createdOn="2026-04-22T10:31:11.403+0200" modifiedOn="2026-04-23T17:09:25.550+0200" left="_18Oewj4LEfGePf10BXl2aA">
+      <references xmi:id="_njKvtT4lEfGePf10BXl2aA" technicalid="_njKvsj4lEfGePf10BXl2aA" left="_njKvsz4lEfGePf10BXl2aA" right="_njKvtD4lEfGePf10BXl2aA"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      <elements xmi:id="_njKvsz4lEfGePf10BXl2aA" technicalid="_njKvsD4lEfGePf10BXl2aA" boundElement="_d0bi4j4MEfGePf10BXl2aA" referencedByAsLeft="_njKvtT4lEfGePf10BXl2aA" pathReferences="_18Oewj4LEfGePf10BXl2aA"/>
+      <elements xmi:id="_njKvtD4lEfGePf10BXl2aA" technicalid="_njKvsT4lEfGePf10BXl2aA" createdOn="2026-04-23T17:09:25.501+0200" modifiedOn="2026-04-23T17:09:25.550+0200" referencedByAsRight="_njKvtT4lEfGePf10BXl2aA">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      </elements>
+    </bindingInfos>
+    <bindingInfos xmi:id="_Vo_EAT7TEfGAhevujMtgmQ" technicalid="_Vo_EAD7TEfGAhevujMtgmQ" createdOn="2026-04-23T07:14:49.231+0200" modifiedOn="2026-04-23T17:09:25.551+0200" left="_isAC4j4ZEfGePf10BXl2aA">
+      <references xmi:id="_WeOp8z7TEfGAhevujMtgmQ" technicalid="_WeOp8D7TEfGAhevujMtgmQ" left="_WeOp8T7TEfGAhevujMtgmQ" right="_WeOp8j7TEfGAhevujMtgmQ"/>
+      <references xmi:id="_XRoc1D7TEfGAhevujMtgmQ" technicalid="_XRoc0T7TEfGAhevujMtgmQ" left="_XRoc0j7TEfGAhevujMtgmQ" right="_XRoc0z7TEfGAhevujMtgmQ"/>
+      <references xmi:id="_Yb_-ND7TEfGAhevujMtgmQ" technicalid="_Yb_-MT7TEfGAhevujMtgmQ" left="_Yb_-Mj7TEfGAhevujMtgmQ" right="_Yb_-Mz7TEfGAhevujMtgmQ"/>
+      <references xmi:id="_Zq-50j7TEfGAhevujMtgmQ" technicalid="_Zq-Swj7TEfGAhevujMtgmQ" left="_Zq-50D7TEfGAhevujMtgmQ" right="_Zq-50T7TEfGAhevujMtgmQ"/>
+      <right xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      <elements xmi:id="_WeOp8T7TEfGAhevujMtgmQ" technicalid="_WeOC4D7TEfGAhevujMtgmQ" boundElement="_Kkfa4j4aEfGePf10BXl2aA" referencedByAsLeft="_WeOp8z7TEfGAhevujMtgmQ" pathReferences="_isAC4j4ZEfGePf10BXl2aA"/>
+      <elements xmi:id="_WeOp8j7TEfGAhevujMtgmQ" technicalid="_WeOC4T7TEfGAhevujMtgmQ" createdOn="2026-04-23T17:09:25.502+0200" modifiedOn="2026-04-23T17:09:25.552+0200" referencedByAsRight="_WeOp8z7TEfGAhevujMtgmQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tT8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      </elements>
+      <elements xmi:id="_XRoc0j7TEfGAhevujMtgmQ" technicalid="_XRn1wD7TEfGAhevujMtgmQ" boundElement="_K7-Gwj4aEfGePf10BXl2aA" referencedByAsLeft="_XRoc1D7TEfGAhevujMtgmQ" pathReferences="_isAC4j4ZEfGePf10BXl2aA"/>
+      <elements xmi:id="_XRoc0z7TEfGAhevujMtgmQ" technicalid="_XRoc0D7TEfGAhevujMtgmQ" createdOn="2026-04-23T17:09:25.484+0200" modifiedOn="2026-04-23T17:09:25.553+0200" referencedByAsRight="_XRoc1D7TEfGAhevujMtgmQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7sz8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      </elements>
+      <elements xmi:id="_Yb_-Mj7TEfGAhevujMtgmQ" technicalid="_Yb_XID7TEfGAhevujMtgmQ" boundElement="_bJs5oj4aEfGePf10BXl2aA" referencedByAsLeft="_Yb_-ND7TEfGAhevujMtgmQ" pathReferences="_isAC4j4ZEfGePf10BXl2aA"/>
+      <elements xmi:id="_Yb_-Mz7TEfGAhevujMtgmQ" technicalid="_Yb_-MD7TEfGAhevujMtgmQ" createdOn="2026-04-23T17:09:25.495+0200" modifiedOn="2026-04-23T17:09:25.554+0200" referencedByAsRight="_Yb_-ND7TEfGAhevujMtgmQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tD8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
+      </elements>
+      <elements xmi:id="_Zq-50D7TEfGAhevujMtgmQ" technicalid="_Zq-SwD7TEfGAhevujMtgmQ" boundElement="_baThcj4aEfGePf10BXl2aA" referencedByAsLeft="_Zq-50j7TEfGAhevujMtgmQ" pathReferences="_isAC4j4ZEfGePf10BXl2aA"/>
+      <elements xmi:id="_Zq-50T7TEfGAhevujMtgmQ" technicalid="_Zq-SwT7TEfGAhevujMtgmQ" createdOn="2026-04-23T17:09:25.510+0200" modifiedOn="2026-04-23T17:09:25.556+0200" referencedByAsRight="_Zq-50j7TEfGAhevujMtgmQ">
+        <boundElement xsi:type="oenv:Attribute" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.entity#_akb7tj8mEfGe1t_IPUQYqg"/>
+        <pathReferences xsi:type="oenv:DTO" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7vD8mEfGe1t_IPUQYqg"/>
       </elements>
     </bindingInfos>
   </bindingRegistries>
@@ -165,7 +201,7 @@
     <transitions xmi:id="_qac5IbVdEfC9fu3dsM337g" technicalid="_qac5ILVdEfC9fu3dsM337g" createdOn="2025-10-30T07:57:13.138+0100" modifiedOn="2026-04-16T14:37:25.478+0200" name="goToReconnect" from="_vNX7UamFEfCpWIL5h8qf4A" to="_NJBsMTmQEfGlbeNqY0EoKA" on="_jfq4UbVdEfC9fu3dsM337g"/>
     <transitions xmi:id="_r_NgwTmREfGlbeNqY0EoKA" technicalid="_r_NgwDmREfGlbeNqY0EoKA" createdOn="2026-04-16T14:42:11.020+0200" modifiedOn="2026-04-16T14:43:47.862+0200" name="goToInternalConnexion" from="_NJBsMTmQEfGlbeNqY0EoKA" to="_Gsn0AamGEfCpWIL5h8qf4A" on="_1FNRYTmQEfGlbeNqY0EoKA"/>
   </flows>
-  <flows xmi:id="_y5sG8amDEfCpWIL5h8qf4A" technicalid="_y5sG8KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:59:57.024+0200" modifiedOn="2025-12-15T10:19:14.105+0100" name="applicationFlow">
+  <flows xmi:id="_y5sG8amDEfCpWIL5h8qf4A" technicalid="_y5sG8KmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:59:57.024+0200" modifiedOn="2026-04-24T08:27:08.678+0200" name="applicationFlow">
     <states xsi:type="cinematic-flow:InitialState" xmi:id="_59hrMqmFEfCpWIL5h8qf4A" technicalid="_59hrMamFEfCpWIL5h8qf4A" createdOn="2025-10-15T07:15:03.395+0200" modifiedOn="2025-10-15T07:15:03.395+0200" name="Initial"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_66EzAamFEfCpWIL5h8qf4A" technicalid="_66EzAKmFEfCpWIL5h8qf4A" createdOn="2025-10-15T07:15:09.745+0200" modifiedOn="2025-10-15T07:15:24.843+0200" name="footerState" viewContainers="_WtFHQqmDEfCpWIL5h8qf4A"/>
     <states xsi:type="cinematic-flow:ViewState" xmi:id="_Ls0-gamGEfCpWIL5h8qf4A" technicalid="_Ls0-gKmGEfCpWIL5h8qf4A" createdOn="2025-10-15T07:17:02.440+0200" modifiedOn="2025-10-15T07:17:12.258+0200" name="headerState" viewContainers="_Y2xXoqmDEfCpWIL5h8qf4A"/>
@@ -195,32 +231,42 @@
       <metadatas xmi:id="_JohWkcrGEfC85-bT0Anhag" technicalid="_JohWkMrGEfC85-bT0Anhag">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_Joh9oMrGEfC85-bT0Anhag" technicalid="_JohWksrGEfC85-bT0Anhag" title="LIBRARY_NAME" body="demo-dsfr-client-rest"/>
       </metadatas>
-      <actions xmi:id="_Jo9-gNmYEfC0zezrhGYvTA" technicalid="_Jo9XcNmYEfC0zezrhGYvTA" description="" createdOn="2025-12-15T10:26:35.369+0100" modifiedOn="2025-12-15T10:26:42.315+0100" name="">
-        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOVsn6EfCBednkP-lEaQ"/>
+      <actions xmi:id="_Jo9-gNmYEfC0zezrhGYvTA" technicalid="_Jo9XcNmYEfC0zezrhGYvTA" description="" createdOn="2025-12-15T10:26:35.369+0100" modifiedOn="2026-04-23T17:09:25.560+0200" name="">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb7zz8mEfGe1t_IPUQYqg"/>
       </actions>
     </states>
     <states xsi:type="cinematic-flow:ActionState" xmi:id="_02DTIbowEfCoqpzTQmO7pQ" technicalid="_02DTILowEfCoqpzTQmO7pQ" createdOn="2025-11-05T11:18:51.602+0100" modifiedOn="2025-12-11T14:23:02.862+0100" name="listAllRequests">
       <metadatas xmi:id="_Ljq0ocrGEfC85-bT0Anhag" technicalid="_Ljq0oMrGEfC85-bT0Anhag">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_Ljq0o8rGEfC85-bT0Anhag" technicalid="_Ljq0osrGEfC85-bT0Anhag" title="LIBRARY_NAME" body="demo-dsfr-client-rest"/>
       </metadatas>
-      <actions xmi:id="_hVBG4daUEfChD_Zlo9ecmg" technicalid="_hVBG4NaUEfChD_Zlo9ecmg" description="" createdOn="2025-12-11T14:23:02.862+0100" modifiedOn="2025-12-11T14:23:24.546+0100" name="getRequests">
-        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOYcn6EfCBednkP-lEaQ"/>
+      <actions xmi:id="_hVBG4daUEfChD_Zlo9ecmg" technicalid="_hVBG4NaUEfChD_Zlo9ecmg" description="" createdOn="2025-12-11T14:23:02.862+0100" modifiedOn="2026-04-23T17:09:25.571+0200" name="getRequests">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb72j8mEfGe1t_IPUQYqg"/>
       </actions>
     </states>
     <states xsi:type="cinematic-flow:ActionState" xmi:id="_5kZRkbowEfCoqpzTQmO7pQ" technicalid="_5kZRkLowEfCoqpzTQmO7pQ" createdOn="2025-11-05T11:19:23.305+0100" modifiedOn="2025-12-16T09:16:56.380+0100" name="listAllFinalizedRequests">
       <metadatas xmi:id="_NeeUccrGEfC85-bT0Anhag" technicalid="_NeeUcMrGEfC85-bT0Anhag">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_NefikcrGEfC85-bT0Anhag" technicalid="_NefikMrGEfC85-bT0Anhag" title="LIBRARY_NAME" body="demo-dsfr-client-rest"/>
       </metadatas>
-      <actions xmi:id="_ngNrgdnOEfCuLd_FF1Skkw" technicalid="_ngNrgNnOEfCuLd_FF1Skkw" description="" createdOn="2025-12-15T16:56:28.600+0100" modifiedOn="2025-12-16T09:17:56.596+0100" name="">
-        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOYcn6EfCBednkP-lEaQ"/>
+      <actions xmi:id="_ngNrgdnOEfCuLd_FF1Skkw" technicalid="_ngNrgNnOEfCuLd_FF1Skkw" description="" createdOn="2025-12-15T16:56:28.600+0100" modifiedOn="2026-04-23T17:09:25.572+0200" name="">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb72j8mEfGe1t_IPUQYqg"/>
       </actions>
     </states>
     <states xsi:type="cinematic-flow:ActionState" xmi:id="_2KVBobo0EfCoqpzTQmO7pQ" technicalid="_2KVBoLo0EfCoqpzTQmO7pQ" createdOn="2025-11-05T11:47:38.427+0100" modifiedOn="2025-12-11T09:35:39.482+0100" name="listUserRequests">
       <metadatas xmi:id="_589coMrFEfC85-bT0Anhag" technicalid="_5881kMrFEfC85-bT0Anhag">
         <metadatas xsi:type="oenv:Annotation" xmi:id="_58-qwcrFEfC85-bT0Anhag" technicalid="_58-qwMrFEfC85-bT0Anhag" title="LIBRARY_NAME" body="demo-dsfr-client-rest"/>
       </metadatas>
-      <actions xmi:id="_R42c0cn8EfCBednkP-lEaQ" technicalid="_R42c0Mn8EfCBednkP-lEaQ" description="" createdOn="2025-11-25T13:43:01.790+0100" modifiedOn="2025-11-25T13:43:25.220+0100" name="getUserRequests">
-        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.1/demo-dsfr-rest.soa#_8hDOZMn6EfCBednkP-lEaQ"/>
+      <actions xmi:id="_R42c0cn8EfCBednkP-lEaQ" technicalid="_R42c0Mn8EfCBednkP-lEaQ" description="" createdOn="2025-11-25T13:43:01.790+0100" modifiedOn="2026-04-23T17:09:25.577+0200" name="getUserRequests">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb73T8mEfGe1t_IPUQYqg"/>
+      </actions>
+    </states>
+    <states xsi:type="cinematic-flow:ActionState" xmi:id="_lGy7QT4iEfGePf10BXl2aA" technicalid="_lGy7QD4iEfGePf10BXl2aA" createdOn="2026-04-22T10:09:26.518+0200" modifiedOn="2026-04-22T10:10:02.989+0200" name="userRequest">
+      <actions xmi:id="_qinqwT4iEfGePf10BXl2aA" technicalid="_qinqwD4iEfGePf10BXl2aA" description="" createdOn="2026-04-22T10:10:02.989+0200" modifiedOn="2026-04-23T17:09:25.566+0200" name="getUserRequest">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb71D8mEfGe1t_IPUQYqg"/>
+      </actions>
+    </states>
+    <states xsi:type="cinematic-flow:ActionState" xmi:id="_nDk84D8mEfGe1t_IPUQYqg" technicalid="_nDkV0D8mEfGe1t_IPUQYqg" createdOn="2026-04-23T17:10:48.752+0200" modifiedOn="2026-04-23T17:11:08.605+0200" name="requestDocument">
+      <actions xmi:id="_qA7e0T8mEfGe1t_IPUQYqg" technicalid="_qA7e0D8mEfGe1t_IPUQYqg" description="" createdOn="2026-04-23T17:11:08.606+0200" modifiedOn="2026-04-23T17:11:37.831+0200" name="getRequestDocument">
+        <operations xsi:type="soa:Operation" href="libraries/demo-dsfr-rest-model-1.0.2/demo-dsfr-rest.soa#_akb78z8mEfGe1t_IPUQYqg"/>
       </actions>
     </states>
     <transitions xmi:id="_Vtm8cK2jEfChX404RhFJ7A" technicalid="_VtmVYK2jEfChX404RhFJ7A" createdOn="2025-10-20T12:55:49.687+0200" modifiedOn="2025-10-20T13:01:01.096+0200" name="" from="_Ls0-gamGEfCpWIL5h8qf4A" to="_y-MsIamGEfCpWIL5h8qf4A" on="_XMYAga2jEfChX404RhFJ7A"/>
@@ -256,6 +302,12 @@
       </metadatas>
     </transitions>
     <transitions xmi:id="_C2E7gbo1EfCoqpzTQmO7pQ" technicalid="_C2E7gLo1EfCoqpzTQmO7pQ" createdOn="2025-11-05T11:49:03.544+0100" modifiedOn="2025-11-25T14:37:02.937+0100" from="_2KVBobo0EfCoqpzTQmO7pQ" to="_3Q1mAamGEfCpWIL5h8qf4A"/>
+    <transitions xmi:id="_1YKQ8T4iEfGePf10BXl2aA" technicalid="_1YKQ8D4iEfGePf10BXl2aA" createdOn="2026-04-22T10:11:15.712+0200" modifiedOn="2026-04-22T10:11:28.143+0200" from="_tcHHIamHEfCpWIL5h8qf4A" to="_lGy7QT4iEfGePf10BXl2aA" on="_3OuJ8T4iEfGePf10BXl2aA"/>
+    <transitions xmi:id="_5HKSQT4iEfGePf10BXl2aA" technicalid="_5HKSQD4iEfGePf10BXl2aA" createdOn="2026-04-22T10:11:40.773+0200" modifiedOn="2026-04-22T10:11:40.773+0200" from="_lGy7QT4iEfGePf10BXl2aA" to="_tcHHIamHEfCpWIL5h8qf4A"/>
+    <transitions xmi:id="_NShoQT43EfGePf10BXl2aA" technicalid="_NShoQD43EfGePf10BXl2aA" createdOn="2026-04-22T12:37:06.116+0200" modifiedOn="2026-04-22T12:37:16.929+0200" from="_tcHHIamHEfCpWIL5h8qf4A" to="_2KVBobo0EfCoqpzTQmO7pQ" on="_3OuJ8T4iEfGePf10BXl2aA"/>
+    <transitions xmi:id="_PnYm0T43EfGePf10BXl2aA" technicalid="_PnYm0D43EfGePf10BXl2aA" createdOn="2026-04-22T12:37:21.725+0200" modifiedOn="2026-04-22T12:37:21.725+0200" from="_2KVBobo0EfCoqpzTQmO7pQ" to="_tcHHIamHEfCpWIL5h8qf4A"/>
+    <transitions xmi:id="_vxAnET8mEfGe1t_IPUQYqg" technicalid="_vxAnED8mEfGe1t_IPUQYqg" createdOn="2026-04-23T17:11:47.202+0200" modifiedOn="2026-04-23T17:11:52.829+0200" from="_tcHHIamHEfCpWIL5h8qf4A" to="_nDk84D8mEfGe1t_IPUQYqg" on="_wmrq0T8mEfGe1t_IPUQYqg"/>
+    <transitions xmi:id="_ntB6YD-mEfGOotKISJDAeA" technicalid="_ntBTUD-mEfGOotKISJDAeA" createdOn="2026-04-24T08:27:08.679+0200" modifiedOn="2026-04-24T08:27:08.679+0200" from="_nDk84D8mEfGe1t_IPUQYqg" to="_tcHHIamHEfCpWIL5h8qf4A"/>
   </flows>
   <viewContainers xmi:id="_BC4EoqmDEfCpWIL5h8qf4A" technicalid="_BC4EoKmDEfCpWIL5h8qf4A" createdOn="2025-10-15T06:54:22.448+0200" modifiedOn="2025-10-22T07:18:30.908+0200" name="mainPanel">
     <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_39BaoJd_EfCJ2dZMtpi9sQ"/>
@@ -455,7 +507,7 @@
         </metadatas>
         <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_WilX8KBCEfCZt9eKWGl1cg"/>
         <viewStyle xmi:id="_gx2LI62REfCun8ftMqM7gQ" technicalid="_gx2LIa2REfCun8ftMqM7gQ"/>
-        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_1pS7Iq2REfCun8ftMqM7gQ" technicalid="_1pS7IK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:33.042+0200" modifiedOn="2025-10-23T08:32:14.409+0200" name="newRequestMenu" label="Faire une demande">
+        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_1pS7Iq2REfCun8ftMqM7gQ" technicalid="_1pS7IK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:33.042+0200" modifiedOn="2026-04-24T09:38:59.897+0200" name="newRequestMenu" label="Faire une d&#xe9;marche">
           <metadatas xmi:id="_1pTiM62REfCun8ftMqM7gQ" technicalid="_1pTiMK2REfCun8ftMqM7gQ">
             <metadatas xsi:type="oenv:Annotation" xmi:id="_1pTiNK2REfCun8ftMqM7gQ" technicalid="_1pTiMa2REfCun8ftMqM7gQ" title="WITH_LINK"/>
             <metadatas xsi:type="oenv:Annotation" xmi:id="_1pTiNa2REfCun8ftMqM7gQ" technicalid="_1pTiMq2REfCun8ftMqM7gQ" title="WITH_ICON"/>
@@ -466,7 +518,7 @@
           </events>
           <viewStyle xmi:id="_1pS7I62REfCun8ftMqM7gQ" technicalid="_1pS7Ia2REfCun8ftMqM7gQ"/>
         </ownedElements>
-        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_4AOWQq2REfCun8ftMqM7gQ" technicalid="_4AOWQK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:48.868+0200" modifiedOn="2025-10-23T08:32:41.935+0200" name="listRequestMenu" label="Lister mes demandes">
+        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_4AOWQq2REfCun8ftMqM7gQ" technicalid="_4AOWQK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:48.868+0200" modifiedOn="2026-04-24T09:39:05.958+0200" name="listRequestMenu" label="Lister mes d&#xe9;marches">
           <metadatas xmi:id="_4AOWR62REfCun8ftMqM7gQ" technicalid="_4AOWRK2REfCun8ftMqM7gQ">
             <metadatas xsi:type="oenv:Annotation" xmi:id="_4AOWSK2REfCun8ftMqM7gQ" technicalid="_4AOWRa2REfCun8ftMqM7gQ" title="WITH_LINK"/>
             <metadatas xsi:type="oenv:Annotation" xmi:id="_4AOWSa2REfCun8ftMqM7gQ" technicalid="_4AOWRq2REfCun8ftMqM7gQ" title="WITH_ICON"/>
@@ -477,7 +529,7 @@
           </events>
           <viewStyle xmi:id="_4AOWQ62REfCun8ftMqM7gQ" technicalid="_4AOWQa2REfCun8ftMqM7gQ"/>
         </ownedElements>
-        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_4ScHoq2REfCun8ftMqM7gQ" technicalid="_4ScHoK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:50.778+0200" modifiedOn="2025-10-23T08:33:17.935+0200" name="followRequestMenu" label="Suivre une demande">
+        <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_4ScHoq2REfCun8ftMqM7gQ" technicalid="_4ScHoK2REfCun8ftMqM7gQ" description="" createdOn="2025-10-20T10:50:50.778+0200" modifiedOn="2026-04-24T09:39:16.035+0200" name="followRequestMenu" label="Suivre une d&#xe9;marche">
           <metadatas xmi:id="_4Scus62REfCun8ftMqM7gQ" technicalid="_4ScusK2REfCun8ftMqM7gQ">
             <metadatas xsi:type="oenv:Annotation" xmi:id="_4ScutK2REfCun8ftMqM7gQ" technicalid="_4Scusa2REfCun8ftMqM7gQ" title="WITH_LINK"/>
             <metadatas xsi:type="oenv:Annotation" xmi:id="_4Scuta2REfCun8ftMqM7gQ" technicalid="_4Scusq2REfCun8ftMqM7gQ" title="WITH_ICON"/>
@@ -914,16 +966,116 @@
       </ownedLayouts>
     </layout>
   </viewContainers>
-  <viewContainers xmi:id="_BBM0MqmEEfCpWIL5h8qf4A" technicalid="_BBM0MKmEEfCpWIL5h8qf4A" createdOn="2025-10-15T07:01:31.764+0200" modifiedOn="2025-10-27T17:44:54.155+0100" name="requestFollowPanel" label="Liste de la recherche s&#xe9;mentique sur l'ensemble du site.">
+  <viewContainers xmi:id="_BBM0MqmEEfCpWIL5h8qf4A" technicalid="_BBM0MKmEEfCpWIL5h8qf4A" createdOn="2025-10-15T07:01:31.764+0200" modifiedOn="2026-04-23T16:23:46.467+0200" name="requestFollowPanel" label="D&#xe9;tail de la demande">
     <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_cVIkIJJGEfCaOp8KF-MYRg"/>
     <viewStyle xmi:id="_BBM0M6mEEfCpWIL5h8qf4A" technicalid="_BBM0MamEEfCpWIL5h8qf4A"/>
-    <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_aepCcqmFEfCpWIL5h8qf4A" technicalid="_aepCcKmFEfCpWIL5h8qf4A" createdOn="2025-10-15T07:11:32.119+0200" modifiedOn="2025-10-15T07:11:32.120+0200" name="viewElement1">
-      <metadatas xmi:id="_aeppgamFEfCpWIL5h8qf4A" technicalid="_aeppgKmFEfCpWIL5h8qf4A"/>
-      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_GdUYAKLIEfCkw9nEP7Fo_g"/>
-      <viewStyle xmi:id="_aepCc6mFEfCpWIL5h8qf4A" technicalid="_aepCcamFEfCpWIL5h8qf4A"/>
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_18Oewj4LEfGePf10BXl2aA" technicalid="_18OewD4LEfGePf10BXl2aA" createdOn="2026-04-22T07:26:41.069+0200" modifiedOn="2026-04-22T09:06:04.851+0200" name="requestFollowForm" label="Recherche de la d&#xe9;marche pour suivi">
+      <metadatas xmi:id="_18Ps5T4LEfGePf10BXl2aA" technicalid="_18Ps4D4LEfGePf10BXl2aA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_18QT8D4LEfGePf10BXl2aA" technicalid="_18Ps4T4LEfGePf10BXl2aA" title="TXT_ERROR"/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_18QT8T4LEfGePf10BXl2aA" technicalid="_18Ps4j4LEfGePf10BXl2aA" title="TXT_VALID"/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_18QT8j4LEfGePf10BXl2aA" technicalid="_18Ps4z4LEfGePf10BXl2aA" title="TXT_INFO"/>
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_18QT8z4LEfGePf10BXl2aA" technicalid="_18Ps5D4LEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_rT6mUJHzEfCF6-2aQyGFWw"/>
+      <viewStyle xmi:id="_18Oewz4LEfGePf10BXl2aA" technicalid="_18OewT4LEfGePf10BXl2aA"/>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_6Ms1cj4LEfGePf10BXl2aA" technicalid="_6Ms1cD4LEfGePf10BXl2aA" createdOn="2026-04-22T07:27:09.639+0200" modifiedOn="2026-04-22T10:11:28.143+0200" name="requestFollowButton" label="Rechercher">
+        <metadatas xmi:id="_6Mtcgj4LEfGePf10BXl2aA" technicalid="_6MtcgD4LEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_6Mtcgz4LEfGePf10BXl2aA" technicalid="_6MtcgT4LEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_PCz5EJkCEfCCxMPawgpazA"/>
+        <events xmi:id="_3OuJ8T4iEfGePf10BXl2aA" technicalid="_3OuJ8D4iEfGePf10BXl2aA" name="requestFollowButton_onSubmit">
+          <type href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_clL48JkCEfCCxMPawgpazA"/>
+        </events>
+        <viewStyle xmi:id="_6Ms1cz4LEfGePf10BXl2aA" technicalid="_6Ms1cT4LEfGePf10BXl2aA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_d0bi4j4MEfGePf10BXl2aA" technicalid="_d0bi4D4MEfGePf10BXl2aA" createdOn="2026-04-22T07:31:08.686+0200" modifiedOn="2026-04-22T09:06:16.983+0200" name="requestFollowInput" label="Identifiant de la d&#xe9;marche" required="true">
+        <metadatas xmi:id="_d0cxDD4MEfGePf10BXl2aA" technicalid="_d0cxAD4MEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxDT4MEfGePf10BXl2aA" technicalid="_d0cxAT4MEfGePf10BXl2aA" title="TXT_VALID" body="Le champ est valide"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxDj4MEfGePf10BXl2aA" technicalid="_d0cxAj4MEfGePf10BXl2aA" title="TXT_INFO" body="Veuillez saisir l'identifiant de la demande &#xe0; rechercher"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxDz4MEfGePf10BXl2aA" technicalid="_d0cxAz4MEfGePf10BXl2aA" title="TXT_ERROR" body="Le champ est en erreur, vueillez v&#xe9;rifier"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxED4MEfGePf10BXl2aA" technicalid="_d0cxBD4MEfGePf10BXl2aA" title="TXT_PLACEHOLDER" body="ex : B000COF89C"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxET4MEfGePf10BXl2aA" technicalid="_d0cxBT4MEfGePf10BXl2aA" title="WITH_ICON"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxEj4MEfGePf10BXl2aA" technicalid="_d0cxBj4MEfGePf10BXl2aA" title="WITH_BUTTON"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxEz4MEfGePf10BXl2aA" technicalid="_d0cxBz4MEfGePf10BXl2aA" title="WITH_PATTERN" body="^[A-Z][A-Z0-9]{6,}$"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxFD4MEfGePf10BXl2aA" technicalid="_d0cxCD4MEfGePf10BXl2aA" title="WITH_MAXLENGTH" body="100"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxFT4MEfGePf10BXl2aA" technicalid="_d0cxCT4MEfGePf10BXl2aA" title="WITH_TEXTAREA" body="false"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxFj4MEfGePf10BXl2aA" technicalid="_d0cxCj4MEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_d0cxFz4MEfGePf10BXl2aA" technicalid="_d0cxCz4MEfGePf10BXl2aA" title="WITH_DISABLED" body="false"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_nUfjYJHzEfCF6-2aQyGFWw"/>
+        <viewStyle xmi:id="_d0bi4z4MEfGePf10BXl2aA" technicalid="_d0bi4T4MEfGePf10BXl2aA"/>
+        <type xsi:type="oenv:PrimitiveType" href="platform:/plugin/org.obeonetwork.dsl.environment.common/model/obeo.environment#_s5F-EKwKEd2XLNOhkJIazw"/>
+      </ownedElements>
     </ownedElements>
-    <layout xmi:id="_aeuiAKmFEfCpWIL5h8qf4A" width="228" height="94" viewElement="_BBM0MqmEEfCpWIL5h8qf4A">
-      <ownedLayouts xmi:id="_aeuiAamFEfCpWIL5h8qf4A" width="228" height="94"/>
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_isAC4j4ZEfGePf10BXl2aA" technicalid="_isAC4D4ZEfGePf10BXl2aA" createdOn="2026-04-22T09:04:44.815+0200" modifiedOn="2026-04-23T12:47:10.136+0200" name="requestFollowDetail" label="D&#xe9;tail de la d&#xe9;marche">
+      <metadatas xmi:id="_isAp8j4ZEfGePf10BXl2aA" technicalid="_isAp8D4ZEfGePf10BXl2aA">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_isAp8z4ZEfGePf10BXl2aA" technicalid="_isAp8T4ZEfGePf10BXl2aA" title="WITH_CUSTOM_CODE" body="{requestDemoData &amp;&amp; ( &lt;>"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_ZJwbEKUPEfCj4oBHig1aWA"/>
+      <viewStyle xmi:id="_isAC4z4ZEfGePf10BXl2aA" technicalid="_isAC4T4ZEfGePf10BXl2aA"/>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_Kkfa4j4aEfGePf10BXl2aA" technicalid="_Kkfa4D4aEfGePf10BXl2aA" createdOn="2026-04-22T09:09:12.462+0200" modifiedOn="2026-04-22T09:12:42.926+0200" name="RequestIdentifiant" label="Identifiant">
+        <metadatas xmi:id="_KkgB8D4aEfGePf10BXl2aA" technicalid="_Kkfa5D4aEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_KkgB8T4aEfGePf10BXl2aA" technicalid="_Kkfa5T4aEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_GdUYAKLIEfCkw9nEP7Fo_g"/>
+        <viewStyle xmi:id="_Kkfa4z4aEfGePf10BXl2aA" technicalid="_Kkfa4T4aEfGePf10BXl2aA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_K7-Gwj4aEfGePf10BXl2aA" technicalid="_K7-GwD4aEfGePf10BXl2aA" createdOn="2026-04-22T09:09:14.924+0200" modifiedOn="2026-04-22T09:12:51.180+0200" name="requestType" label="Type">
+        <metadatas xmi:id="_K7-Gxj4aEfGePf10BXl2aA" technicalid="_K7-GxD4aEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_K7-Gxz4aEfGePf10BXl2aA" technicalid="_K7-GxT4aEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_GdUYAKLIEfCkw9nEP7Fo_g"/>
+        <viewStyle xmi:id="_K7-Gwz4aEfGePf10BXl2aA" technicalid="_K7-GwT4aEfGePf10BXl2aA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_bJs5oj4aEfGePf10BXl2aA" technicalid="_bJs5oD4aEfGePf10BXl2aA" createdOn="2026-04-22T09:11:03.739+0200" modifiedOn="2026-04-22T09:12:58.122+0200" name="requestReason" label="Raison ">
+        <metadatas xmi:id="_bJtgsj4aEfGePf10BXl2aA" technicalid="_bJtgsD4aEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_bJtgsz4aEfGePf10BXl2aA" technicalid="_bJtgsT4aEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_GdUYAKLIEfCkw9nEP7Fo_g"/>
+        <viewStyle xmi:id="_bJs5oz4aEfGePf10BXl2aA" technicalid="_bJs5oT4aEfGePf10BXl2aA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_baThcj4aEfGePf10BXl2aA" technicalid="_baThcD4aEfGePf10BXl2aA" createdOn="2026-04-22T09:11:05.480+0200" modifiedOn="2026-04-23T07:15:42.069+0200" name="requestStatus" label="Statut">
+        <metadatas xmi:id="_baUIgj4aEfGePf10BXl2aA" technicalid="_baUIgD4aEfGePf10BXl2aA">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_baUIgz4aEfGePf10BXl2aA" technicalid="_baUIgT4aEfGePf10BXl2aA" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_GdUYAKLIEfCkw9nEP7Fo_g"/>
+        <viewStyle xmi:id="_baThcz4aEfGePf10BXl2aA" technicalid="_baThcT4aEfGePf10BXl2aA"/>
+      </ownedElements>
+      <ownedElements xsi:type="cinematic-view:ViewElement" xmi:id="_x5hLgD8BEfGY78p4yn0y9Q" technicalid="_x5gkcD8BEfGY78p4yn0y9Q" createdOn="2026-04-23T12:47:10.141+0200" modifiedOn="2026-04-23T17:11:52.829+0200" name="requestDocument" label="Charger le fichier associ&#xe9; &#xe0; la d&#xe9;marche">
+        <metadatas xmi:id="_x5lc8j8BEfGY78p4yn0y9Q" technicalid="_x5lc8D8BEfGY78p4yn0y9Q">
+          <metadatas xsi:type="oenv:Annotation" xmi:id="_x5lc8z8BEfGY78p4yn0y9Q" technicalid="_x5lc8T8BEfGY78p4yn0y9Q" title="WITH_CUSTOM_CODE"/>
+        </metadatas>
+        <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_j8lMYJHzEfCF6-2aQyGFWw"/>
+        <events xmi:id="_wmrq0T8mEfGe1t_IPUQYqg" technicalid="_wmrq0D8mEfGe1t_IPUQYqg" name="requestDocument_onClick">
+          <type href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_M3heAJLzEfCa3-VOW44b4A"/>
+        </events>
+        <viewStyle xmi:id="_x5hLgT8BEfGY78p4yn0y9Q" technicalid="_x5gkcT8BEfGY78p4yn0y9Q"/>
+      </ownedElements>
+    </ownedElements>
+    <ownedElements xsi:type="cinematic-view:ViewContainer" xmi:id="_BDEo8j8gEfGY78p4yn0y9Q" technicalid="_BDEo8D8gEfGY78p4yn0y9Q" createdOn="2026-04-23T16:23:36.703+0200" modifiedOn="2026-04-23T16:24:52.294+0200" name="requestFollowDetailEndBlocForCustomCode">
+      <metadatas xmi:id="_BDFQAj8gEfGY78p4yn0y9Q" technicalid="_BDFQAD8gEfGY78p4yn0y9Q">
+        <metadatas xsi:type="oenv:Annotation" xmi:id="_BDFQAz8gEfGY78p4yn0y9Q" technicalid="_BDFQAT8gEfGY78p4yn0y9Q" title="WITH_CUSTOM_CODE" body="&lt;/>)}"/>
+      </metadatas>
+      <widget href="pathmap://cinematic/toolkits/pacman-react-spa-dsfr#_ZJwbEKUPEfCj4oBHig1aWA"/>
+      <viewStyle xmi:id="_BDEo8z8gEfGY78p4yn0y9Q" technicalid="_BDEo8T8gEfGY78p4yn0y9Q"/>
+    </ownedElements>
+    <layout xmi:id="_aeuiAKmFEfCpWIL5h8qf4A" x="96" y="60" width="981" height="567" viewElement="_BBM0MqmEEfCpWIL5h8qf4A">
+      <ownedLayouts xmi:id="_Bh7vMD8gEfGY78p4yn0y9Q" x="18" y="16" width="933" height="129" direction="HORIZONTAL" viewElement="_18Oewj4LEfGePf10BXl2aA">
+        <ownedLayouts xmi:id="_Bh7vMT8gEfGY78p4yn0y9Q" x="6" y="16" width="693" height="52" viewElement="_d0bi4j4MEfGePf10BXl2aA"/>
+        <ownedLayouts xmi:id="_Bh7vMj8gEfGY78p4yn0y9Q" x="732" y="16" width="177" height="52" viewElement="_6Ms1cj4LEfGePf10BXl2aA"/>
+      </ownedLayouts>
+      <ownedLayouts xmi:id="_isGJgj4ZEfGePf10BXl2aA" x="18" y="154" width="930" height="261" viewElement="_isAC4j4ZEfGePf10BXl2aA">
+        <ownedLayouts xmi:id="_CgMHMD8gEfGY78p4yn0y9Q" x="18" y="10" width="891" height="45" direction="HORIZONTAL">
+          <ownedLayouts xmi:id="_3Sh3kT8BEfGY78p4yn0y9Q" x="18" y="10" width="435" height="45" viewElement="_Kkfa4j4aEfGePf10BXl2aA"/>
+          <ownedLayouts xmi:id="_K8DmUj4aEfGePf10BXl2aA" x="462" y="10" width="447" height="45" viewElement="_K7-Gwj4aEfGePf10BXl2aA"/>
+        </ownedLayouts>
+        <ownedLayouts xmi:id="_CgMHMT8gEfGY78p4yn0y9Q" x="18" y="70" width="891" height="45" direction="HORIZONTAL">
+          <ownedLayouts xmi:id="_bJyZMz4aEfGePf10BXl2aA" x="18" y="70" width="435" height="45" viewElement="_bJs5oj4aEfGePf10BXl2aA"/>
+          <ownedLayouts xmi:id="_baZBBD4aEfGePf10BXl2aA" x="462" y="70" width="447" height="45" viewElement="_baThcj4aEfGePf10BXl2aA"/>
+        </ownedLayouts>
+        <ownedLayouts xmi:id="_x5_spD8BEfGY78p4yn0y9Q" x="18" y="130" width="435" height="70" viewElement="_x5hLgD8BEfGY78p4yn0y9Q"/>
+      </ownedLayouts>
+      <ownedLayouts xmi:id="_BDITVD8gEfGY78p4yn0y9Q" x="18" y="430" width="933" height="70" viewElement="_BDEo8j8gEfGY78p4yn0y9Q"/>
     </layout>
   </viewContainers>
   <viewContainers xmi:id="_orVAIq2iEfChX404RhFJ7A" technicalid="_orVAIK2iEfChX404RhFJ7A" createdOn="2025-10-20T12:50:47.459+0200" modifiedOn="2025-10-22T07:23:02.109+0200" name="availableRequestsPanel">

@@ -19,6 +19,21 @@ export default function ConnectionSelectPanel () {
   const { login, user, logout } = useAuth();
   
   // --------------------------------------------------
+  // Traitement de l'événement onClick : internalConnectButton.
+  // --------------------------------------------------
+  async function handleClickInternalConnectButton() {
+     try {
+        // Start of user code 7f80cc984409157544375182fc91fccf
+        // End of user code
+     } catch (e) {
+        console.error(e);
+        setGlobalMessage({
+            text: "Erreur lors du traitement de handleClickInternalConnectButton",
+            severity: "error"
+        });
+     }
+  }
+  // --------------------------------------------------
   // Définition du type pour les valeurs du formulaire.
   // --------------------------------------------------
   type FormValues = {
@@ -80,6 +95,9 @@ export default function ConnectionSelectPanel () {
         //reset(); 
         return;
        }
+       
+       // Start of user code c967dd82090c8d9e416374fb8f768327
+       // End of user code
        
        
        
@@ -162,7 +180,7 @@ export default function ConnectionSelectPanel () {
               <span className="fr-hint-text"></span>
            </legend>
          <div style={{ width: "100%" }}>
-           {globalMessage && (
+           {globalMessage && globalMessage.text.trim() !== "" && (
              <Alert
                severity={globalMessage.severity}
                title=""
@@ -174,8 +192,9 @@ export default function ConnectionSelectPanel () {
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
       <Link to="/goToInternalConnexion"> 
-      <p/><Button>Connexion par formulaire</Button>
-      </Link> 
+      <p/><Button onClick={
+      	   handleClickInternalConnectButton}>
+         Connexion par formulaire</Button></Link> 
       </div>
       <div className="fr-col">
       <p/><Button type="submit">Connexion par DemoConnect</Button>

@@ -19,6 +19,7 @@ export default function ConnectionPanel () {
   // --------------------------------
   const { login, user, logout } = useAuth();
   
+  
   // --------------------------------------------------
   // Définition du type pour les valeurs du formulaire.
   // --------------------------------------------------
@@ -87,6 +88,9 @@ export default function ConnectionPanel () {
         //reset(); 
         return;
        }
+       
+       // Start of user code 9503976855b3b2cb91bd5050c3b913ac
+       // End of user code
        
        
        
@@ -165,7 +169,7 @@ export default function ConnectionPanel () {
               <span className="fr-hint-text">Connectez-vous pour suivre l'ensemble de vos démarches et gérer vos informations en ligne.</span>
            </legend>
          <div style={{ width: "100%" }}>
-           {globalMessage && (
+           {globalMessage && globalMessage.text.trim() !== "" && (
              <Alert
                severity={globalMessage.severity}
                title=""

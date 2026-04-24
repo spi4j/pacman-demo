@@ -16,6 +16,7 @@ export default function DisconnectPanel () {
   const { login, user, logout } = useAuth();
   
   
+  
   // Start of user code 23ea2d560429f415db6348c6fca3fe57
   const [globalMessage, setGlobalMessage] = useState(false);
 
@@ -33,7 +34,7 @@ export default function DisconnectPanel () {
     <>
         
         
-      {globalMessage && (
+      {globalMessage && globalMessage.text.trim() !== "" && (
         <Alert
           severity={globalMessage.severity}
           title={

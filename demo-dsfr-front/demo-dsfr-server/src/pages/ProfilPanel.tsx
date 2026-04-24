@@ -17,6 +17,13 @@ export default function ProfilPanel () {
   
   
   // Start of user code 3bc24b8d7f42ddf1b8e1410a27e4cead
+  
+  const [userDemoData, setUserDemoData] = useState(null);
+  
+  useEffect(() => {
+    setUserDemoData(user);
+  }, [user]);
+  
   // End of user code
   
   return (
@@ -33,21 +40,25 @@ export default function ProfilPanel () {
         content: (<>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Nom : {" "}
-      {user?.lastName ?? "-"}</p>
+      <p>Nom : {" "}
+      {userDemoData?.lastName ?? "-"}
+      </p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Prénom : {" "}
-      {user?.firstName ?? "-"}</p>
+      <p>Prénom : {" "}
+      {userDemoData?.firstName ?? "-"}
+      </p>
       </div></div>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Adresse mail : {" "}
-      {user?.mail ?? "-"}</p>
+      <p>Adresse mail : {" "}
+      {userDemoData?.mail ?? "-"}
+      </p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Téléphone : {" "}
-      {user?.phone ?? "-"}</p>
+      <p>Téléphone : {" "}
+      {userDemoData?.phone ?? "-"}
+      </p>
       </div></div>
       </>)},
       { 
@@ -55,16 +66,19 @@ export default function ProfilPanel () {
         iconId: "fr-icon-home-4-line",
         label: "Adresse",
         content: (<>
-      <p className="fr-text--lg fr-text--bold">Rue  : {" "}
-      {user?.address ?? "-"}</p>
+      <p>Rue  : {" "}
+      {userDemoData?.address ?? "-"}
+      </p>
       <div className="fr-grid-row fr-grid-row--gutters fr-grid-row--top">
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Ville  : {" "}
-      {user?.city ?? "-"}</p>
+      <p>Ville  : {" "}
+      {userDemoData?.city ?? "-"}
+      </p>
       </div>
       <div className="fr-col">
-      <p className="fr-text--lg fr-text--bold">Code postal : {" "}
-      {user?.zipCode ?? "-"}</p>
+      <p>Code postal : {" "}
+      {userDemoData?.zipCode ?? "-"}
+      </p>
       </div></div>
       </>)},
       { 
@@ -72,8 +86,9 @@ export default function ProfilPanel () {
         iconId: "fr-icon-lock-line",
         label: "Information de connexion",
         content: (<>
-      <p className="fr-text--lg fr-text--bold">Identifiant  : {" "}
-      {user?.login ?? "-"}</p>
+      <p>Identifiant  : {" "}
+      {userDemoData?.login ?? "-"}
+      </p>
       </>)},
       ]}/>
     </>

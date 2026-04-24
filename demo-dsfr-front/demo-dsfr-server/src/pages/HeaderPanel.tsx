@@ -19,6 +19,7 @@ export default function HeaderPanel () {
   // --------------------------------
   const { login, user, logout } = useAuth();
   
+  
   // -----------------------------------
   // Gestion centralisée de la recherche. 
   // -----------------------------------
@@ -94,7 +95,7 @@ export default function HeaderPanel () {
              href: "goToNewRequest"
            },
            isActive: location.pathname === "/goToNewRequest",
-           text: "Faire une demande"
+           text: "Faire une démarche"
          },
          ] : []),
          ...(user && ["user"]
@@ -104,7 +105,7 @@ export default function HeaderPanel () {
              href: "gotToListRequest"
            },
            isActive: location.pathname === "/gotToListRequest",
-           text: "Lister mes demandes"
+           text: "Lister mes démarches"
          },
          ] : []),
          ...(user && ["user"]
@@ -114,7 +115,7 @@ export default function HeaderPanel () {
              href: "goToFollowRequest"
            },
            isActive: location.pathname === "/goToFollowRequest",
-           text: "Suivre une demande"
+           text: "Suivre une démarche"
          },
          ] : []),
          ],

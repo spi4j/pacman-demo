@@ -102,6 +102,9 @@ export default function RegisterPanel () {
         return;
        }
        
+       // Start of user code d59994ef6ce50a88d2a0970f8063cbd4
+       // End of user code
+       
        
        
        // Start of user code 7fb2063420987239932587e096b544e8
@@ -176,7 +179,7 @@ export default function RegisterPanel () {
               <span className="fr-hint-text">Bienvenue ! Pour créer votre compte et profiter pleinement de nos services en ligne, veuillez compléter ce formulaire. Tous les champs obligatoires doivent être remplis et vous devrez cocher les trois cases relatives à vos informations personnelles afin de valider vos données de manière sécurisée. Merci de vous assurer que toutes les informations fournies sont exactes.</span>
            </legend>
          <div style={{ width: "100%" }}>
-           {globalMessage && (
+           {globalMessage && globalMessage.text.trim() !== "" && (
              <Alert
                severity={globalMessage.severity}
                title=""

@@ -31,6 +31,9 @@
     </ownedViews>
   </viewpoint:DAnalysis>
   <manifest:MImportExportData uid="_epaTkMR9EfCpSpWUwhnVqQ">
+    <exportedManifests xmi:type="manifest:MManifest" xmi:id="_FsyXUD8mEfGrJLlgwyaixw" projectId="demo-dsfr-client-rest-model" exportDate="2026-04-23T17:07:04.871+0200" versionMajor="1" versionPatch="2" comment="">
+      <dependencies xmi:type="manifest:MManifest" xmi:id="_FsyXUT8mEfGrJLlgwyaixw" projectId="demo-dsfr-rest-model" exportDate="2026-04-20T07:04:06.000+0200" importDate="2026-04-20T07:08:06.907+0200" versionMajor="1" versionPatch="2" comment=""/>
+    </exportedManifests>
     <importedManifests xmi:type="manifest:MManifest" xmi:id="_6tjLwDx2EfGYE-aode3dZA" projectId="demo-dsfr-rest-model" exportDate="2026-04-20T07:04:06.000+0200" importDate="2026-04-20T07:08:06.907+0200" versionMajor="1" versionPatch="2" comment=""/>
   </manifest:MImportExportData>
 </xmi:XMI>

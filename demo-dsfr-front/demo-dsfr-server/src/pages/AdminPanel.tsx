@@ -50,6 +50,7 @@ export default function AdminPanel () {
   // --------------------------------
   const { login, user, logout } = useAuth();
   
+  
   // --------------------------------------------------
   // Définition du type pour les valeurs du formulaire.
   // --------------------------------------------------
@@ -116,6 +117,9 @@ export default function AdminPanel () {
         //reset(); 
         return;
        }
+       
+       // Start of user code 16567a2d0addd6095547cae725b1503a
+       // End of user code
        
        
        // ------------------------------------------------------
@@ -394,7 +398,7 @@ export default function AdminPanel () {
               <span className="fr-hint-text"></span>
            </legend>
          <div style={{ width: "100%" }}>
-           {globalMessage && (
+           {globalMessage && globalMessage.text.trim() !== "" && (
              <Alert
                severity={globalMessage.severity}
                title=""
