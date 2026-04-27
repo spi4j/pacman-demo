@@ -30,7 +30,23 @@ export default function RequestFollowPanel () {
         // Start of user code 7f80cc984409157544375182fc91fccf
         
          const docName = requestDemoData?.identifier + ".pdf";
-         const result = await getDocument(docName);
+         
+         // try spécifique appel service
+         try {
+            const result = await getDocument(docName);
+         } catch (e: any) {
+
+           // Cas document introuvable
+           if (e?.response?.status === 404 || e?.status === 404) {
+            setGlobalMessage({
+              text: "Aucun document n'est associé à cette démarche.",
+              severity: "warning"
+            });
+            return;
+           }
+           // autre erreur => remonte au catch principal
+           throw e;
+         }
          
          // conversion en Blob
           const blob = result instanceof Blob

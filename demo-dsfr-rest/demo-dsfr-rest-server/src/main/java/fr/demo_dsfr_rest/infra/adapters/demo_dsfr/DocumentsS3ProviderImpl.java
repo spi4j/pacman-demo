@@ -11,12 +11,14 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import fr.demo_dsfr_rest.app.exceptions.Demo_dsfr_restNotFoundException;
 import fr.demo_dsfr_rest.app.storage.s3.Demo_dsfr_restS3Factory;
 import fr.demo_dsfr_rest.app.storage.s3.Demo_dsfr_restS3InParams;
 import fr.demo_dsfr_rest.app.storage.s3.Demo_dsfr_restS3Properties;
 import fr.demo_dsfr_rest.domain.AdapterService;
 import fr.demo_dsfr_rest.domain.DocumentContent;
 import fr.demo_dsfr_rest.domain.port.adapters.demo_dsfr.DocumentsProvider;
+import io.minio.errors.ErrorResponseException;
 import jakarta.persistence.EntityManager;
 
 // End of user code
@@ -109,7 +111,8 @@ public class DocumentsS3ProviderImpl implements DocumentsProvider {
 			Demo_dsfr_restS3InParams requestContent = Demo_dsfr_restS3InParams.builder().withKey(docName)
 					.withBucket(propsStorage.getBucket()).build();
 			return Optional.of(clientStorage.download(requestContent));
-
+		} catch (ErrorResponseException exception) {
+			throw new Demo_dsfr_restNotFoundException(404, docName);
 		} catch (Exception exception) {
 			throw new RuntimeException(
 					"Erreur dans l'execution de l'opération 'getDocument' : " + exception.getMessage());
