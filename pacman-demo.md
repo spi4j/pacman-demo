@@ -232,7 +232,28 @@ L'application est maintenant accessible à l'url suivante : http://localhost:517
 
 # Installation de l'application (binaires)
 
-[A traiter]
+Récupérer la dernière release au niveau de git (https://github.com/spi4j/pacman-front). A l'heure de l'écriture de ce document la dernière version en date est la version 1.0.2. 
+
+Deux fichiers doivent être récupérés : 
+
+- demo-dsfr-rest-back-1.0.2.jar : le fichier pour le backend.
+- demo-dsfr-rest-front-1.0.2.zip : le fichier pour le frontend.
+
+
+Copier les deux fichiers dans un répertoire (ne pas oublier dans tous les cas de récupérer aussi les sources du projet contenant les scripts de configuration de Docker Desktop, toutes ces étapes sont toujours nécessaires).
+
+Lancer simplement le backend avec la commande suivante : 
+
+```bash
+java -jar demo-dsfr-rest-back-1.0.2.jar
+```
+
+Dézipper le fichier "*demo-dsfr-rest-front-1.0.2.zip*" dans un répertoire (ex : "*demo-dsfr-rest-front-1.0.2*"), se positionner au niveau de ce répertoire et lancer la commande suivante : 
+
+```bash
+npx serve -s . -l 5173
+```
+Se connecter sur l'url suivante : http://localhost:5173
 
 # Astuces et conseils
 
