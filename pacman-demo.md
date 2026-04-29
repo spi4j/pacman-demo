@@ -9,7 +9,7 @@
 
 Ce document présente les étapes nécessaires à l'installation et au paramétrage de l'environnement de démonstration des générateurs de code **Pacman**. Il a pour objectif de guider l'utilisateur dans la mise en place rapide et efficace des différents composants requis, afin de pouvoir exploiter pleinement les capacités de génération offertes par l'outil. Les instructions fournies couvrent à la fois la configuration initiale et les ajustements indispensables pour adapter la démonstration à un contexte de développement concret.
 
-❗ Il n'est pas dans l'objectif de ce document de préciser les modalités d'installation des générateurs "**Pacman**", ces dernières sont censées être connues par le lecteur, et ce document ne concerne que l'installation et la paramétrage de l'application de démonstration.
+❗ Il n'est pas dans l'objectif de ce document de préciser les modalités d'installation des générateurs "**Pacman**", ces dernières sont censées être connues par le lecteur, et ce document ne concerne que l'installation et le paramétrage de l'application de démonstration.
 
 Par ailleurs : 
 
@@ -26,7 +26,7 @@ Par ailleurs :
 
 # Installation Docker Desktop
 
-La version de docker utilisée lors des tests est la version 4.69.0, mais à priori il ne devrait pas y avoir d'impact majeur à prendre la dernière version en cours. Aller sur le site : https://www.docker.com/products/docker-desktop/ et télécharger la dernière version du Docker Desktop. Choisir la version AMD 64. Uue fois téléchargé lancer l'exécutable, l'installation ne pose aucune difficulté particulière.
+La version de docker utilisée lors des tests est la version 4.69.0, mais à priori il ne devrait pas y avoir d'impact majeur à prendre la dernière version en cours. Aller sur le site : https://www.docker.com/products/docker-desktop/ et télécharger la dernière version du Docker Desktop. Choisir la version AMD 64. Une fois téléchargé lancer l'exécutable, l'installation ne pose aucune difficulté particulière.
 
 <div align="center">
   <img src="images/pcm-demo-install-docker-1.png" width="400">
@@ -36,7 +36,7 @@ La version de docker utilisée lors des tests est la version 4.69.0, mais à pri
 
 # Installation Node.js 
 
-La version utilisée pour l'écriture de ce document est la version 25.9.0. Vérifier si Node.js est déjà installé en ouvrant une invite de commande (bash) et en tappant la commande suivante ( Si une version est affichée, Node est déjà installé ): 
+La version utilisée pour l'écriture de ce document est la version 25.9.0. Vérifier si Node.js est déjà installé en ouvrant une invite de commande (bash) et en tapant la commande suivante (Si une version est affichée, Node est déjà installé): 
 
 ```bash
 npm -v
@@ -48,12 +48,12 @@ Télécharger Node.js sur le site officiel : https://nodejs.org/en/download/curr
   <img src="images/pcm-demo-install-node-1.png" width="400">
 </div>
 
-Lancer le téléchargement, cliquer sur l'éxecutable d'installation, laisser toutes les options par défaut et simplement se laisser guider par l'installateur. Répéter l'opération précédente pour vérifier la bonne prise en compte de l'installation. La commande doit maintenant renvoyer un numéro de version. Attention de ne pas confondre, le numéro de version renvoyé est celui de npm et non celui de Node.js...
+Lancer le téléchargement, cliquer sur l'éxécutable d'installation, laisser toutes les options par défaut et simplement se laisser guider par l'installateur. Répéter l'opération précédente pour vérifier la bonne prise en compte de l'installation. La commande doit maintenant renvoyer un numéro de version. Attention de ne pas confondre, le numéro de version renvoyé est celui de npm et non celui de Node.js.
 
 # Récupération des sources de l'application
 
 Créer un répertoire de travail afin de récupérer les sources de l'application de démonstration.
-Se positionner au niveau du répertoire de travail et tapper la commande suivante afin de récupérer l'ensemble des sources : 
+Se positionner au niveau du répertoire de travail et taper la commande suivante afin de récupérer l'ensemble des sources : 
 
 ```bash
 git clone https://github.com/spi4j/pacman-demo.git
@@ -74,7 +74,7 @@ Il n'a pas de de configuration lourde pour récupérer et paramétrer l'ensemble
 - Un serveur S3 pour le stockage de fichiers (Minio).
 - Un coffre-fort pour le stockage des paramètres sensibles de l'application (Vault).
 
-Se positionner au niveau du répertoire "*demo-env-docker*", lancer Docker Desktop, ouvrir un ligne de commande et simplement lancer le script d'activation : 
+Se positionner au niveau du répertoire "*demo-env-docker*", lancer Docker Desktop, ouvrir une ligne de commande et simplement lancer le script d'activation : 
 
 ```bash
 startup-demo.bat
@@ -87,7 +87,7 @@ ENVIRONNEMENT PRET POUR LA DEMO
 =====================================
 ```
 
-Dans les différents messages qui sont affichés sur la console, bien récupérer le jeton Vault (**TOKEN VAULT**), il sera nécessaire de l'écrire au niveau du fichier "*application.properties*" du backend. Ce jeton change à chaque nouvelle installation de Vault...
+Dans les différents messages qui sont affichés sur la console, bien récupérer le jeton Vault (**TOKEN VAULT**), il sera nécessaire de l'écrire au niveau du fichier "*application.properties*" du backend. Ce jeton change à chaque nouvelle installation de Vault.
 
 ```bash
 =====================================
@@ -113,7 +113,7 @@ Unseal Key 5: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 Initial Root Token: XXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Il est possible de relancer ce script à tout moment pour une autre démonstration... ou simplement de relancer le Docker Desktop (dans ce cas bien vérifier que les conteneurs sont aussi démarrés). Pour arréter proprement les conteneurs, il est aussi possible d'utiliser le second script livré à cet effet : "*stop-demo.bat*". Ce script permet : 
+Il est possible de relancer ce script à tout moment pour une autre démonstration... ou simplement de relancer le Docker Desktop (dans ce cas bien vérifier que les conteneurs sont aussi démarrés). Pour arrêter proprement les conteneurs, il est aussi possible d'utiliser le second script livré à cet effet : "*stop-demo.bat*". Ce script permet : 
 
 - de simplement stopper les conteneurs (option 1).
 - de supprimer complètement les différents conteneurs et leur configuration associée (option 2) . 
@@ -215,13 +215,13 @@ Il est conseillé de créer un nouveau projet "**Pacman**" à l'aide du wizard d
   <img src="images/pcm-demo-install-appli-3.png">
 </div>
 
-- Tapper la commande suivante afin de reconstituer l'ensemble des dépendances (répertoire "*node_modules*")
+- Taper la commande suivante afin de reconstituer l'ensemble des dépendances (répertoire "*node_modules*")
 
 ```bash
 npm ci
 ```
 
-- Enfin tapper la commande suivante pour lancer le serveur en frontal : 
+- Enfin taper la commande suivante pour lancer le serveur en frontal : 
 
 ```bash
 npm run dev
@@ -234,13 +234,20 @@ L'application est maintenant accessible à l'url suivante : http://localhost:517
 
 Récupérer la dernière release au niveau de git (https://github.com/spi4j/pacman-front). A l'heure de l'écriture de ce document la dernière version en date est la version 1.0.2. 
 
-Deux fichiers doivent être récupérés : 
+Trois fichiers doivent être récupérés : 
 
 - demo-dsfr-rest-back-1.0.2.jar : le fichier pour le backend.
 - demo-dsfr-rest-front-1.0.2.zip : le fichier pour le frontend.
+- demo-env-docker-1.0.2.zip : les fichiers de paramétrage pour les serveurs externes.
 
 
-Copier les deux fichiers dans un répertoire (ne pas oublier dans tous les cas de récupérer aussi les sources du projet contenant les scripts de configuration de Docker Desktop, toutes ces étapes sont toujours nécessaires).
+Copier les trois fichiers dans un répertoire.
+
+Dézipper le fichier "*demo-env-docker-1.0.2.zip*", lancer Docker Desktop ainsi que le script d'installation et de paramétrage avec la commande suivante : 
+
+```bash
+start-demo.bat
+```
 
 Lancer simplement le backend avec la commande suivante : 
 
