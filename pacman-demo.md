@@ -16,6 +16,7 @@ Par ailleurs :
 - On suppose que git est déjà installé sur la machine cible. 
 - On suppose que le studio est déjà installé sur la machine cible.
 - Cette documentation est basée sur une installation pour un poste Windows uniquement. 
+- La version du jdk Java doit être la version 17+.
 - Avant de commencer la procédure il est conseillé de désactiver temporairement tous les antivirus qui pourraient bloquer la récupération des dépendances.
 
 ---
@@ -158,17 +159,17 @@ Au niveau du "*back*" importer les deux projets "*demo-dsfr-client-rest*" et "*d
   <img src="images/pcm-demo-install-appli-1.png" width="600">
 </div>
 
-Ouvrir le project "*demo-dsfr-rest*" et se positionner au niveau du fichier de configuration "*/src/main/resources/application.properties*" pour renseigner le jeton Vault (à partir du script "*startup-demo.bat*" ou du fichier "*vault-ini.txt*") : 
+Ouvrir le project "*demo-dsfr-rest*" et se positionner au niveau du fichier de configuration "*/src/main/resources/application.properties*". On peut remarquer que dans le cadre de l'application de démonstration ce jeton est automatiquement récupéré dans une variable d'environnement. Cette variable est positionnée par le script "*start-demo.bat*" qui a été lancé précédemment pour la configuration des conteneurs Docker Desktop.
 
 ```properties
 ...
 # Méthode d'authentification <token|approle|userpass|etc...>
 spring.cloud.vault.authentication=token
 # Le token d'accès Vault (à ne pas utiliser en production (dev ou demo uniquement) !)
-spring.cloud.vault.token=XXXXXXXXXXXXXXXXXXXXXXXXXXX
+spring.cloud.vault.token=${PACMAN_DEMO_VAULT_TOKEN}
 ...
 ```
-Pareillement, renseigner la clé "*security.jwt.secret*" avec la valeur donnée ci-dessous : 
+Renseigner la clé "*security.jwt.secret*" avec la valeur donnée ci-dessous : 
 
 ```properties
 security.jwt.secret=HhO7b9aZ0e6eXEkQcL4BFxkGXGcWyN7F
@@ -232,7 +233,7 @@ L'application est maintenant accessible à l'url suivante : http://localhost:517
 
 # Installation de l'application (binaires)
 
-Récupérer la dernière release au niveau de git (https://github.com/spi4j/pacman-front). A l'heure de l'écriture de ce document la dernière version en date est la version 1.0.2. 
+Récupérer la dernière release au niveau de git (https://github.com/spi4j/pacman-demo). A l'heure de l'écriture de ce document la dernière version en date est la version 1.0.2. 
 
 Trois fichiers doivent être récupérés : 
 

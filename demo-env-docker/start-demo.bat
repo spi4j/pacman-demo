@@ -138,6 +138,10 @@ if "%ROOT_TOKEN%"=="" (
     goto INFOS
 )
 echo TOKEN VAULT = [%ROOT_TOKEN%]
+set PACMAN_DEMO_VAULT_TOKEN=%ROOT_TOKEN%
+echo Mise en place de la variable d'environnement PACMAN_DEMO_VAULT_TOKEN...%PACMAN_DEMO_VAULT_TOKEN%
+setx PACMAN_DEMO_VAULT_TOKEN %ROOT_TOKEN%
+
 echo Activation du moteur KV (si necessaire)...
 docker exec -e VAULT_TOKEN=%ROOT_TOKEN% vault vault secrets list | findstr "secret/" >nul
 if errorlevel 1 (
