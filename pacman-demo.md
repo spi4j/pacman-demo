@@ -46,7 +46,7 @@ npm -v
 Télécharger Node.js sur le site officiel : https://nodejs.org/en/download/current et préférer la version "Windows Installer (.msi)", c'est la méthode officielle recommandée par Node.js pour Windows.
 
 <div align="center">
-  <img src="images/pcm-demo-install-node-1.png" width="400">
+  <img src="images/pcm-demo-install-node-1.png" width="600">
 </div>
 
 Lancer le téléchargement, cliquer sur l'éxécutable d'installation, laisser toutes les options par défaut et simplement se laisser guider par l'installateur. Répéter l'opération précédente pour vérifier la bonne prise en compte de l'installation. La commande doit maintenant renvoyer un numéro de version. Attention de ne pas confondre, le numéro de version renvoyé est celui de npm et non celui de Node.js.
@@ -88,13 +88,13 @@ ENVIRONNEMENT PRET POUR LA DEMO
 =====================================
 ```
 
-Dans les différents messages qui sont affichés sur la console, bien récupérer le jeton Vault (**TOKEN VAULT**), il sera nécessaire de l'écrire au niveau du fichier "*application.properties*" du backend. Ce jeton change à chaque nouvelle installation de Vault.
+Dans les différents messages qui sont affichés sur la console, bien récupérer le jeton Vault (**TOKEN VAULT**), il sera nécessaire de l'écrire au niveau du fichier "*application.properties*" du backend. Ce jeton change à chaque nouvelle installation de Vault. Par défaut, ce jeton est automatiquement récupéré au niveau du script "*start-demo.bat*" et injecté dans l'application Spring Boot. Si (le cas ne devrait pas arriver) le serveur ne démarre pas avec un message concernant Vault, la problématique vient certainement de la non récupération de ce jeton. Comme ici on bénéficie des sources, ne pas hésiter à écrire directement le jeton  "en dur" dans le fichier "*application.properties*".
 
 ```bash
 =====================================
 CONFIGURATION VAULT
 =====================================
-TOKEN VAULT = [XXXXXXXXXXXXXXXXXXXXXXXXXXX]
+TOKEN VAULT = ${PACMAN_DEMO_VAULT_TOKEN}
 Activation du moteur KV (si necessaire)...
 Activation KV...
 Success! Enabled the kv-v2 secrets engine at: secret/
@@ -250,7 +250,7 @@ Dézipper le fichier "*demo-env-docker-1.0.2.zip*", lancer Docker Desktop ainsi 
 start-demo.bat
 ```
 
-Lancer simplement le backend avec la commande suivante : 
+Il est conseillé d'ouvrir un autre terminal (bonne prise en compte de la variable d'environnement "*PACMAN_DEMO_VAULT_TOKEN*") et par la suite, lancer simplement le backend avec la commande suivante : 
 
 ```bash
 java -jar demo-dsfr-rest-back-1.0.2.jar
